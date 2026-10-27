@@ -56,7 +56,9 @@ export default function PrivacyPage() {
       <ClearDataButton />
 
       <h2>Contact</h2>
-      <p>Contact: [course project contact to be added by the repository owner].</p>
+      <p>
+        Questions or requests: <a href="https://github.com/gygooden/Newsren/issues">open an issue on the project repository</a>.
+      </p>
     </div>
   );
 }
