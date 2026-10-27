@@ -1,6 +1,8 @@
 name = "newsren-agent"
 main = "src/index.ts"
 compatibility_date = "2026-09-01"
+workers_dev = true
+preview_urls = false
 
 # Secrets (never committed): set with
 #   npx wrangler secret put ANTHROPIC_API_KEY
@@ -10,7 +12,7 @@ compatibility_date = "2026-09-01"
 [vars]
 ANTHROPIC_MODEL = "claude-haiku-5-5"
 # Comma-separated. Replace with your GitHub Pages origin, e.g. https://<user>.github.io
-ALLOWED_ORIGIN = "https://YOUR-GITHUB-USERNAME.github.io,http://localhost:3000"
+ALLOWED_ORIGIN = "https://gygooden.github.io,http://localhost:3000"
 DAILY_GLOBAL_LIMIT = "50"
 DAILY_PER_VISITOR_LIMIT = "3"
 
@@ -18,7 +20,7 @@ DAILY_PER_VISITOR_LIMIT = "3"
 # then paste the returned id below.
 [[kv_namespaces]]
 binding = "LIMITS"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "0f373d51c5604677a859ed02fa0b815b"
 
 [observability]
 enabled = false
