@@ -1,0 +1,45 @@
+[
+  {
+    "id": "santa-clara-labor",
+    "name": "Jobs and automation in Santa Clara County",
+    "watch": {
+      "topics": ["labor", "local-government"],
+      "organizations": "Orchard Semiconductor (sample)",
+      "questions": "",
+      "depth": "professional",
+      "county": "santa-clara-ca"
+    }
+  },
+  {
+    "id": "santa-clara-schools",
+    "name": "AI in Santa Clara County schools",
+    "watch": {
+      "topics": ["education"],
+      "organizations": "",
+      "questions": "",
+      "depth": "educator",
+      "county": "santa-clara-ca"
+    }
+  },
+  {
+    "id": "stanislaus-work",
+    "name": "Warehouse automation in Stanislaus County",
+    "watch": {
+      "topics": ["labor", "education"],
+      "organizations": "",
+      "questions": "",
+      "depth": "student",
+      "county": "stanislaus-ca"
+    }
+  },
+  {
+    "id": "national-finance",
+    "name": "AI and financial regulation (national)",
+    "watch": {
+      "topics": ["finance-regulation", "research"],
+      "organizations": "",
+      "questions": "",
+      "depth": "professional"
+    }
+  }
+]

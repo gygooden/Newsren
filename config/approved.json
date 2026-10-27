@@ -1,0 +1,7 @@
+{
+  "note": "Stories listed here appear on the public front page. An editor adds a story id after reviewing it in the review queue. These entries were added by the repository owner during setup of this demo.",
+  "stories": [
+    { "id": "layoffs", "approvedAt": "2026-10-27" },
+    { "id": "ai-tutoring", "approvedAt": "2026-10-27" }
+  ]
+}

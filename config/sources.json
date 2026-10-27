@@ -1,0 +1,49 @@
+{
+  "note": "Reusable list of sources used by My Newsren. All require no account and no contact details.",
+  "userAgent": "newsren-course-demo",
+  "sources": [
+    {
+      "name": "Federal Register API",
+      "url": "https://www.federalregister.gov/api/v1/documents.json",
+      "docs": "https://www.federalregister.gov/developers/documentation/api/v1",
+      "license": "Public domain (U.S. government work)",
+      "uiLabel": "Federal Register",
+      "fieldsKept": ["title", "agency", "document type", "publication date", "abstract or first 600 characters", "html_url"],
+      "agencies": [
+        "securities-and-exchange-commission",
+        "comptroller-of-the-currency",
+        "federal-deposit-insurance-corporation",
+        "federal-reserve-system",
+        "consumer-financial-protection-bureau",
+        "treasury-department",
+        "federal-trade-commission",
+        "education-department",
+        "labor-department",
+        "equal-employment-opportunity-commission"
+      ]
+    },
+    {
+      "name": "arXiv API",
+      "url": "https://export.arxiv.org/api/query",
+      "docs": "https://info.arxiv.org/help/api/index.html",
+      "license": "CC0 (arXiv metadata)",
+      "uiLabel": "arXiv preprint",
+      "rateLimit": "At least 3 seconds between requests; at most 10 results per request",
+      "categories": ["cs.AI", "cs.CL", "cs.CY", "econ.GN", "q-fin.GN"],
+      "acknowledgment": "Thank you to arXiv for use of its open access interoperability."
+    },
+    {
+      "name": "Sample local news",
+      "path": "data/sample/local-news.json",
+      "license": "Sample",
+      "uiLabel": "Sample data",
+      "note": "Fictional outlets, reporters, companies and institutions, marked (sample). Real county names with fictional details."
+    }
+  ],
+  "futureWork": [
+    {
+      "name": "SEC EDGAR",
+      "reason": "The SEC requires a declared contact in the User-Agent, so it is not used in this public demo."
+    }
+  ]
+}

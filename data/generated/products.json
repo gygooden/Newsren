@@ -1,0 +1,2220 @@
+{
+ "generatedAt": "2026-10-27T11:46:46.447Z",
+ "products": {
+  "decoder": [
+   {
+    "sourceId": "arxiv-2610.35609v1",
+    "fields": {
+     "hypothesis": null,
+     "method": "Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game.",
+     "findings": "These findings demonstrate that making latent reasoning processes visible enables earlier, more targeted scaffolding that responds to how students are thinking rather than simply whether they succeed.",
+     "limitations": null,
+     "applications": null
+    }
+   },
+   {
+    "sourceId": "arxiv-2610.34659v1",
+    "fields": {
+     "hypothesis": null,
+     "method": "We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning.",
+     "findings": null,
+     "limitations": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver.",
+     "applications": null
+    }
+   },
+   {
+    "sourceId": "arxiv-2610.33694v1",
+    "fields": {
+     "hypothesis": null,
+     "method": null,
+     "findings": "When used for knowledge tracing, they improve predictive performance by approximately 3-5 AUC percentage points.",
+     "limitations": null,
+     "applications": null
+    }
+   },
+   {
+    "sourceId": "arxiv-2610.33488v1",
+    "fields": {
+     "hypothesis": null,
+     "method": "We evaluate whether semester-level interaction features from a large language model tutor improve assignment-score prediction beyond constant baselines.",
+     "findings": "After averaging each student's held-out predictions across ten repeats, Gradient Boosting achieves mean absolute error of 3.023 grade points, versus 3.138 for the median baseline.",
+     "limitations": "In the lowest observed-score quartile, however, boosting's error is 7.30 points, versus 8.07 for the median and 6.67 for the mean; Ridge has the lowest fitted-model error at 6.37 despite its worse overall error of 3.331.",
+     "applications": null
+    }
+   },
+   {
+    "sourceId": "arxiv-2610.28716v1",
+    "fields": {
+     "hypothesis": null,
+     "method": null,
+     "findings": null,
+     "limitations": "Finally, a real-world classroom evaluation of StuEDM, an EDM-induced policy that preserves student agency and intervenes only on disagreement, shows significant learning gains over an Expert baseline and a higher pretest-adjusted posttest score than a CQL policy trained on a far larger corpus, while overriding students less than half as often.",
+     "applications": null
+    }
+   },
+   {
+    "sourceId": "arxiv-2610.19654v1",
+    "fields": {
+     "hypothesis": null,
+     "method": null,
+     "findings": null,
+     "limitations": "Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails.",
+     "applications": null
+    }
+   },
+   {
+    "sourceId": "arxiv-2609.33367v3",
+    "fields": {
+     "hypothesis": null,
+     "method": "To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks.",
+     "findings": "The results show that both the average-wage ratio between workers in the top and bottom income deciles (T10/B10) and the Gini coefficient increase persistently, suggesting that AI shocks widen the wage gap and exacerbate income inequality.",
+     "limitations": null,
+     "applications": "These effects enable the policy to partially mitigate wage inequality."
+    }
+   },
+   {
+    "sourceId": "arxiv-2609.22169v1",
+    "fields": {
+     "hypothesis": null,
+     "method": "This negative shift occurs in eight of the ten models that we evaluate.",
+     "findings": "We find that, compared to their base models, post-trained models are 3.6% less likely to callback older applicants.",
+     "limitations": "However, greater consensus among models increases global systemic exclusion rates from 5.6% to 17.3% and exacerbates demographic inequalities, with intersectional systemic exclusion rates ranging from 12.2% to 21.7% for post-trained models.",
+     "applications": null
+    }
+   }
+  ],
+  "policy": [
+   {
+    "sourceId": "fr-2026-17001",
+    "whoIsAffected": null,
+    "whatChanges": "The Department proposes to revise the existing accrediting agency recognition regulations at 34 CFR part 602 to implement the directives set forth in Executive Order 14279, Reforming Accreditation to Strengthen Higher Education, and other Administration priorities, align the regulations more closely with statute, and reduce regulatory burden.",
+    "dates": [
+     {
+      "label": "Published",
+      "value": "2026-08-20"
+     },
+     {
+      "label": "Comments close",
+      "value": "2026-09-21"
+     }
+    ],
+    "commentDeadline": "2026-09-21",
+    "openQuestions": [
+     "Which local institutions fall within the scope described in the full document?",
+     "What specific questions does the agency ask commenters to answer?",
+     "Has any news outlet explained the local effect of this document?"
+    ]
+   },
+   {
+    "sourceId": "fr-2026-13831",
+    "whoIsAffected": "Notice is hereby given, in accordance with the Federal Advisory Committee Act of October 6, 1972, that the President's Board of Advisors on Historically Black Colleges and Universities (PBAHBCU), Department of Education, has been renewed for a 2-year period through April 9, 2028.",
+    "whatChanges": "Notice is hereby given, in accordance with the Federal Advisory Committee Act of October 6, 1972, that the President's Board of Advisors on Historically Black Colleges and Universities (PBAHBCU), Department of Education, has been renewed for a 2-year period through April 9, 2028.",
+    "dates": [
+     {
+      "label": "Published",
+      "value": "2026-07-09"
+     }
+    ],
+    "commentDeadline": null,
+    "openQuestions": [
+     "Which local institutions fall within the scope described in the full document?",
+     "Does the full document set a comment period or compliance date?",
+     "Has any news outlet explained the local effect of this document?"
+    ]
+   },
+   {
+    "sourceId": "fr-2026-11893",
+    "whoIsAffected": null,
+    "whatChanges": "In coordination with the Bureau of Educational and Cultural Affairs at the U.S.",
+    "dates": [
+     {
+      "label": "Published",
+      "value": "2026-06-12"
+     },
+     {
+      "label": "Comments close",
+      "value": "2026-07-07"
+     }
+    ],
+    "commentDeadline": "2026-07-07",
+    "openQuestions": [
+     "Which local institutions fall within the scope described in the full document?",
+     "What specific questions does the agency ask commenters to answer?",
+     "Has any news outlet explained the local effect of this document?"
+    ]
+   },
+   {
+    "sourceId": "fr-2026-11110",
+    "whoIsAffected": "The Department of Labor and Department of Education (ED) announce the opportunity to apply for competitive grants for the Fiscal Year (FY) 2026 for the Fund for the Improvement of Postsecondary Education (FIPSE)--Postsecondary Student Success Grants (PSSG) Program, Assistance Listing Number (ALN) 84.116M.",
+    "whatChanges": "The Department of Labor and Department of Education (ED) announce the opportunity to apply for competitive grants for the Fiscal Year (FY) 2026 for the Fund for the Improvement of Postsecondary Education (FIPSE)--Postsecondary Student Success Grants (PSSG) Program, Assistance Listing Number (ALN) 84.116M.",
+    "dates": [
+     {
+      "label": "Published",
+      "value": "2026-06-03"
+     }
+    ],
+    "commentDeadline": null,
+    "openQuestions": [
+     "Which local institutions fall within the scope described in the full document?",
+     "Does the full document set a comment period or compliance date?",
+     "Has any news outlet explained the local effect of this document?"
+    ]
+   },
+   {
+    "sourceId": "fr-2026-10632",
+    "whoIsAffected": "Department of Labor (DOL) is soliciting applications in support of the administration of the Fund for the Improvement of Postsecondary Education (FIPSE)--Open Textbook Pilot Program (OTP), Assistance Listing Number (ALN) 84.116T, on behalf of the U.S.",
+    "whatChanges": "The Employment and Training Administration at the U.S.",
+    "dates": [
+     {
+      "label": "Published",
+      "value": "2026-05-28"
+     },
+     {
+      "label": "Comments close",
+      "value": "2026-06-23"
+     }
+    ],
+    "commentDeadline": "2026-06-23",
+    "openQuestions": [
+     "Which local institutions fall within the scope described in the full document?",
+     "What specific questions does the agency ask commenters to answer?",
+     "Has any news outlet explained the local effect of this document?"
+    ]
+   },
+   {
+    "sourceId": "fr-2026-10623",
+    "whoIsAffected": "Department of Labor (DOL), is soliciting applications in support of the administration of the Strengthening Institutions Program, Assistance Listing Number (ALN) 84.031A, on behalf of the U.S.",
+    "whatChanges": "The Employment and Training Administration at the U.S.",
+    "dates": [
+     {
+      "label": "Published",
+      "value": "2026-05-28"
+     },
+     {
+      "label": "Comments close",
+      "value": "2026-06-23"
+     }
+    ],
+    "commentDeadline": "2026-06-23",
+    "openQuestions": [
+     "Which local institutions fall within the scope described in the full document?",
+     "What specific questions does the agency ask commenters to answer?",
+     "Has any news outlet explained the local effect of this document?"
+    ]
+   }
+  ],
+  "evidence": {
+   "sourceId": "sc-study-tutor",
+   "study": {
+    "population": "212 grade 8 students across six classrooms (sample data)",
+    "outcome": "Homework completion time, unit test scores, and a transfer task with unfamiliar problem types",
+    "comparison": "Classrooms not using the tutor. Classrooms were not randomly assigned.",
+    "limitations": "Not randomly assigned; ran for eight weeks; sample study, not peer reviewed.",
+    "fasterCompletion": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms",
+    "transfer": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+   }
+  },
+  "industry": {
+   "supported": [
+    {
+     "text": "The WARN notice reports a layoff affecting 214 employees at the San Jose facility.",
+     "quote": "reporting a layoff affecting 214 employees at its San Jose facility",
+     "sourceId": "sc-warn-orchard",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-warn-orchard"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The notice lists November 9, 2026 as the separation date.",
+     "quote": "lists an effective separation date of November 9, 2026",
+     "sourceId": "sc-warn-orchard",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-warn-orchard"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The company confirmed layoffs without giving a number.",
+     "quote": "The company confirmed layoffs but did not give a number",
+     "sourceId": "sc-art-orchard-ledger",
+     "similarity": 1,
+     "independentSources": 2,
+     "supportingSourceIds": [
+      "sc-art-orchard-ledger",
+      "sc-art-orchard-courier"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "A company memo reviewed by the Courier puts the layoff at 180 positions.",
+     "quote": "affects 180 positions, according to a company memo reviewed by the South Bay Courier",
+     "sourceId": "sc-art-orchard-courier",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-orchard-courier"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The WARN filing lists 214 affected employees.",
+     "quote": "The company's WARN filing lists 214 affected employees",
+     "sourceId": "sc-art-orchard-followup",
+     "similarity": 1,
+     "independentSources": 2,
+     "supportingSourceIds": [
+      "sc-art-orchard-followup",
+      "sc-warn-orchard"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The college is adding evening courses in equipment maintenance and data analysis.",
+     "quote": "adding evening courses in equipment maintenance and data analysis",
+     "sourceId": "sc-art-retraining",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-retraining"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The notice reports the call center closure affects 96 employees.",
+     "quote": "reporting the closure of its Santa Clara call center, affecting 96 employees",
+     "sourceId": "sc-warn-brightpath",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-warn-brightpath"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The notice cites a shift to automated customer service systems.",
+     "quote": "The notice cites a shift to automated customer service systems",
+     "sourceId": "sc-warn-brightpath",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-warn-brightpath"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The contract covers an automated tool that ranks applicants for city jobs.",
+     "quote": "an automated hiring tool that ranks applicants for city jobs",
+     "sourceId": "sc-council-hiring",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-council-hiring"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The staff report says the tool will be audited annually for disparate impact.",
+     "quote": "the tool will be audited annually for disparate impact",
+     "sourceId": "sc-council-hiring",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-council-hiring"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "A labor representative said applicants should be told when the tool is used.",
+     "quote": "applicants should be told when an automated hiring tool is used",
+     "sourceId": "sc-art-hiring-signal",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-hiring-signal"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The notice reports a layoff of 130 employees at the fulfillment center.",
+     "quote": "reporting a layoff of 130 employees at its fulfillment center in Stanislaus County",
+     "sourceId": "st-warn-halcyon",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-warn-halcyon"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The notice cites robotic picking systems.",
+     "quote": "The notice cites the installation of robotic picking systems",
+     "sourceId": "st-warn-halcyon",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-warn-halcyon"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "The layoff affects 130 workers, citing a state WARN filing.",
+     "quote": "will lay off 130 workers at its fulfillment center in Stanislaus County",
+     "sourceId": "st-art-halcyon-dispatch",
+     "similarity": 1,
+     "independentSources": 2,
+     "supportingSourceIds": [
+      "st-art-halcyon-dispatch",
+      "st-warn-halcyon"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "A workforce board official said robot maintenance roles typically require several months of training.",
+     "quote": "robot maintenance roles typically require several months of training",
+     "sourceId": "st-art-halcyon-gazette",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-art-halcyon-gazette"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    },
+    {
+     "text": "Farmworker advocates said they want advance notice before jobs are replaced.",
+     "quote": "Farmworker advocates said they want advance notice before jobs are replaced",
+     "sourceId": "st-art-harvesters",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-art-harvesters"
+     ],
+     "labels": [
+      "Supported"
+     ]
+    }
+   ],
+   "speculative": [
+    {
+     "text": "Two employees told the Valley Ledger the cuts would total about 240 jobs as testing is automated.",
+     "quote": "will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems",
+     "sourceId": "sc-art-orchard-ledger",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-orchard-ledger"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "A spokesperson said some employees would be offered transfers.",
+     "quote": "said some employees would be offered transfers",
+     "sourceId": "sc-art-orchard-courier",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-orchard-courier"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "Instructors said the courses could help technicians move into maintenance roles.",
+     "quote": "Instructors said the courses could help technicians move into maintenance roles",
+     "sourceId": "sc-art-retraining",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-retraining"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "The request would allow a 60-megawatt data center and a substation.",
+     "quote": "allow a 60-megawatt data center and an electrical substation on an industrial parcel",
+     "sourceId": "sc-council-datacenter",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-council-datacenter"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "The staff report says the project would require local power grid upgrades.",
+     "quote": "the project would require upgrades to the local power grid",
+     "sourceId": "sc-council-datacenter",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-council-datacenter"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "Council members asked how the annual audit would be shared with the public.",
+     "quote": "Council members asked how the annual audit would be shared with the public",
+     "sourceId": "sc-art-hiring-signal",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-hiring-signal"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "The company said it would offer some workers training to maintain the robots.",
+     "quote": "The company said it would offer some workers training to maintain the robots",
+     "sourceId": "st-art-halcyon-dispatch",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-art-halcyon-dispatch"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "The company did not say how many workers the training program would include.",
+     "quote": "a training program would be offered to some affected workers, but did not say how many",
+     "sourceId": "st-art-halcyon-gazette",
+     "similarity": 1,
+     "independentSources": 2,
+     "supportingSourceIds": [
+      "st-art-halcyon-gazette",
+      "st-art-halcyon-dispatch"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    },
+    {
+     "text": "The application is for a data center that would use recycled water for cooling.",
+     "quote": "a data center that would use recycled water for cooling",
+     "sourceId": "st-council-datacenter",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-council-datacenter"
+     ],
+     "labels": [
+      "Speculative"
+     ]
+    }
+   ]
+  },
+  "finance": {
+   "regulations": [
+    {
+     "sourceId": "fr-2026-21149",
+     "whoIsAffected": "1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+     "whatChanges": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No.",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-10-16"
+      }
+     ],
+     "commentDeadline": null,
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "Does the full document set a comment period or compliance date?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-20474",
+     "whoIsAffected": "The Securities and Exchange Commission (the \"Commission\") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital gains in or capital appreciation of an advisory client's account.",
+     "whatChanges": "The Securities and Exchange Commission (the \"Commission\") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital gains in or capital appreciation of an advisory client's account.",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-10-06"
+      },
+      {
+       "label": "Effective",
+       "value": "2026-10-06"
+      },
+      {
+       "label": "Comments close",
+       "value": "2026-12-07"
+      }
+     ],
+     "commentDeadline": "2026-12-07",
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "What specific questions does the agency ask commenters to answer?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-20466",
+     "whoIsAffected": "The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is proposing new custody rules under the Investment Company Act of 1940 (the \"Investment Company Act\") and amendments to related reporting and recordkeeping requirements to address how regulated investment companies may custody crypto securities and similar investments, and amendments to the custody rule and related reporting and recordkeeping rules under the Investment Advisers Act of 1940 (the \"Advisers Act\") to address how registered investment advisers may custody client crypto funds and securities.",
+     "whatChanges": "The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is proposing new custody rules under the Investment Company Act of 1940 (the \"Investment Company Act\") and amendments to related reporting and recordkeeping requirements to address how regulated investment companies may custody crypto securities and similar investments, and amendments to the custody rule and related reporting and recordkeeping rules under the Investment Advisers Act of 1940 (the \"Advisers Act\") to address how registered investment advisers may custody client crypto funds and securities.",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-10-06"
+      },
+      {
+       "label": "Effective",
+       "value": "2026-10-06"
+      },
+      {
+       "label": "Comments close",
+       "value": "2026-12-07"
+      }
+     ],
+     "commentDeadline": "2026-12-07",
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "What specific questions does the agency ask commenters to answer?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-20311",
+     "whoIsAffected": null,
+     "whatChanges": "Notice is given that the Securities and Exchange Commission (the \"Commission\") is considering whether to issue an order designating holding a charter as a Chartered Financial Analyst (\"CFA\") in good standing as qualifying natural persons for accredited investor status.",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-10-05"
+      },
+      {
+       "label": "Comments close",
+       "value": "2026-12-04"
+      }
+     ],
+     "commentDeadline": "2026-12-04",
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "What specific questions does the agency ask commenters to answer?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-19388",
+     "whoIsAffected": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, From the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues for Tokenized NMS Stocks and From the Definition of “Dealer” in Section 3(a)(5) of the Exchange Act for Certain Liquidity Providers for Tokenized NMS Stocks, and Request for Comment",
+     "whatChanges": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, From the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues for Tokenized NMS Stocks and From the Definition of “Dealer” in Section 3(a)(5) of the Exchange Act for Certain Liquidity Providers for Tokenized NMS Stocks, and Request for Comment",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-09-22"
+      }
+     ],
+     "commentDeadline": null,
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "Does the full document set a comment period or compliance date?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-19148",
+     "whoIsAffected": null,
+     "whatChanges": "Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on Amendments to QC 1000, A Firm's System of Quality Control, and Related Rule and Forms",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-09-18"
+      }
+     ],
+     "commentDeadline": null,
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "Does the full document set a comment period or compliance date?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-21706",
+     "whoIsAffected": null,
+     "whatChanges": "The Office of the Comptroller of the Currency (OCC) is issuing regulations implementing the Guiding and Establishing National Innovation for U.S.",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-10-23"
+      },
+      {
+       "label": "Effective",
+       "value": "2027-01-18"
+      }
+     ],
+     "commentDeadline": null,
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "Does the full document set a comment period or compliance date?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    },
+    {
+     "sourceId": "fr-2026-19860",
+     "whoIsAffected": "Stablecoins Act (GENIUS Act) with respect to Board-supervised permitted payment stablecoin issuers (PPSIs) and certain other entities that are subject to the Board's jurisdiction.",
+     "whatChanges": "The Board of Governors of the Federal Reserve System (Board) proposes to issue regulations to implement the Guiding and Establishing National Innovation for U.S.",
+     "dates": [
+      {
+       "label": "Published",
+       "value": "2026-09-29"
+      },
+      {
+       "label": "Comments close",
+       "value": "2026-11-30"
+      }
+     ],
+     "commentDeadline": "2026-11-30",
+     "openQuestions": [
+      "Which local institutions fall within the scope described in the full document?",
+      "What specific questions does the agency ask commenters to answer?",
+      "Has any news outlet explained the local effect of this document?"
+     ]
+    }
+   ],
+   "realityCheck": [
+    {
+     "text": "The credit union is running a pilot of an AI credit model at two branches.",
+     "quote": "running a pilot that uses an AI credit model to review small business loan applications at two branches",
+     "sourceId": "sc-art-lending-pilot",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-lending-pilot"
+     ],
+     "labels": [
+      "Supported",
+      "Pilot"
+     ],
+     "status": "Pilot"
+    },
+    {
+     "text": "The credit union plans to expand the tool to all branches next year.",
+     "quote": "plans to expand the tool to all branches next year",
+     "sourceId": "sc-art-lending-pilot",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-lending-pilot"
+     ],
+     "labels": [
+      "Supported",
+      "Announcement"
+     ],
+     "status": "Announcement"
+    },
+    {
+     "text": "The company says, in a test on historical data, its model would have approved 12 percent more applicants.",
+     "quote": "would have approved 12 percent more applicants with no rise in defaults when tested on historical data",
+     "sourceId": "sc-art-backtest",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-backtest"
+     ],
+     "labels": [
+      "Speculative",
+      "Backtest"
+     ],
+     "status": "Backtest"
+    },
+    {
+     "text": "The model has not been deployed with any lender.",
+     "quote": "The company has not deployed the model with any lender",
+     "sourceId": "sc-art-backtest",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-backtest"
+     ],
+     "labels": [
+      "Supported",
+      "Live deployment"
+     ],
+     "status": "Live deployment"
+    },
+    {
+     "text": "The bank says it now uses an automated fraud screening model on all debit card transactions.",
+     "quote": "now uses an automated fraud screening model on all debit card transactions",
+     "sourceId": "sc-art-bank-fraud",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "sc-art-bank-fraud"
+     ],
+     "labels": [
+      "Supported",
+      "Live deployment"
+     ],
+     "status": "Live deployment"
+    },
+    {
+     "text": "The cooperative announced it plans to use an AI credit model for crop loan reviews starting next spring.",
+     "quote": "announced it plans to use an AI credit model to help review crop loan applications starting next spring",
+     "sourceId": "st-art-farm-lending",
+     "similarity": 1,
+     "independentSources": 1,
+     "supportingSourceIds": [
+      "st-art-farm-lending"
+     ],
+     "labels": [
+      "Supported",
+      "Announcement"
+     ],
+     "status": "Announcement"
+    }
+   ]
+  }
+ },
+ "sources": {
+  "arxiv-2610.35609v1": {
+   "id": "arxiv-2610.35609v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "Making Reasoning Visible: Configuration-Aware Diagnostic Modeling for Adaptive Scaffolding in Structured Reasoning Tasks",
+   "excerpt": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and...",
+   "text": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and behavioral patterns, and classifies reasoning into four distinct states. Analyzing 36,234 interactions from 234 students working on 42 morphosyntactic exercises, we found that reasoning strategies vary primarily by context rather than stable traits (intraclass correlation = 0.14), and students show high persistence in unproductive states; specifically, 74.6% of failures driven by high coordination demand (rather than simple knowledge gaps) are followed by another failure without intervention. Our early warning model predicts validation success with strong accuracy (AUC = 0.826 using strategy patterns alone; 0.902 with additional sequential context) while avoiding circular reliance on current error counts. These findings demonstrate that making latent reasoning processes visible enables earlier, more targeted scaffolding that responds to how students are thinking rather than simply whether they succeed. While demonstrated in language learning, the framework provides a generalizable, interpretable architecture for diagnosing complex, structured reasoning in any domain.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education"
+   ],
+   "entities": [
+    "ai-tutoring"
+   ],
+   "authors": [
+    "Trystan Geoffre",
+    "Zheng Yuan",
+    "Thierry Geoffre"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2610.35609v1",
+    "outlet": "arXiv",
+    "author": "Trystan Geoffre, Zheng Yuan, Thierry Geoffre",
+    "publishedAt": "2026-10-26",
+    "retrievedAt": "2026-10-27T11:33:13.967Z",
+    "contentHash": "8e63293e267b91efffc77976e43f8e99df162129b78d753c344149af5aa91ee5",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2610.34659v1": {
+   "id": "arxiv-2610.34659v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "AdaTutor: Adaptive Tutoring through Pedagogical Strategy Selection",
+   "excerpt": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and...",
+   "text": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and its strategy selection can also inform a separate API-based tutor.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education"
+   ],
+   "entities": [
+    "ai-tutoring"
+   ],
+   "authors": [
+    "Rajeev Bhatt Ambati",
+    "Shashank Srivastava",
+    "Snigdha Chaturvedi"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2610.34659v1",
+    "outlet": "arXiv",
+    "author": "Rajeev Bhatt Ambati, Shashank Srivastava, Snigdha Chaturvedi",
+    "publishedAt": "2026-10-26",
+    "retrievedAt": "2026-10-27T11:33:13.967Z",
+    "contentHash": "2935913e5bf0893ec0f1d66cd9fc587907a6bda1c9bd73db8232fd854cb4d2a3",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2610.33694v1": {
+   "id": "arxiv-2610.33694v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "Embedding-Based Educational Taxonomies",
+   "excerpt": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components. These taxonomies define learning objectives in educational applications such as intelligent tutoring systems. Developed through human expertise and iterative refinement, they also provide fundamental structure for curricula, assessment, and models of student learning. Recent advances in semantic text embeddings make it possible to construct alternative educational taxonomies computationally from the content itself. In this paper, we investigate...",
+   "text": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components. These taxonomies define learning objectives in educational applications such as intelligent tutoring systems. Developed through human expertise and iterative refinement, they also provide fundamental structure for curricula, assessment, and models of student learning. Recent advances in semantic text embeddings make it possible to construct alternative educational taxonomies computationally from the content itself. In this paper, we investigate this possibility by clustering embeddings of math questions to construct embedding-based educational taxonomies. We compare these taxonomies with the existing Common Core State Standards (CCSS)-based knowledge-component taxonomies in two ASSISTments datasets and evaluate their utility in Deep Knowledge Tracing, a downstream task that relies on taxonomic mappings of questions to knowledge components. The embedding-based taxonomies exhibit substantial but incomplete correspondence with the existing taxonomies, revealing both preserved and alternative organizations of educational content. When used for knowledge tracing, they improve predictive performance by approximately 3-5 AUC percentage points. These results demonstrate the potential of semantic embeddings for automatically constructing educational taxonomies that both recover structure present in human-developed taxonomies and provide useful alternative representations for downstream educational modeling.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education"
+   ],
+   "entities": [
+    "ai-tutoring"
+   ],
+   "authors": [
+    "Kia Karbasi",
+    "Kaveh Karbasi",
+    "Gregory Pottie"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2610.33694v1",
+    "outlet": "arXiv",
+    "author": "Kia Karbasi, Kaveh Karbasi, Gregory Pottie",
+    "publishedAt": "2026-10-24",
+    "retrievedAt": "2026-10-27T11:33:13.967Z",
+    "contentHash": "f725a8cdc4a30226a8b00009e7ae3c5e3e63f5ae2a1f6c332f1fb4cfba8af554",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2610.33488v1": {
+   "id": "arxiv-2610.33488v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "Incremental Predictive Value of LLM Tutoring Interactions for Student Performance",
+   "excerpt": "We evaluate whether semester-level interaction features from a large language model tutor improve assignment-score prediction beyond constant baselines. StudyChat provides 16,851 student-assistant exchanges from two offerings of an undergraduate artificial intelligence course, with outcomes matched to 175 of 203 student-semester records. Six fitted estimators and training-fold mean and median baselines share repeated nested cross-validation. After averaging each student's held-out predictions across ten repeats, Gradient Boosting achieves mean absolute error of 3.023 grade points, versus...",
+   "text": "We evaluate whether semester-level interaction features from a large language model tutor improve assignment-score prediction beyond constant baselines. StudyChat provides 16,851 student-assistant exchanges from two offerings of an undergraduate artificial intelligence course, with outcomes matched to 175 of 203 student-semester records. Six fitted estimators and training-fold mean and median baselines share repeated nested cross-validation. After averaging each student's held-out predictions across ten repeats, Gradient Boosting achieves mean absolute error of 3.023 grade points, versus 3.138 for the median baseline. The paired difference is -0.114, with a conditional 95% bootstrap interval of [-0.245,0.013]. Representation changes and a semester-specific median yield similarly small gains. In the lowest observed-score quartile, however, boosting's error is 7.30 points, versus 8.07 for the median and 6.67 for the mean; Ridge has the lowest fitted-model error at 6.37 despite its worse overall error of 3.331. Scores concentrate near the ceiling: 160 students (91.4%) score above 90, and the lowest quartile contributes 62.1% of boosting's total absolute error. This retrospective comparison shows how baseline choice and error distribution affect predictive value, informing evaluation of student-support tools without establishing a learning effect.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education"
+   ],
+   "entities": [
+    "artificial-intelligence",
+    "ai-tutoring"
+   ],
+   "authors": [
+    "Zeyu Dong",
+    "Mikael Kwame Kuada",
+    "Asa Holley Buchakjian-Tweedy",
+    "Ibrahem Aljabea"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2610.33488v1",
+    "outlet": "arXiv",
+    "author": "Zeyu Dong, Mikael Kwame Kuada, Asa Holley Buchakjian-Tweedy et al.",
+    "publishedAt": "2026-10-24",
+    "retrievedAt": "2026-10-27T11:33:13.967Z",
+    "contentHash": "60866fd6d0d46a4aeb3ca15f43704f10324adef73b4060998caa11cd596b121b",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2610.28716v1": {
+   "id": "arxiv-2610.28716v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "Offline Apprenticeship Learning for Human-Centric Environments",
+   "excerpt": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment interaction. This dissertation develops a progression of offline AL frameworks organized around two challenges: reward modeling and demonstration quality. For reward modeling, EM-EDM clusters demonstrations by...",
+   "text": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment interaction. This dissertation develops a progression of offline AL frameworks organized around two challenges: reward modeling and demonstration quality. For reward modeling, EM-EDM clusters demonstrations by latent reward functions and induces cluster-specific policies, and THEMES partitions trajectories into temporally coherent sub-trajectories guided by a hierarchically learned reward regulator; across one educational and three clinical datasets, THEMES outperforms flat and hierarchical AL baselines. For demonstration quality, HALIDE integrates continuous quality signals into hierarchical policy induction, enabling principled reuse of mixed-quality data under distribution shift. CCHAL further attributes quality to individual decisions via Bayesian credit assignment, dual-arm criticality scoring that contrasts expert and non-expert behavior, and a Bradley-Terry contrastive IRL objective over failure trajectories, outperforming baselines including HALIDE on three clinical EHR datasets and an ITS dataset. Finally, a real-world classroom evaluation of StuEDM, an EDM-induced policy that preserves student agency and intervenes only on disagreement, shows significant learning gains over an Expert baseline and a higher pretest-adjusted posttest score than a CQL policy trained on a far larger corpus, while overriding students less than half as often. Together, this work establishes offline AL as a practical, data-efficient, and ethically viable paradigm for human-centric environments.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education",
+    "finance-regulation"
+   ],
+   "entities": [
+    "workforce-training",
+    "ai-tutoring"
+   ],
+   "authors": [
+    "Md Mirajul Islam"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2610.28716v1",
+    "outlet": "arXiv",
+    "author": "Md Mirajul Islam",
+    "publishedAt": "2026-10-20",
+    "retrievedAt": "2026-10-27T11:33:13.967Z",
+    "contentHash": "3c83c0ea1d4a0e370032464d8bcf02189adac3d08c327cafcc036c4384148810",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2610.19654v1": {
+   "id": "arxiv-2610.19654v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "HACHIMI-II: From Role-Play to Learner Behavior Modeling for Faithful Student Simulation",
+   "excerpt": "Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The common approach asks a large language model to role-play a student, but a role does not model what this learner knows or will do next, so the model's own competence fills the gap. Simulated students perform at a level set by the model, differ little from one another, and seldom make the real learners' errors. We model the learner's behavior and recast student simulation as third-person...",
+   "text": "Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The common approach asks a large language model to role-play a student, but a role does not model what this learner knows or will do next, so the model's own competence fills the gap. Simulated students perform at a level set by the model, differ little from one another, and seldom make the real learners' errors. We model the learner's behavior and recast student simulation as third-person prediction of the learner's next action. HACHIMI-II builds a student model from the learner's history, infers the learner's state for the current item or tutor turn, and compiles it into a behavior harness that constrains the next action. On three item-response datasets, the Wasserstein-1 distance between simulated and real student ability is 2.4--8.4$\\times$ smaller than that of the strongest baseline. On two dialogue datasets, HACHIMI-II reproduces real student errors with the same knowledge type, locus, and mechanism 1.8--5.1$\\times$ more often than the strongest baseline, and ablations trace the gains mainly to the explicit learner state. Predicting the learner makes capable models usable as simulated students.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education"
+   ],
+   "entities": [
+    "artificial-intelligence",
+    "ai-tutoring"
+   ],
+   "authors": [
+    "Yilin Jiang",
+    "Fei Tan",
+    "Xuanyu Yin",
+    "Jing Leng",
+    "Aimin Zhou"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2610.19654v1",
+    "outlet": "arXiv",
+    "author": "Yilin Jiang, Fei Tan, Xuanyu Yin et al.",
+    "publishedAt": "2026-10-14",
+    "retrievedAt": "2026-10-27T11:33:13.967Z",
+    "contentHash": "b5fc657bcdd8971759d61e1ff66945420df76bb4c35ffa8d404ca7eb10cfd867",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2609.33367v3": {
+   "id": "arxiv-2609.33367v3",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "Is AI Widening the Wage Gap? A Hybrid Agentic Simulation for Labor Equity",
+   "excerpt": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic...",
+   "text": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic data from China, we simulate changes in wage distribution under repeated AI shocks. The results show that both the average-wage ratio between workers in the top and bottom income deciles (T10/B10) and the Gini coefficient increase persistently, suggesting that AI shocks widen the wage gap and exacerbate income inequality. This pattern of a widening wage gap remains robust across alternative large language model decision engines and 30 Monte Carlo simulations. We further conduct counterfactual policy experiments. The results show that education subsidies targeted at low-income workers increase both the number of skill-upgrading attempts and the number of successful upgrades, with particularly pronounced improvements in the upskilling success probability of workers in the bottom income decile. These effects enable the policy to partially mitigate wage inequality. The proposed framework provides an interpretable simulation approach for examining the effects and mechanisms of AI shocks on wage distribution. It also offers policymakers a complementary analytical tool for evaluating policy interventions.",
+   "section": "technology",
+   "topics": [
+    "research",
+    "education",
+    "labor"
+   ],
+   "entities": [
+    "artificial-intelligence"
+   ],
+   "authors": [
+    "Zhongbo Hu",
+    "Zonghan Wu",
+    "Georgina Curto",
+    "Aocheng Tang",
+    "Yilei Shao"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2609.33367v3",
+    "outlet": "arXiv",
+    "author": "Zhongbo Hu, Zonghan Wu, Georgina Curto et al.",
+    "publishedAt": "2026-09-27",
+    "retrievedAt": "2026-10-27T11:33:16.922Z",
+    "contentHash": "12e283a61e459cd1e9ae7acdada0e4fc3890a5942d2cd570a2696aad0ba3a9bf",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "arxiv-2609.22169v1": {
+   "id": "arxiv-2609.22169v1",
+   "kind": "arxiv",
+   "recordType": "paper",
+   "docType": "Preprint",
+   "title": "Monocultural Biases: Correlated biases in large language models lead to unequal systemic exclusion rates in hiring",
+   "excerpt": "Employers are increasingly using large language models (LLMs) to automate their hiring process. This paper investigates the risk of monocultural biases, in which the widespread deployment of large language models homogenizes biases across the labor market, leading to greater systemic exclusion for certain demographic groups. For ten LLMs, we measure hiring biases across their base and post-trained versions to identify which stage, pre-training or post-training, lead to monocultural biases. We find that, compared to their base models, post-trained models are 3.6% less likely to callback older...",
+   "text": "Employers are increasingly using large language models (LLMs) to automate their hiring process. This paper investigates the risk of monocultural biases, in which the widespread deployment of large language models homogenizes biases across the labor market, leading to greater systemic exclusion for certain demographic groups. For ten LLMs, we measure hiring biases across their base and post-trained versions to identify which stage, pre-training or post-training, lead to monocultural biases. We find that, compared to their base models, post-trained models are 3.6% less likely to callback older applicants. This negative shift occurs in eight of the ten models that we evaluate. Post-trained models have much more correlated decisions than base models which is likely driven by human capital traits like skills or college major. However, greater consensus among models increases global systemic exclusion rates from 5.6% to 17.3% and exacerbates demographic inequalities, with intersectional systemic exclusion rates ranging from 12.2% to 21.7% for post-trained models. We find that this inequality is primarily driven by age-based discrimination that is exacerbated in post-training. These results indicate that while post-training techniques may improve models' abilities to select the best applicants, they may raise systemic inequality risks for those at the margin by uniformly introducing new biases.",
+   "section": "finance",
+   "topics": [
+    "research",
+    "labor",
+    "finance-regulation"
+   ],
+   "entities": [
+    "artificial-intelligence"
+   ],
+   "authors": [
+    "Matthew Bone",
+    "Fabian Stephany",
+    "Maria del Rio-Chanona"
+   ],
+   "peerReviewed": false,
+   "provenance": {
+    "sourceUrl": "https://arxiv.org/abs/2609.22169v1",
+    "outlet": "arXiv",
+    "author": "Matthew Bone, Fabian Stephany, Maria del Rio-Chanona",
+    "publishedAt": "2026-08-26",
+    "retrievedAt": "2026-10-27T11:33:16.922Z",
+    "contentHash": "23190df2890d0ee0e4ce20df8177f8fea155f2818581f9a0001aca3cd73ad18f",
+    "isSample": false,
+    "license": "CC0 (arXiv metadata)"
+   }
+  },
+  "fr-2026-17001": {
+   "id": "fr-2026-17001",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Proposed Rule",
+   "title": "Accreditation, Innovation, and Modernization: The Secretary's Recognition of Accrediting Agencies: Institutional Eligibility Under the Higher Education Act of 1965, as Amended, Student Assistance General Provisions",
+   "excerpt": "The Department proposes to revise the existing accrediting agency recognition regulations at 34 CFR part 602 to implement the directives set forth in Executive Order 14279, Reforming Accreditation to Strengthen Higher Education, and other Administration priorities, align the regulations more closely with statute, and reduce regulatory burden.",
+   "text": "The Department proposes to revise the existing accrediting agency recognition regulations at 34 CFR part 602 to implement the directives set forth in Executive Order 14279, Reforming Accreditation to Strengthen Higher Education, and other Administration priorities, align the regulations more closely with statute, and reduce regulatory burden.",
+   "section": "education",
+   "topics": [
+    "education"
+   ],
+   "entities": [],
+   "agency": "Education Department",
+   "commentDeadline": "2026-09-21",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/08/20/2026-17001/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies",
+    "outlet": "Education Department",
+    "author": "Education Department",
+    "publishedAt": "2026-08-20",
+    "retrievedAt": "2026-10-27T11:33:13.200Z",
+    "contentHash": "1209c4ae1ede834d99e563debe161f343da2af6766de2a662352b85408dd32ae",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-13831": {
+   "id": "fr-2026-13831",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "President's Board of Advisors on Historically Black Colleges and Universities (HBCUs); Notice of Charter Renewal",
+   "excerpt": "Notice is hereby given, in accordance with the Federal Advisory Committee Act of October 6, 1972, that the President's Board of Advisors on Historically Black Colleges and Universities (PBAHBCU), Department of Education, has been renewed for a 2-year period through April 9, 2028.",
+   "text": "Notice is hereby given, in accordance with the Federal Advisory Committee Act of October 6, 1972, that the President's Board of Advisors on Historically Black Colleges and Universities (PBAHBCU), Department of Education, has been renewed for a 2-year period through April 9, 2028.",
+   "section": "education",
+   "topics": [
+    "education"
+   ],
+   "entities": [],
+   "agency": "Education Department",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/07/09/2026-13831/presidents-board-of-advisors-on-historically-black-colleges-and-universities-hbcus-notice-of-charter",
+    "outlet": "Education Department",
+    "author": "Education Department",
+    "publishedAt": "2026-07-09",
+    "retrievedAt": "2026-10-27T11:33:13.200Z",
+    "contentHash": "6e189fb90a16549e8cc90c89543608068de025b22b3293d5a11ff0237c39a42a",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-11893": {
+   "id": "fr-2026-11893",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Notice Announcing Centers Aligned With Areas of National Need Program Competition",
+   "excerpt": "In coordination with the Bureau of Educational and Cultural Affairs at the U.S. Department of State (State), the U.S. Department of Education (ED) is soliciting applications in support of the administration of the Fiscal Year (FY) 2026 Centers Aligned with Areas of National Need program, Assistance Listing Number 84.015C.",
+   "text": "In coordination with the Bureau of Educational and Cultural Affairs at the U.S. Department of State (State), the U.S. Department of Education (ED) is soliciting applications in support of the administration of the Fiscal Year (FY) 2026 Centers Aligned with Areas of National Need program, Assistance Listing Number 84.015C.",
+   "section": "education",
+   "topics": [
+    "education"
+   ],
+   "entities": [],
+   "agency": "Education Department",
+   "commentDeadline": "2026-07-07",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/06/12/2026-11893/notice-announcing-centers-aligned-with-areas-of-national-need-program-competition",
+    "outlet": "Education Department",
+    "author": "Education Department",
+    "publishedAt": "2026-06-12",
+    "retrievedAt": "2026-10-27T11:33:13.200Z",
+    "contentHash": "92e667bc21761ebf9552273019a1ef2897573e21745a2cb0de68cdb57d2255d9",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-11110": {
+   "id": "fr-2026-11110",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Notice Announcing Fund for the Improvement of Postsecondary Education-Postsecondary Student Success Grants Program Competition",
+   "excerpt": "The Department of Labor and Department of Education (ED) announce the opportunity to apply for competitive grants for the Fiscal Year (FY) 2026 for the Fund for the Improvement of Postsecondary Education (FIPSE)--Postsecondary Student Success Grants (PSSG) Program, Assistance Listing Number (ALN) 84.116M.",
+   "text": "The Department of Labor and Department of Education (ED) announce the opportunity to apply for competitive grants for the Fiscal Year (FY) 2026 for the Fund for the Improvement of Postsecondary Education (FIPSE)--Postsecondary Student Success Grants (PSSG) Program, Assistance Listing Number (ALN) 84.116M.",
+   "section": "education",
+   "topics": [
+    "education"
+   ],
+   "entities": [],
+   "agency": "Education Department",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/06/03/2026-11110/notice-announcing-fund-for-the-improvement-of-postsecondary-education-postsecondary-student-success",
+    "outlet": "Education Department",
+    "author": "Education Department",
+    "publishedAt": "2026-06-03",
+    "retrievedAt": "2026-10-27T11:33:13.200Z",
+    "contentHash": "98ee77d2bb01ebdf28a94674949b3e9c4cfa9a404a99a4f04062da02aa4108d8",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-10632": {
+   "id": "fr-2026-10632",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Notice Announcing Fund for the Improvement of Postsecondary Education-Open Textbook Pilot Program Competition",
+   "excerpt": "The Employment and Training Administration at the U.S. Department of Labor (DOL) is soliciting applications in support of the administration of the Fund for the Improvement of Postsecondary Education (FIPSE)--Open Textbook Pilot Program (OTP), Assistance Listing Number (ALN) 84.116T, on behalf of the U.S. Department of Education (ED).",
+   "text": "The Employment and Training Administration at the U.S. Department of Labor (DOL) is soliciting applications in support of the administration of the Fund for the Improvement of Postsecondary Education (FIPSE)--Open Textbook Pilot Program (OTP), Assistance Listing Number (ALN) 84.116T, on behalf of the U.S. Department of Education (ED).",
+   "section": "education",
+   "topics": [
+    "education"
+   ],
+   "entities": [],
+   "agency": "Education Department",
+   "commentDeadline": "2026-06-23",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/05/28/2026-10632/notice-announcing-fund-for-the-improvement-of-postsecondary-education-open-textbook-pilot-program",
+    "outlet": "Education Department",
+    "author": "Education Department",
+    "publishedAt": "2026-05-28",
+    "retrievedAt": "2026-10-27T11:33:13.200Z",
+    "contentHash": "c45523b2bc4b356091cbf87193edfa7252cdc2bca24de77ad4104f750c1ce5f8",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-10623": {
+   "id": "fr-2026-10623",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Notice Announcing Strenthening Institutions Program Competition",
+   "excerpt": "The Employment and Training Administration at the U.S. Department of Labor (DOL), is soliciting applications in support of the administration of the Strengthening Institutions Program, Assistance Listing Number (ALN) 84.031A, on behalf of the U.S. Department of Education (ED).",
+   "text": "The Employment and Training Administration at the U.S. Department of Labor (DOL), is soliciting applications in support of the administration of the Strengthening Institutions Program, Assistance Listing Number (ALN) 84.031A, on behalf of the U.S. Department of Education (ED).",
+   "section": "education",
+   "topics": [
+    "education"
+   ],
+   "entities": [],
+   "agency": "Education Department",
+   "commentDeadline": "2026-06-23",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/05/28/2026-10623/notice-announcing-strenthening-institutions-program-competition",
+    "outlet": "Education Department",
+    "author": "Education Department",
+    "publishedAt": "2026-05-28",
+    "retrievedAt": "2026-10-27T11:33:13.200Z",
+    "contentHash": "83b880d0318d4557904e95c9ffd6592e23efb5c9c46dc90796cfce11bf87d49c",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-21149": {
+   "id": "fr-2026-21149",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+   "excerpt": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+   "text": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [],
+   "agency": "Securities and Exchange Commission",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/10/16/2026-21149/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-amendment-no-1-and-order",
+    "outlet": "Securities and Exchange Commission",
+    "author": "Securities and Exchange Commission",
+    "publishedAt": "2026-10-16",
+    "retrievedAt": "2026-10-27T11:33:13.363Z",
+    "contentHash": "486748f369cf6ee3f4e38bcc84fad1c49083529dfc960521d8d07bd1355b4446",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-20474": {
+   "id": "fr-2026-20474",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Proposed Rule",
+   "title": "Investment Adviser Performance-Based Compensation Modernization",
+   "excerpt": "The Securities and Exchange Commission (the \"Commission\") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital gains in or capital appreciation of an advisory client's account. Specifically, the proposed amendments would expand the ability of investment advisers to receive this compensation from clients that are registered management investment companies and business development companies (collectively, \"regulated funds\"),...",
+   "text": "The Securities and Exchange Commission (the \"Commission\") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital gains in or capital appreciation of an advisory client's account. Specifically, the proposed amendments would expand the ability of investment advisers to receive this compensation from clients that are registered management investment companies and business development companies (collectively, \"regulated funds\"), subject to certain conditions. The proposal would relatedly amend certain regulated fund registration and reporting forms to require separate disclosure of all performance-based compensation paid by regulated funds to their investment adviser. The proposed rule amendments would also allow investment advisers to receive this compensation from additional clients by revising the rule's \"qualified client\" definition to include investors that meet the \"accredited investor\" definition in Regulation D under the Securities Act of 1933. The proposal would relatedly make conforming amendments to certain other rules under the Investment Advisers Act of 1940 whose provisions reference the \"qualified client\" definition.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [
+    "investment-advisers"
+   ],
+   "agency": "Securities and Exchange Commission",
+   "commentDeadline": "2026-12-07",
+   "effectiveDate": "2026-10-06",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/10/06/2026-20474/investment-adviser-performance-based-compensation-modernization",
+    "outlet": "Securities and Exchange Commission",
+    "author": "Securities and Exchange Commission",
+    "publishedAt": "2026-10-06",
+    "retrievedAt": "2026-10-27T11:33:13.363Z",
+    "contentHash": "701230f757b7cc62838652ad5015b1d1587545f002ddf436ec72c62ad504e286",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-20466": {
+   "id": "fr-2026-20466",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Proposed Rule",
+   "title": "Adviser and Regulated Fund Custody Rules; Crypto Custody Rules",
+   "excerpt": "The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is proposing new custody rules under the Investment Company Act of 1940 (the \"Investment Company Act\") and amendments to related reporting and recordkeeping requirements to address how regulated investment companies may custody crypto securities and similar investments, and amendments to the custody rule and related reporting and recordkeeping rules under the Investment Advisers Act of 1940 (the \"Advisers Act\") to address how registered investment advisers may custody client crypto funds and securities. We are also...",
+   "text": "The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is proposing new custody rules under the Investment Company Act of 1940 (the \"Investment Company Act\") and amendments to related reporting and recordkeeping requirements to address how regulated investment companies may custody crypto securities and similar investments, and amendments to the custody rule and related reporting and recordkeeping rules under the Investment Advisers Act of 1940 (the \"Advisers Act\") to address how registered investment advisers may custody client crypto funds and securities. We are also proposing to amend the current custody rules to modernize their requirements, to better address current industry practices and feedback, and to implement certain conforming amendments. We are also proposing amendments to the recordkeeping rules under the Investment Company Act and Advisers Act related to these proposed modernization amendments to the custody rules. Additionally, we are proposing to redesignate the custody rule under the Advisers Act and to make corresponding amendments to Form ADV and Form ADV-E for registered investment advisers to reflect the Advisers Act custody rule redesignation. We are also proposing amendments to Form ADV for registered investment advisers and Form N-CEN for regulated investment companies and to improve the quality of public disclosures made on these forms. We are also proposing to add new questions to Form ADV and Form N-CEN related to tokenized private funds and regulated investment company shares, respectively.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [
+    "investment-advisers"
+   ],
+   "agency": "Securities and Exchange Commission",
+   "commentDeadline": "2026-12-07",
+   "effectiveDate": "2026-10-06",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/10/06/2026-20466/adviser-and-regulated-fund-custody-rules-crypto-custody-rules",
+    "outlet": "Securities and Exchange Commission",
+    "author": "Securities and Exchange Commission",
+    "publishedAt": "2026-10-06",
+    "retrievedAt": "2026-10-27T11:33:13.363Z",
+    "contentHash": "4f659d383778cf885325a09c9f243cb0daa560900f8776335be5edaad9d6457b",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-20311": {
+   "id": "fr-2026-20311",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Potential Designation of Chartered Financial Analyst Designation as Qualifying Natural Persons for Accredited Investor Status",
+   "excerpt": "Notice is given that the Securities and Exchange Commission (the \"Commission\") is considering whether to issue an order designating holding a charter as a Chartered Financial Analyst (\"CFA\") in good standing as qualifying natural persons for accredited investor status.",
+   "text": "Notice is given that the Securities and Exchange Commission (the \"Commission\") is considering whether to issue an order designating holding a charter as a Chartered Financial Analyst (\"CFA\") in good standing as qualifying natural persons for accredited investor status.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [],
+   "agency": "Securities and Exchange Commission",
+   "commentDeadline": "2026-12-04",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/10/05/2026-20311/potential-designation-of-chartered-financial-analyst-designation-as-qualifying-natural-persons-for",
+    "outlet": "Securities and Exchange Commission",
+    "author": "Securities and Exchange Commission",
+    "publishedAt": "2026-10-05",
+    "retrievedAt": "2026-10-27T11:33:13.363Z",
+    "contentHash": "8f4445c97db78fd17d19f91740905421fec610a9e9b9b95fa0b53a68e30e8c26",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-19388": {
+   "id": "fr-2026-19388",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, From the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues for Tokenized NMS Stocks and From the Definition of “Dealer” in Section 3(a)(5) of the Exchange Act for Certain Liquidity Providers for Tokenized NMS Stocks, and Request for Comment",
+   "excerpt": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, From the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues for Tokenized NMS Stocks and From the Definition of “Dealer” in Section 3(a)(5) of the Exchange Act for Certain Liquidity Providers for Tokenized NMS Stocks, and Request for Comment",
+   "text": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, From the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues for Tokenized NMS Stocks and From the Definition of “Dealer” in Section 3(a)(5) of the Exchange Act for Certain Liquidity Providers for Tokenized NMS Stocks, and Request for Comment",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [],
+   "agency": "Securities and Exchange Commission",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/09/22/2026-19388/order-granting-temporary-conditional-exemptive-relief-pursuant-to-section-36a1-of-the-securities",
+    "outlet": "Securities and Exchange Commission",
+    "author": "Securities and Exchange Commission",
+    "publishedAt": "2026-09-22",
+    "retrievedAt": "2026-10-27T11:33:13.363Z",
+    "contentHash": "f469eca0749d3a15a26face7d4b671977206e228d87dda603499837ed97a6b5d",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-19148": {
+   "id": "fr-2026-19148",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Notice",
+   "title": "Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on Amendments to QC 1000, A Firm's System of Quality Control, and Related Rule and Forms",
+   "excerpt": "Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on Amendments to QC 1000, A Firm's System of Quality Control, and Related Rule and Forms",
+   "text": "Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on Amendments to QC 1000, A Firm's System of Quality Control, and Related Rule and Forms",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [],
+   "agency": "Securities and Exchange Commission",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/09/18/2026-19148/public-company-accounting-oversight-board-notice-of-filing-of-proposed-rules-on-amendments-to-qc",
+    "outlet": "Securities and Exchange Commission",
+    "author": "Securities and Exchange Commission",
+    "publishedAt": "2026-09-18",
+    "retrievedAt": "2026-10-27T11:33:13.363Z",
+    "contentHash": "9908f585447ddaeea9c3b4cc139e3c27bac9816f0c51d1cf3e1573441a8c0845",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-21706": {
+   "id": "fr-2026-21706",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Rule",
+   "title": "Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency",
+   "excerpt": "The Office of the Comptroller of the Currency (OCC) is issuing regulations implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act regarding the issuance of payment stablecoins and certain related activities by entities subject to the OCC's jurisdiction.",
+   "text": "The Office of the Comptroller of the Currency (OCC) is issuing regulations implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act regarding the issuance of payment stablecoins and certain related activities by entities subject to the OCC's jurisdiction.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [],
+   "agency": "Treasury Department",
+   "effectiveDate": "2027-01-18",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the",
+    "outlet": "Treasury Department",
+    "author": "Treasury Department",
+    "publishedAt": "2026-10-23",
+    "retrievedAt": "2026-10-27T11:33:13.856Z",
+    "contentHash": "5fc2e20d0d0140316316517d98836bd9890633d5230a126ecdff53f138f94eba",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "fr-2026-19860": {
+   "id": "fr-2026-19860",
+   "kind": "federal-register",
+   "recordType": "document",
+   "docType": "Proposed Rule",
+   "title": "Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act",
+   "excerpt": "The Board of Governors of the Federal Reserve System (Board) proposes to issue regulations to implement the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act) with respect to Board-supervised permitted payment stablecoin issuers (PPSIs) and certain other entities that are subject to the Board's jurisdiction. In addition, the Board proposes to issue regulations to implement the prohibition on tying in section 4(a)(8) of the GENIUS Act, which is applicable generally to all PPSIs.",
+   "text": "The Board of Governors of the Federal Reserve System (Board) proposes to issue regulations to implement the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act) with respect to Board-supervised permitted payment stablecoin issuers (PPSIs) and certain other entities that are subject to the Board's jurisdiction. In addition, the Board proposes to issue regulations to implement the prohibition on tying in section 4(a)(8) of the GENIUS Act, which is applicable generally to all PPSIs.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [],
+   "agency": "Federal Reserve System",
+   "commentDeadline": "2026-11-30",
+   "provenance": {
+    "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+    "outlet": "Federal Reserve System",
+    "author": "Federal Reserve System",
+    "publishedAt": "2026-09-29",
+    "retrievedAt": "2026-10-27T11:33:13.856Z",
+    "contentHash": "eeca60b370db34856afd1f8b0984824a4a05f97451210987d98b39ccc0ced13c",
+    "isSample": false,
+    "license": "Public domain (U.S. government work)"
+   }
+  },
+  "sc-study-tutor": {
+   "id": "sc-study-tutor",
+   "kind": "sample",
+   "recordType": "study",
+   "docType": "Study",
+   "title": "Sample study: AI tutoring and grade 8 algebra outcomes",
+   "excerpt": "In a sample evaluation of 212 grade 8 students across six classrooms, students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms. On a unit test, scores were similar between groups. On a transfer task with unfamiliar problem...",
+   "text": "In a sample evaluation of 212 grade 8 students across six classrooms, students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms. On a unit test, scores were similar between groups. On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group. Classrooms were not randomly assigned, and the study ran for eight weeks.",
+   "section": "education",
+   "topics": [
+    "education",
+    "research"
+   ],
+   "entities": [
+    "ai-tutoring"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "eusd-tutor",
+   "keyClaims": [
+    {
+     "text": "Students using the tutor completed homework sets 22 percent faster.",
+     "quote": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms"
+    },
+    {
+     "text": "On unfamiliar problem types, tutor users scored slightly lower.",
+     "quote": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+    }
+   ],
+   "peerReviewed": false,
+   "study": {
+    "population": "212 grade 8 students across six classrooms (sample data)",
+    "outcome": "Homework completion time, unit test scores, and a transfer task with unfamiliar problem types",
+    "comparison": "Classrooms not using the tutor. Classrooms were not randomly assigned.",
+    "limitations": "Not randomly assigned; ran for eight weeks; sample study, not peer reviewed.",
+    "fasterCompletion": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms",
+    "transfer": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+   },
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Sample research brief (sample)",
+    "author": "Evaluation team (sample)",
+    "publishedAt": "2026-10-01",
+    "retrievedAt": "2026-10-01T00:00:00Z",
+    "contentHash": "4d3515c9b4da86dcc0c432e10b3752281446fd63465cde49e513c7a2135f9731",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-warn-orchard": {
+   "id": "sc-warn-orchard",
+   "kind": "sample",
+   "recordType": "document",
+   "docType": "WARN notice",
+   "title": "WARN notice: Orchard Semiconductor (sample), San Jose facility",
+   "excerpt": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff....",
+   "text": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff. The notice states the layoff is permanent and that the facility will remain open.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "layoffs"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "orchard",
+   "keyClaims": [
+    {
+     "text": "The WARN notice reports a layoff affecting 214 employees at the San Jose facility.",
+     "quote": "reporting a layoff affecting 214 employees at its San Jose facility"
+    },
+    {
+     "text": "The notice lists November 9, 2026 as the separation date.",
+     "quote": "lists an effective separation date of November 9, 2026"
+    }
+   ],
+   "nextQuestions": [
+    "Which job categories account for most of the 214 affected employees?"
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "State WARN notice listing (sample)",
+    "author": "State labor agency (sample record)",
+    "publishedAt": "2026-09-08",
+    "retrievedAt": "2026-09-08T00:00:00Z",
+    "contentHash": "bf7de2ce5e88822feb4f146e14259bbce959a954d09822cdceae602538fc756d",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-orchard-ledger": {
+   "id": "sc-art-orchard-ledger",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Orchard Semiconductor to cut about 240 jobs as it automates chip testing",
+   "excerpt": "Orchard Semiconductor (sample) will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems, according to two employees who asked not to be named. The company confirmed layoffs but did not give a number. Workers said test technicians were told...",
+   "text": "Orchard Semiconductor (sample) will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems, according to two employees who asked not to be named. The company confirmed layoffs but did not give a number. Workers said test technicians were told first.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "layoffs"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "orchard",
+   "keyClaims": [
+    {
+     "text": "Two employees told the Valley Ledger the cuts would total about 240 jobs as testing is automated.",
+     "quote": "will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems"
+    },
+    {
+     "text": "The company confirmed layoffs without giving a number.",
+     "quote": "The company confirmed layoffs but did not give a number",
+     "corroboration": [
+      {
+       "sourceId": "sc-art-orchard-courier",
+       "quote": "A company spokesperson confirmed the reduction"
+      }
+     ]
+    }
+   ],
+   "disagreesWith": {
+    "sourceId": "sc-art-orchard-courier",
+    "about": "How many jobs the Orchard layoff affects",
+    "quote": "affects 180 positions, according to a company memo",
+    "ownQuote": "will cut about 240 jobs in San Jose"
+   },
+   "nextQuestions": [
+    "Why do the reported job counts differ from the WARN filing?"
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Valley Ledger (sample)",
+    "author": "Dana Ortiz (sample)",
+    "publishedAt": "2026-09-10",
+    "retrievedAt": "2026-09-10T00:00:00Z",
+    "contentHash": "dc623cacea79b1f49c1a38588675becb86edcee3ca54d43c100428f8ce8a3d4c",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-orchard-courier": {
+   "id": "sc-art-orchard-courier",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Orchard layoff affects 180 positions, company memo says",
+   "excerpt": "A layoff at Orchard Semiconductor (sample) affects 180 positions, according to a company memo reviewed by the South Bay Courier. A company spokesperson confirmed the reduction and said some employees would be offered transfers. The memo did not mention automation.",
+   "text": "A layoff at Orchard Semiconductor (sample) affects 180 positions, according to a company memo reviewed by the South Bay Courier. A company spokesperson confirmed the reduction and said some employees would be offered transfers. The memo did not mention automation.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "layoffs"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "orchard",
+   "keyClaims": [
+    {
+     "text": "A company memo reviewed by the Courier puts the layoff at 180 positions.",
+     "quote": "affects 180 positions, according to a company memo reviewed by the South Bay Courier"
+    },
+    {
+     "text": "A spokesperson said some employees would be offered transfers.",
+     "quote": "said some employees would be offered transfers"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "South Bay Courier (sample)",
+    "author": "Sam Whitfield (sample)",
+    "publishedAt": "2026-09-11",
+    "retrievedAt": "2026-09-11T00:00:00Z",
+    "contentHash": "58623b437bbecf538767d3c45413348612dfc5fa3d1b13011f574c735a8519b1",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-orchard-followup": {
+   "id": "sc-art-orchard-followup",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Orchard workers describe transfer offers and uncertainty",
+   "excerpt": "Several Orchard Semiconductor (sample) employees said they had received transfer offers to a plant in another state, while others said they had not been told whether their roles were affected. The company's WARN filing lists 214 affected employees.",
+   "text": "Several Orchard Semiconductor (sample) employees said they had received transfer offers to a plant in another state, while others said they had not been told whether their roles were affected. The company's WARN filing lists 214 affected employees.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "layoffs"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "orchard",
+   "keyClaims": [
+    {
+     "text": "The WARN filing lists 214 affected employees.",
+     "quote": "The company's WARN filing lists 214 affected employees",
+     "corroboration": [
+      {
+       "sourceId": "sc-warn-orchard",
+       "quote": "reporting a layoff affecting 214 employees at its San Jose facility"
+      }
+     ]
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Valley Ledger (sample)",
+    "author": "Dana Ortiz (sample)",
+    "publishedAt": "2026-10-06",
+    "retrievedAt": "2026-10-06T00:00:00Z",
+    "contentHash": "621ab8cafbc280d6719f914620319e9bf48c51c8b614b13ad1613d2e8e7f6911",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-retraining": {
+   "id": "sc-art-retraining",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Community college expands evening retraining courses for laid-off technicians",
+   "excerpt": "A community college in Santa Clara County (sample) is adding evening courses in equipment maintenance and data analysis for workers affected by recent layoffs. The college said enrollment would open in October. Instructors said the courses could help technicians move into...",
+   "text": "A community college in Santa Clara County (sample) is adding evening courses in equipment maintenance and data analysis for workers affected by recent layoffs. The college said enrollment would open in October. Instructors said the courses could help technicians move into maintenance roles, though placement rates are not yet known.",
+   "section": "industry",
+   "topics": [
+    "labor",
+    "education"
+   ],
+   "entities": [
+    "workforce-training",
+    "layoffs"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "sc-college",
+   "keyClaims": [
+    {
+     "text": "The college is adding evening courses in equipment maintenance and data analysis.",
+     "quote": "adding evening courses in equipment maintenance and data analysis"
+    },
+    {
+     "text": "Instructors said the courses could help technicians move into maintenance roles.",
+     "quote": "Instructors said the courses could help technicians move into maintenance roles"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Peninsula Signal (sample)",
+    "author": "Priya Raman (sample)",
+    "publishedAt": "2026-09-24",
+    "retrievedAt": "2026-09-24T00:00:00Z",
+    "contentHash": "2a090e830c396515923568863a65b5fa60661ec6704f663b0430ca232ddcaf00",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-warn-brightpath": {
+   "id": "sc-warn-brightpath",
+   "kind": "sample",
+   "recordType": "document",
+   "docType": "WARN notice",
+   "title": "WARN notice: Brightpath Customer Support (sample), Santa Clara call center",
+   "excerpt": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+   "text": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "layoffs"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "brightpath",
+   "keyClaims": [
+    {
+     "text": "The notice reports the call center closure affects 96 employees.",
+     "quote": "reporting the closure of its Santa Clara call center, affecting 96 employees"
+    },
+    {
+     "text": "The notice cites a shift to automated customer service systems.",
+     "quote": "The notice cites a shift to automated customer service systems"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "State WARN notice listing (sample)",
+    "author": "State labor agency (sample record)",
+    "publishedAt": "2026-10-15",
+    "retrievedAt": "2026-10-15T00:00:00Z",
+    "contentHash": "f8442b42dfd46060ceb41c25d78d7d43e3acc4a699b95cf1d03796bae1c97563",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-council-hiring": {
+   "id": "sc-council-hiring",
+   "kind": "sample",
+   "recordType": "document",
+   "docType": "City council agenda item",
+   "title": "City council agenda: contract for an automated applicant screening tool (sample)",
+   "excerpt": "Item 8: Approve a two-year contract for an automated hiring tool that ranks applicants for city jobs. The staff report says the tool will be audited annually for disparate impact. Human reviewers will make final hiring decisions.",
+   "text": "Item 8: Approve a two-year contract for an automated hiring tool that ranks applicants for city jobs. The staff report says the tool will be audited annually for disparate impact. Human reviewers will make final hiring decisions.",
+   "section": "industry",
+   "topics": [
+    "local-government",
+    "labor",
+    "ai-policy"
+   ],
+   "entities": [
+    "automated-hiring"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "sc-hiring",
+   "keyClaims": [
+    {
+     "text": "The contract covers an automated tool that ranks applicants for city jobs.",
+     "quote": "an automated hiring tool that ranks applicants for city jobs"
+    },
+    {
+     "text": "The staff report says the tool will be audited annually for disparate impact.",
+     "quote": "the tool will be audited annually for disparate impact"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "City council (sample)",
+    "author": "City human resources staff (sample)",
+    "publishedAt": "2026-09-16",
+    "retrievedAt": "2026-09-16T00:00:00Z",
+    "contentHash": "08d6a3ffbf77b556d180855b0e2b359395f1501a8e6b447ab8d5f6c4040fe409",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-hiring-signal": {
+   "id": "sc-art-hiring-signal",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "City weighs software to rank job applicants",
+   "excerpt": "The city council (sample) is considering a contract for software that ranks applicants for city jobs. Council members asked how the annual audit would be shared with the public. A labor representative said applicants should be told when an automated hiring tool is used.",
+   "text": "The city council (sample) is considering a contract for software that ranks applicants for city jobs. Council members asked how the annual audit would be shared with the public. A labor representative said applicants should be told when an automated hiring tool is used.",
+   "section": "industry",
+   "topics": [
+    "local-government",
+    "labor"
+   ],
+   "entities": [
+    "automated-hiring"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "sc-hiring",
+   "keyClaims": [
+    {
+     "text": "Council members asked how the annual audit would be shared with the public.",
+     "quote": "Council members asked how the annual audit would be shared with the public"
+    },
+    {
+     "text": "A labor representative said applicants should be told when the tool is used.",
+     "quote": "applicants should be told when an automated hiring tool is used"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Peninsula Signal (sample)",
+    "author": "Priya Raman (sample)",
+    "publishedAt": "2026-09-18",
+    "retrievedAt": "2026-09-18T00:00:00Z",
+    "contentHash": "0c81465d3f8c0d67a59fa591d1c2e414b62f8e015908fce1b0af555309fd73b2",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "st-warn-halcyon": {
+   "id": "st-warn-halcyon",
+   "kind": "sample",
+   "recordType": "document",
+   "docType": "WARN notice",
+   "title": "WARN notice: Halcyon Logistics (sample), fulfillment center",
+   "excerpt": "Halcyon Logistics (sample) filed a WARN notice reporting a layoff of 130 employees at its fulfillment center in Stanislaus County. The notice cites the installation of robotic picking systems. Separations are scheduled for December 1, 2026.",
+   "text": "Halcyon Logistics (sample) filed a WARN notice reporting a layoff of 130 employees at its fulfillment center in Stanislaus County. The notice cites the installation of robotic picking systems. Separations are scheduled for December 1, 2026.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "warehouse-automation",
+    "layoffs"
+   ],
+   "county": "stanislaus-ca",
+   "subject": "halcyon",
+   "keyClaims": [
+    {
+     "text": "The notice reports a layoff of 130 employees at the fulfillment center.",
+     "quote": "reporting a layoff of 130 employees at its fulfillment center in Stanislaus County"
+    },
+    {
+     "text": "The notice cites robotic picking systems.",
+     "quote": "The notice cites the installation of robotic picking systems"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "State WARN notice listing (sample)",
+    "author": "State labor agency (sample record)",
+    "publishedAt": "2026-09-29",
+    "retrievedAt": "2026-09-29T00:00:00Z",
+    "contentHash": "819be9ae597dc5ff4f94b9300e82dbaa1ad20ab85c69724c51e47f5b64d792e0",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "st-art-halcyon-dispatch": {
+   "id": "st-art-halcyon-dispatch",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Fulfillment center to lay off 130 as robots arrive",
+   "excerpt": "Halcyon Logistics (sample) will lay off 130 workers at its fulfillment center in Stanislaus County as it installs robotic picking systems, according to a state WARN filing. Workers said they learned of the cuts at a shift meeting. The company said it would offer some workers...",
+   "text": "Halcyon Logistics (sample) will lay off 130 workers at its fulfillment center in Stanislaus County as it installs robotic picking systems, according to a state WARN filing. Workers said they learned of the cuts at a shift meeting. The company said it would offer some workers training to maintain the robots.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [
+    "warehouse-automation",
+    "layoffs"
+   ],
+   "county": "stanislaus-ca",
+   "subject": "halcyon",
+   "keyClaims": [
+    {
+     "text": "The layoff affects 130 workers, citing a state WARN filing.",
+     "quote": "will lay off 130 workers at its fulfillment center in Stanislaus County",
+     "corroboration": [
+      {
+       "sourceId": "st-warn-halcyon",
+       "quote": "reporting a layoff of 130 employees at its fulfillment center in Stanislaus County"
+      }
+     ]
+    },
+    {
+     "text": "The company said it would offer some workers training to maintain the robots.",
+     "quote": "The company said it would offer some workers training to maintain the robots"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Riverbend Dispatch (sample)",
+    "author": "Alma Reyes (sample)",
+    "publishedAt": "2026-10-02",
+    "retrievedAt": "2026-10-02T00:00:00Z",
+    "contentHash": "4277c0b7a1976fd89a60fc88def76bc6009aabf0bc0126ff2dbe3faabcddb448",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "st-art-halcyon-gazette": {
+   "id": "st-art-halcyon-gazette",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Warehouse automation layoffs spark a training debate",
+   "excerpt": "Halcyon Logistics (sample) said a training program would be offered to some affected workers, but did not say how many. A workforce board official said robot maintenance roles typically require several months of training. Some workers said they would look for warehouse jobs...",
+   "text": "Halcyon Logistics (sample) said a training program would be offered to some affected workers, but did not say how many. A workforce board official said robot maintenance roles typically require several months of training. Some workers said they would look for warehouse jobs elsewhere.",
+   "section": "industry",
+   "topics": [
+    "labor",
+    "education"
+   ],
+   "entities": [
+    "warehouse-automation",
+    "workforce-training"
+   ],
+   "county": "stanislaus-ca",
+   "subject": "halcyon",
+   "keyClaims": [
+    {
+     "text": "The company did not say how many workers the training program would include.",
+     "quote": "a training program would be offered to some affected workers, but did not say how many",
+     "corroboration": [
+      {
+       "sourceId": "st-art-halcyon-dispatch",
+       "quote": "would offer some workers training to maintain the robots"
+      }
+     ]
+    },
+    {
+     "text": "A workforce board official said robot maintenance roles typically require several months of training.",
+     "quote": "robot maintenance roles typically require several months of training"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Central Valley Gazette (sample)",
+    "author": "Tom Becker (sample)",
+    "publishedAt": "2026-10-04",
+    "retrievedAt": "2026-10-04T00:00:00Z",
+    "contentHash": "a2bbbf3453431f79d33d3421c6d7d35ee73542a995ee9c97c6b72d0872549369",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "st-art-harvesters": {
+   "id": "st-art-harvesters",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Growers test automated harvesters this season",
+   "excerpt": "Several growers in Stanislaus County (sample) are testing automated harvesters this season. A grower said the machines worked well on some crops but needed frequent repairs. Farmworker advocates said they want advance notice before jobs are replaced.",
+   "text": "Several growers in Stanislaus County (sample) are testing automated harvesters this season. A grower said the machines worked well on some crops but needed frequent repairs. Farmworker advocates said they want advance notice before jobs are replaced.",
+   "section": "industry",
+   "topics": [
+    "labor"
+   ],
+   "entities": [],
+   "county": "stanislaus-ca",
+   "subject": "st-harvest",
+   "keyClaims": [
+    {
+     "text": "Farmworker advocates said they want advance notice before jobs are replaced.",
+     "quote": "Farmworker advocates said they want advance notice before jobs are replaced"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Central Valley Gazette (sample)",
+    "author": "Tom Becker (sample)",
+    "publishedAt": "2026-09-20",
+    "retrievedAt": "2026-09-20T00:00:00Z",
+    "contentHash": "51c42492503409222c7aa59281a4bbd9ab802927eaa12eb1aaa018f5cf9dcb51",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-council-datacenter": {
+   "id": "sc-council-datacenter",
+   "kind": "sample",
+   "recordType": "document",
+   "docType": "City council agenda item",
+   "title": "City council agenda: rezoning request for a data center and substation (Santa Clara County, sample)",
+   "excerpt": "Item 5: Consider a rezoning request to allow a 60-megawatt data center and an electrical substation on an industrial parcel. The staff report notes the project would require upgrades to the local power grid and estimates 35 permanent jobs. The planning commission recommended...",
+   "text": "Item 5: Consider a rezoning request to allow a 60-megawatt data center and an electrical substation on an industrial parcel. The staff report notes the project would require upgrades to the local power grid and estimates 35 permanent jobs. The planning commission recommended approval with conditions on noise and water use.",
+   "section": "industry",
+   "topics": [
+    "local-government"
+   ],
+   "entities": [
+    "data-centers"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "sc-datacenter",
+   "keyClaims": [
+    {
+     "text": "The request would allow a 60-megawatt data center and a substation.",
+     "quote": "allow a 60-megawatt data center and an electrical substation on an industrial parcel"
+    },
+    {
+     "text": "The staff report says the project would require local power grid upgrades.",
+     "quote": "the project would require upgrades to the local power grid"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "City council (sample)",
+    "author": "City planning staff (sample)",
+    "publishedAt": "2026-09-30",
+    "retrievedAt": "2026-09-30T00:00:00Z",
+    "contentHash": "d3aefd07ec9d58592573b983d92ac68d23e23040a58804a248e3807675ab5a6c",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "st-council-datacenter": {
+   "id": "st-council-datacenter",
+   "kind": "sample",
+   "recordType": "document",
+   "docType": "City council agenda item",
+   "title": "City council agenda: data center application using recycled water (Stanislaus County, sample)",
+   "excerpt": "Item 4: Hear an application for a data center that would use recycled water for cooling. The applicant estimates 20 permanent jobs. The council will decide whether to send the item to the planning commission.",
+   "text": "Item 4: Hear an application for a data center that would use recycled water for cooling. The applicant estimates 20 permanent jobs. The council will decide whether to send the item to the planning commission.",
+   "section": "industry",
+   "topics": [
+    "local-government"
+   ],
+   "entities": [
+    "data-centers"
+   ],
+   "county": "stanislaus-ca",
+   "subject": "st-datacenter",
+   "keyClaims": [
+    {
+     "text": "The application is for a data center that would use recycled water for cooling.",
+     "quote": "a data center that would use recycled water for cooling"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "City council (sample)",
+    "author": "City planning staff (sample)",
+    "publishedAt": "2026-10-13",
+    "retrievedAt": "2026-10-13T00:00:00Z",
+    "contentHash": "d72a90e711bcc4a2c28f85c0ad6a3c8a98755b77fa55b7433a3e92f583833c05",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-lending-pilot": {
+   "id": "sc-art-lending-pilot",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Local credit union pilots AI underwriting for small business loans",
+   "excerpt": "Example Credit Union (sample) is running a pilot that uses an AI credit model to review small business loan applications at two branches. The credit union said loan officers still make every final decision. It plans to expand the tool to all branches next year if the pilot...",
+   "text": "Example Credit Union (sample) is running a pilot that uses an AI credit model to review small business loan applications at two branches. The credit union said loan officers still make every final decision. It plans to expand the tool to all branches next year if the pilot meets its accuracy goals.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [
+    "ai-in-lending"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "sc-cu",
+   "keyClaims": [
+    {
+     "text": "The credit union is running a pilot of an AI credit model at two branches.",
+     "quote": "running a pilot that uses an AI credit model to review small business loan applications at two branches"
+    },
+    {
+     "text": "Loan officers still make every final decision, the credit union said.",
+     "quote": "loan officers still make every final decision"
+    },
+    {
+     "text": "The credit union plans to expand the tool to all branches next year.",
+     "quote": "plans to expand the tool to all branches next year"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Valley Ledger (sample)",
+    "author": "Dana Ortiz (sample)",
+    "publishedAt": "2026-09-02",
+    "retrievedAt": "2026-09-02T00:00:00Z",
+    "contentHash": "b0e3715c6011e6add56277771696947f4fc24aaf30cf5078f28c1b05b4e26674",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-backtest": {
+   "id": "sc-art-backtest",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Startup says its credit model beat traditional scoring in a historical test",
+   "excerpt": "Larkspur Analytics (sample), a startup, said its credit model would have approved 12 percent more applicants with no rise in defaults when tested on historical data from 2019 to 2023. The company has not deployed the model with any lender. Independent researchers have not...",
+   "text": "Larkspur Analytics (sample), a startup, said its credit model would have approved 12 percent more applicants with no rise in defaults when tested on historical data from 2019 to 2023. The company has not deployed the model with any lender. Independent researchers have not reviewed the results.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [
+    "ai-in-lending"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "larkspur",
+   "keyClaims": [
+    {
+     "text": "The company says, in a test on historical data, its model would have approved 12 percent more applicants.",
+     "quote": "would have approved 12 percent more applicants with no rise in defaults when tested on historical data"
+    },
+    {
+     "text": "The model has not been deployed with any lender.",
+     "quote": "The company has not deployed the model with any lender"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "South Bay Courier (sample)",
+    "author": "Sam Whitfield (sample)",
+    "publishedAt": "2026-09-29",
+    "retrievedAt": "2026-09-29T00:00:00Z",
+    "contentHash": "99ae454f83a09d38ebc46a4a6e1cfcb5d7838287765c01e5841c1726325666fb",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "sc-art-bank-fraud": {
+   "id": "sc-art-bank-fraud",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Regional bank now uses automated fraud screening on all debit card transactions",
+   "excerpt": "Example Regional Bank (sample) now uses an automated fraud screening model on all debit card transactions, the bank said in a statement. Customers flagged by the model receive a text message asking them to confirm the purchase. The bank did not say how often the model flags...",
+   "text": "Example Regional Bank (sample) now uses an automated fraud screening model on all debit card transactions, the bank said in a statement. Customers flagged by the model receive a text message asking them to confirm the purchase. The bank did not say how often the model flags legitimate purchases.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [
+    "ai-in-lending"
+   ],
+   "county": "santa-clara-ca",
+   "subject": "sc-bank",
+   "keyClaims": [
+    {
+     "text": "The bank says it now uses an automated fraud screening model on all debit card transactions.",
+     "quote": "now uses an automated fraud screening model on all debit card transactions"
+    },
+    {
+     "text": "The bank did not say how often the model flags legitimate purchases.",
+     "quote": "The bank did not say how often the model flags legitimate purchases"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Peninsula Signal (sample)",
+    "author": "Jordan Fields (sample)",
+    "publishedAt": "2026-10-12",
+    "retrievedAt": "2026-10-12T00:00:00Z",
+    "contentHash": "5bf466441fa5a1152bfc092ea80e819cc37a5393f735465b8c0acb7a2dec6962",
+    "isSample": true,
+    "license": "Sample"
+   }
+  },
+  "st-art-farm-lending": {
+   "id": "st-art-farm-lending",
+   "kind": "sample",
+   "recordType": "article",
+   "docType": "Article",
+   "title": "Farm lender announces AI tool for crop loan reviews",
+   "excerpt": "Example Farm Credit Cooperative (sample) announced it plans to use an AI credit model to help review crop loan applications starting next spring. The cooperative said staff will review every recommendation. It did not say what data the model uses.",
+   "text": "Example Farm Credit Cooperative (sample) announced it plans to use an AI credit model to help review crop loan applications starting next spring. The cooperative said staff will review every recommendation. It did not say what data the model uses.",
+   "section": "finance",
+   "topics": [
+    "finance-regulation"
+   ],
+   "entities": [
+    "ai-in-lending"
+   ],
+   "county": "stanislaus-ca",
+   "subject": "st-farmcredit",
+   "keyClaims": [
+    {
+     "text": "The cooperative announced it plans to use an AI credit model for crop loan reviews starting next spring.",
+     "quote": "announced it plans to use an AI credit model to help review crop loan applications starting next spring"
+    },
+    {
+     "text": "It did not say what data the model uses.",
+     "quote": "It did not say what data the model uses"
+    }
+   ],
+   "provenance": {
+    "sourceUrl": "",
+    "outlet": "Central Valley Gazette (sample)",
+    "author": "Tom Becker (sample)",
+    "publishedAt": "2026-10-07",
+    "retrievedAt": "2026-10-07T00:00:00Z",
+    "contentHash": "f1152f8181968086e6969dceb9c5d6d44aaa45bdbc365e98b84fddd76080121c",
+    "isSample": true,
+    "license": "Sample"
+   }
+  }
+ }
+}

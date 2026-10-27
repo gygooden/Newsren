@@ -1,0 +1,624 @@
+[
+  {
+    "id": "arxiv-2610.35609v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Making Reasoning Visible: Configuration-Aware Diagnostic Modeling for Adaptive Scaffolding in Structured Reasoning Tasks",
+    "excerpt": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and...",
+    "text": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and behavioral patterns, and classifies reasoning into four distinct states. Analyzing 36,234 interactions from 234 students working on 42 morphosyntactic exercises, we found that reasoning strategies vary primarily by context rather than stable traits (intraclass correlation = 0.14), and students show high persistence in unproductive states; specifically, 74.6% of failures driven by high coordination demand (rather than simple knowledge gaps) are followed by another failure without intervention. Our early warning model predicts validation success with strong accuracy (AUC = 0.826 using strategy patterns alone; 0.902 with additional sequential context) while avoiding circular reliance on current error counts. These findings demonstrate that making latent reasoning processes visible enables earlier, more targeted scaffolding that responds to how students are thinking rather than simply whether they succeed. While demonstrated in language learning, the framework provides a generalizable, interpretable architecture for diagnosing complex, structured reasoning in any domain.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education"
+    ],
+    "entities": [
+      "ai-tutoring"
+    ],
+    "authors": [
+      "Trystan Geoffre",
+      "Zheng Yuan",
+      "Thierry Geoffre"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.35609v1",
+      "outlet": "arXiv",
+      "author": "Trystan Geoffre, Zheng Yuan, Thierry Geoffre",
+      "publishedAt": "2026-10-26",
+      "retrievedAt": "2026-10-27T11:33:13.967Z",
+      "contentHash": "8e63293e267b91efffc77976e43f8e99df162129b78d753c344149af5aa91ee5",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2610.34659v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "AdaTutor: Adaptive Tutoring through Pedagogical Strategy Selection",
+    "excerpt": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and...",
+    "text": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and its strategy selection can also inform a separate API-based tutor.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education"
+    ],
+    "entities": [
+      "ai-tutoring"
+    ],
+    "authors": [
+      "Rajeev Bhatt Ambati",
+      "Shashank Srivastava",
+      "Snigdha Chaturvedi"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.34659v1",
+      "outlet": "arXiv",
+      "author": "Rajeev Bhatt Ambati, Shashank Srivastava, Snigdha Chaturvedi",
+      "publishedAt": "2026-10-26",
+      "retrievedAt": "2026-10-27T11:33:13.967Z",
+      "contentHash": "2935913e5bf0893ec0f1d66cd9fc587907a6bda1c9bd73db8232fd854cb4d2a3",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2610.33694v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Embedding-Based Educational Taxonomies",
+    "excerpt": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components. These taxonomies define learning objectives in educational applications such as intelligent tutoring systems. Developed through human expertise and iterative refinement, they also provide fundamental structure for curricula, assessment, and models of student learning. Recent advances in semantic text embeddings make it possible to construct alternative educational taxonomies computationally from the content itself. In this paper, we investigate...",
+    "text": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components. These taxonomies define learning objectives in educational applications such as intelligent tutoring systems. Developed through human expertise and iterative refinement, they also provide fundamental structure for curricula, assessment, and models of student learning. Recent advances in semantic text embeddings make it possible to construct alternative educational taxonomies computationally from the content itself. In this paper, we investigate this possibility by clustering embeddings of math questions to construct embedding-based educational taxonomies. We compare these taxonomies with the existing Common Core State Standards (CCSS)-based knowledge-component taxonomies in two ASSISTments datasets and evaluate their utility in Deep Knowledge Tracing, a downstream task that relies on taxonomic mappings of questions to knowledge components. The embedding-based taxonomies exhibit substantial but incomplete correspondence with the existing taxonomies, revealing both preserved and alternative organizations of educational content. When used for knowledge tracing, they improve predictive performance by approximately 3-5 AUC percentage points. These results demonstrate the potential of semantic embeddings for automatically constructing educational taxonomies that both recover structure present in human-developed taxonomies and provide useful alternative representations for downstream educational modeling.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education"
+    ],
+    "entities": [
+      "ai-tutoring"
+    ],
+    "authors": [
+      "Kia Karbasi",
+      "Kaveh Karbasi",
+      "Gregory Pottie"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.33694v1",
+      "outlet": "arXiv",
+      "author": "Kia Karbasi, Kaveh Karbasi, Gregory Pottie",
+      "publishedAt": "2026-10-24",
+      "retrievedAt": "2026-10-27T11:33:13.967Z",
+      "contentHash": "f725a8cdc4a30226a8b00009e7ae3c5e3e63f5ae2a1f6c332f1fb4cfba8af554",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2610.33488v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Incremental Predictive Value of LLM Tutoring Interactions for Student Performance",
+    "excerpt": "We evaluate whether semester-level interaction features from a large language model tutor improve assignment-score prediction beyond constant baselines. StudyChat provides 16,851 student-assistant exchanges from two offerings of an undergraduate artificial intelligence course, with outcomes matched to 175 of 203 student-semester records. Six fitted estimators and training-fold mean and median baselines share repeated nested cross-validation. After averaging each student's held-out predictions across ten repeats, Gradient Boosting achieves mean absolute error of 3.023 grade points, versus...",
+    "text": "We evaluate whether semester-level interaction features from a large language model tutor improve assignment-score prediction beyond constant baselines. StudyChat provides 16,851 student-assistant exchanges from two offerings of an undergraduate artificial intelligence course, with outcomes matched to 175 of 203 student-semester records. Six fitted estimators and training-fold mean and median baselines share repeated nested cross-validation. After averaging each student's held-out predictions across ten repeats, Gradient Boosting achieves mean absolute error of 3.023 grade points, versus 3.138 for the median baseline. The paired difference is -0.114, with a conditional 95% bootstrap interval of [-0.245,0.013]. Representation changes and a semester-specific median yield similarly small gains. In the lowest observed-score quartile, however, boosting's error is 7.30 points, versus 8.07 for the median and 6.67 for the mean; Ridge has the lowest fitted-model error at 6.37 despite its worse overall error of 3.331. Scores concentrate near the ceiling: 160 students (91.4%) score above 90, and the lowest quartile contributes 62.1% of boosting's total absolute error. This retrospective comparison shows how baseline choice and error distribution affect predictive value, informing evaluation of student-support tools without establishing a learning effect.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education"
+    ],
+    "entities": [
+      "artificial-intelligence",
+      "ai-tutoring"
+    ],
+    "authors": [
+      "Zeyu Dong",
+      "Mikael Kwame Kuada",
+      "Asa Holley Buchakjian-Tweedy",
+      "Ibrahem Aljabea"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.33488v1",
+      "outlet": "arXiv",
+      "author": "Zeyu Dong, Mikael Kwame Kuada, Asa Holley Buchakjian-Tweedy et al.",
+      "publishedAt": "2026-10-24",
+      "retrievedAt": "2026-10-27T11:33:13.967Z",
+      "contentHash": "60866fd6d0d46a4aeb3ca15f43704f10324adef73b4060998caa11cd596b121b",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2610.28716v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Offline Apprenticeship Learning for Human-Centric Environments",
+    "excerpt": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment interaction. This dissertation develops a progression of offline AL frameworks organized around two challenges: reward modeling and demonstration quality. For reward modeling, EM-EDM clusters demonstrations by...",
+    "text": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment interaction. This dissertation develops a progression of offline AL frameworks organized around two challenges: reward modeling and demonstration quality. For reward modeling, EM-EDM clusters demonstrations by latent reward functions and induces cluster-specific policies, and THEMES partitions trajectories into temporally coherent sub-trajectories guided by a hierarchically learned reward regulator; across one educational and three clinical datasets, THEMES outperforms flat and hierarchical AL baselines. For demonstration quality, HALIDE integrates continuous quality signals into hierarchical policy induction, enabling principled reuse of mixed-quality data under distribution shift. CCHAL further attributes quality to individual decisions via Bayesian credit assignment, dual-arm criticality scoring that contrasts expert and non-expert behavior, and a Bradley-Terry contrastive IRL objective over failure trajectories, outperforming baselines including HALIDE on three clinical EHR datasets and an ITS dataset. Finally, a real-world classroom evaluation of StuEDM, an EDM-induced policy that preserves student agency and intervenes only on disagreement, shows significant learning gains over an Expert baseline and a higher pretest-adjusted posttest score than a CQL policy trained on a far larger corpus, while overriding students less than half as often. Together, this work establishes offline AL as a practical, data-efficient, and ethically viable paradigm for human-centric environments.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education",
+      "finance-regulation"
+    ],
+    "entities": [
+      "workforce-training",
+      "ai-tutoring"
+    ],
+    "authors": [
+      "Md Mirajul Islam"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.28716v1",
+      "outlet": "arXiv",
+      "author": "Md Mirajul Islam",
+      "publishedAt": "2026-10-20",
+      "retrievedAt": "2026-10-27T11:33:13.967Z",
+      "contentHash": "3c83c0ea1d4a0e370032464d8bcf02189adac3d08c327cafcc036c4384148810",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2610.19654v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "HACHIMI-II: From Role-Play to Learner Behavior Modeling for Faithful Student Simulation",
+    "excerpt": "Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The common approach asks a large language model to role-play a student, but a role does not model what this learner knows or will do next, so the model's own competence fills the gap. Simulated students perform at a level set by the model, differ little from one another, and seldom make the real learners' errors. We model the learner's behavior and recast student simulation as third-person...",
+    "text": "Simulated students let researchers test tutoring systems and teaching strategies before real learners are available, but only if the simulation reproduces where a particular learner succeeds and fails. The common approach asks a large language model to role-play a student, but a role does not model what this learner knows or will do next, so the model's own competence fills the gap. Simulated students perform at a level set by the model, differ little from one another, and seldom make the real learners' errors. We model the learner's behavior and recast student simulation as third-person prediction of the learner's next action. HACHIMI-II builds a student model from the learner's history, infers the learner's state for the current item or tutor turn, and compiles it into a behavior harness that constrains the next action. On three item-response datasets, the Wasserstein-1 distance between simulated and real student ability is 2.4--8.4$\\times$ smaller than that of the strongest baseline. On two dialogue datasets, HACHIMI-II reproduces real student errors with the same knowledge type, locus, and mechanism 1.8--5.1$\\times$ more often than the strongest baseline, and ablations trace the gains mainly to the explicit learner state. Predicting the learner makes capable models usable as simulated students.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education"
+    ],
+    "entities": [
+      "artificial-intelligence",
+      "ai-tutoring"
+    ],
+    "authors": [
+      "Yilin Jiang",
+      "Fei Tan",
+      "Xuanyu Yin",
+      "Jing Leng",
+      "Aimin Zhou"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.19654v1",
+      "outlet": "arXiv",
+      "author": "Yilin Jiang, Fei Tan, Xuanyu Yin et al.",
+      "publishedAt": "2026-10-14",
+      "retrievedAt": "2026-10-27T11:33:13.967Z",
+      "contentHash": "b5fc657bcdd8971759d61e1ff66945420df76bb4c35ffa8d404ca7eb10cfd867",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2609.33367v3",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Is AI Widening the Wage Gap? A Hybrid Agentic Simulation for Labor Equity",
+    "excerpt": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic...",
+    "text": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic data from China, we simulate changes in wage distribution under repeated AI shocks. The results show that both the average-wage ratio between workers in the top and bottom income deciles (T10/B10) and the Gini coefficient increase persistently, suggesting that AI shocks widen the wage gap and exacerbate income inequality. This pattern of a widening wage gap remains robust across alternative large language model decision engines and 30 Monte Carlo simulations. We further conduct counterfactual policy experiments. The results show that education subsidies targeted at low-income workers increase both the number of skill-upgrading attempts and the number of successful upgrades, with particularly pronounced improvements in the upskilling success probability of workers in the bottom income decile. These effects enable the policy to partially mitigate wage inequality. The proposed framework provides an interpretable simulation approach for examining the effects and mechanisms of AI shocks on wage distribution. It also offers policymakers a complementary analytical tool for evaluating policy interventions.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education",
+      "labor"
+    ],
+    "entities": [
+      "artificial-intelligence"
+    ],
+    "authors": [
+      "Zhongbo Hu",
+      "Zonghan Wu",
+      "Georgina Curto",
+      "Aocheng Tang",
+      "Yilei Shao"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2609.33367v3",
+      "outlet": "arXiv",
+      "author": "Zhongbo Hu, Zonghan Wu, Georgina Curto et al.",
+      "publishedAt": "2026-09-27",
+      "retrievedAt": "2026-10-27T11:33:16.922Z",
+      "contentHash": "12e283a61e459cd1e9ae7acdada0e4fc3890a5942d2cd570a2696aad0ba3a9bf",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2609.22169v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Monocultural Biases: Correlated biases in large language models lead to unequal systemic exclusion rates in hiring",
+    "excerpt": "Employers are increasingly using large language models (LLMs) to automate their hiring process. This paper investigates the risk of monocultural biases, in which the widespread deployment of large language models homogenizes biases across the labor market, leading to greater systemic exclusion for certain demographic groups. For ten LLMs, we measure hiring biases across their base and post-trained versions to identify which stage, pre-training or post-training, lead to monocultural biases. We find that, compared to their base models, post-trained models are 3.6% less likely to callback older...",
+    "text": "Employers are increasingly using large language models (LLMs) to automate their hiring process. This paper investigates the risk of monocultural biases, in which the widespread deployment of large language models homogenizes biases across the labor market, leading to greater systemic exclusion for certain demographic groups. For ten LLMs, we measure hiring biases across their base and post-trained versions to identify which stage, pre-training or post-training, lead to monocultural biases. We find that, compared to their base models, post-trained models are 3.6% less likely to callback older applicants. This negative shift occurs in eight of the ten models that we evaluate. Post-trained models have much more correlated decisions than base models which is likely driven by human capital traits like skills or college major. However, greater consensus among models increases global systemic exclusion rates from 5.6% to 17.3% and exacerbates demographic inequalities, with intersectional systemic exclusion rates ranging from 12.2% to 21.7% for post-trained models. We find that this inequality is primarily driven by age-based discrimination that is exacerbated in post-training. These results indicate that while post-training techniques may improve models' abilities to select the best applicants, they may raise systemic inequality risks for those at the margin by uniformly introducing new biases.",
+    "section": "finance",
+    "topics": [
+      "research",
+      "labor",
+      "finance-regulation"
+    ],
+    "entities": [
+      "artificial-intelligence"
+    ],
+    "authors": [
+      "Matthew Bone",
+      "Fabian Stephany",
+      "Maria del Rio-Chanona"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2609.22169v1",
+      "outlet": "arXiv",
+      "author": "Matthew Bone, Fabian Stephany, Maria del Rio-Chanona",
+      "publishedAt": "2026-08-26",
+      "retrievedAt": "2026-10-27T11:33:16.922Z",
+      "contentHash": "23190df2890d0ee0e4ce20df8177f8fea155f2818581f9a0001aca3cd73ad18f",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2608.11512v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Cheap, Fallible Cognition and the Political Economy of Expertise",
+    "excerpt": "The question of whether artificial intelligence will \"destroy jobs\" is too coarse to guide economic analysis or institutional design. A job is not an indivisible object, and machine cognition is not a uniform substitute for human labor. This paper develops a task-based and institutionally grounded framework for analyzing generative AI as cheap, scalable, and fallible cognition. The relevant margins are exposure, adoption, verification, question selection, workflow redesign, demand elasticity, apprenticeship, and rent allocation. We distinguish the technical reach of large language models from...",
+    "text": "The question of whether artificial intelligence will \"destroy jobs\" is too coarse to guide economic analysis or institutional design. A job is not an indivisible object, and machine cognition is not a uniform substitute for human labor. This paper develops a task-based and institutionally grounded framework for analyzing generative AI as cheap, scalable, and fallible cognition. The relevant margins are exposure, adoption, verification, question selection, workflow redesign, demand elasticity, apprenticeship, and rent allocation. We distinguish the technical reach of large language models from equilibrium labor-market displacement by introducing a task vulnerability index and an adoption condition that makes verification, liability, trust, and governance explicit. We then model occupations as governance bundles rather than task lists, firms as architectures of distributed intelligence, and labor-market effects as a balance among task compression, scale expansion, new human work, and institutional bargaining. A further implication is that when answer generation becomes abundant, the scarce human capital shifts upstream and downstream: toward asking economically meaningful questions, framing problems, generating hypotheses, interpreting results, and bearing responsibility for consequential use. The central dynamic concern is expertise formation: Junior tasks jointly produce current output, question sense, and future judgment, so their automation can raise short-run productivity while weakening the pipeline into accountable expertise unless AI is designed to teach rather than merely bypass. The paper concludes that AI's labor-market destiny is neither mechanical unemployment nor automatic abundance. It is an institutional equilibrium shaped by workflow design, apprenticeship systems, liability rules, competition policy, worker voice, and the distribution of rents from cheap cognition.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "education",
+      "labor"
+    ],
+    "entities": [
+      "artificial-intelligence",
+      "workforce-training"
+    ],
+    "authors": [
+      "Christophe Kolb",
+      "Jim Caron"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2608.11512v1",
+      "outlet": "arXiv",
+      "author": "Christophe Kolb, Jim Caron",
+      "publishedAt": "2026-08-11",
+      "retrievedAt": "2026-10-27T11:33:16.922Z",
+      "contentHash": "0b3443ec59d61c1175329ee03cd01ba44d66edf8c1e854a9971201bb5ff0783d",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2606.28978v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Can LLMs Hire Fairly? Racial Bias in Resume Screening",
+    "excerpt": "We audit fourteen mainstream large language models (LLMs) for hiring discrimination using the paired-resume methodology of Kline, Rose, and Walters (2022). The sole 2023-vintage model reproduces the pro-White callback gap documented in field experiments on labor market discrimination ($+2.12$ pp, significant at the 1\\% level). Every model released in 2024 or after shows either a null gap or a significant pro-Black reversal (up to $-3.01$ pp). The same pattern holds on the gender axis. Based on 24,024 paired postings per model across 14 models, our results document a reversal in the direction...",
+    "text": "We audit fourteen mainstream large language models (LLMs) for hiring discrimination using the paired-resume methodology of Kline, Rose, and Walters (2022). The sole 2023-vintage model reproduces the pro-White callback gap documented in field experiments on labor market discrimination ($+2.12$ pp, significant at the 1\\% level). Every model released in 2024 or after shows either a null gap or a significant pro-Black reversal (up to $-3.01$ pp). The same pattern holds on the gender axis. Based on 24,024 paired postings per model across 14 models, our results document a reversal in the direction of algorithmic hiring bias across model generations.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "labor"
+    ],
+    "entities": [
+      "artificial-intelligence",
+      "automated-hiring"
+    ],
+    "authors": [
+      "Zhenyu Gao",
+      "Wenxi Jiang",
+      "Yutong Yan"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2606.28978v1",
+      "outlet": "arXiv",
+      "author": "Zhenyu Gao, Wenxi Jiang, Yutong Yan",
+      "publishedAt": "2026-06-27",
+      "retrievedAt": "2026-10-27T11:33:16.922Z",
+      "contentHash": "715a4adb5abf27ab3d193683d9f87a99c98e11ab2b319d3ef384fcb588dce50a",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2606.18181v3",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "IUU+DB: Tracking Illegal, Unreported, and Unregulated Fishing, Seafood Fraud, and Labor Abuse through LLM-driven Information Extraction",
+    "excerpt": "Illegal, unreported, and unregulated fishing (IUU) traditionally refers to fishing activities that violate applicable laws or occur in areas that lack applicable laws. We propose the term IUU+ to capture a broader suite of fisheries sector environmental and associated supply chain trade-related crimes and behaviors. Although IUU+ activity is widely recognized as a serious threat to marine ecosystems, markets, and livelihoods, a quantitative understanding of these incidents, e.g., their frequency, geography, species, actors, and patterns in the type of illicit activity, remains difficult to...",
+    "text": "Illegal, unreported, and unregulated fishing (IUU) traditionally refers to fishing activities that violate applicable laws or occur in areas that lack applicable laws. We propose the term IUU+ to capture a broader suite of fisheries sector environmental and associated supply chain trade-related crimes and behaviors. Although IUU+ activity is widely recognized as a serious threat to marine ecosystems, markets, and livelihoods, a quantitative understanding of these incidents, e.g., their frequency, geography, species, actors, and patterns in the type of illicit activity, remains difficult to obtain. We propose IUU+DB, a large language model driven system for building a global incident database of IUU+ activity. The system ingests heterogeneous documents, classifies whether they describe relevant incidents, extracts key data elements such as actors, locations, species, vessels, violations, and enforcement outcomes, and supports deduplication and trend analysis. Case studies and validation results show that IUU+DB can help organize fragmented evidence, surface geographic and behavioral hotspots, support fisheries-domain specific research in academia and non-government organizations, assist source and species risk assessments for industry, and provide support for policy implementation and targeted enforcement efforts to government agencies.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "labor"
+    ],
+    "entities": [
+      "artificial-intelligence"
+    ],
+    "authors": [
+      "Henry Bodwell",
+      "Hong Yang",
+      "John C. Simeone",
+      "Kelvin Gorospe",
+      "Bella Sullivan",
+      "Lana Huang",
+      "Jessica Gephart",
+      "Sandy Aylesworth",
+      "Molly Masterton",
+      "Naren Ramakrishnan"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2606.18181v3",
+      "outlet": "arXiv",
+      "author": "Henry Bodwell, Hong Yang, John C. Simeone et al.",
+      "publishedAt": "2026-06-16",
+      "retrievedAt": "2026-10-27T11:33:16.922Z",
+      "contentHash": "10ac7b11f1da36b806b245cfa3f1bb5368ea10b681d448a4e4600d4e91bb2ffe",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2605.25505v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Generative AI impacts on intra-urban inequality and skill premium in Beijing",
+    "excerpt": "Generative artificial intelligence (GenAI) is the first automation wave to reach high-cognitive tasks at scale, yet its effects on intra-urban inequality remain largely unknown. Using 5 million job postings from Beijing (2018--2024), we construct a neighborhood-level GenAI Exposure Index by aggregating task-level assessments from five leading large language models. We examine the spatial, structural and causal mechanisms of this shock. We find that GenAI exposure is highly concentrated in the city's core districts, deepening the intra-urban AI divide. Since 2023, high-exposure neighborhoods...",
+    "text": "Generative artificial intelligence (GenAI) is the first automation wave to reach high-cognitive tasks at scale, yet its effects on intra-urban inequality remain largely unknown. Using 5 million job postings from Beijing (2018--2024), we construct a neighborhood-level GenAI Exposure Index by aggregating task-level assessments from five leading large language models. We examine the spatial, structural and causal mechanisms of this shock. We find that GenAI exposure is highly concentrated in the city's core districts, deepening the intra-urban AI divide. Since 2023, high-exposure neighborhoods have experienced wage stagnation even as they continue to attract high-skilled workers -- a \"high-skill trap.\" This wage penalty is driven by task de-skilling and intensified labor-market crowding. A difference-in-differences design centered on ChatGPT's release supports a causal interpretation. These findings challenge the prevailing theory of skill-biased technological change and provide a basis for inclusive AI governance in global technology hubs.",
+    "section": "finance",
+    "topics": [
+      "research",
+      "labor",
+      "finance-regulation"
+    ],
+    "entities": [
+      "artificial-intelligence"
+    ],
+    "authors": [
+      "Xiliu He",
+      "Haoxiang Zhao",
+      "Mingyi Ma",
+      "Edward Wen Chuan Lai",
+      "Koei Enomoto",
+      "Anni Hu",
+      "Jiatong Li",
+      "Lingyun Chu",
+      "Yuan Lai"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2605.25505v1",
+      "outlet": "arXiv",
+      "author": "Xiliu He, Haoxiang Zhao, Mingyi Ma et al.",
+      "publishedAt": "2026-05-25",
+      "retrievedAt": "2026-10-27T11:33:16.922Z",
+      "contentHash": "dff3cf31bcec5ff97ffde5d83d6958ecf42a3e7a1e23d4bcc319e27588c2fa72",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2610.01128v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Grounding Large Language Models in DSGE Simulators for Policy Generation and Forecasting",
+    "excerpt": "Large language models can produce economic policy responses that sound reasonable, but this does not show that their actions are consistent with economic dynamics. We test this by placing an instruction-tuned language model inside six Snowdrop-backed dynamic stochastic general equilibrium (DSGE) simulators. At each turn, the model observes the economy and a change in economic discourse, selects a bounded policy action, and receives the next simulated state and an economic reward. We implement a common Python interface for repeated rollouts, persistent shocks, state cloning, and...",
+    "text": "Large language models can produce economic policy responses that sound reasonable, but this does not show that their actions are consistent with economic dynamics. We test this by placing an instruction-tuned language model inside six Snowdrop-backed dynamic stochastic general equilibrium (DSGE) simulators. At each turn, the model observes the economy and a change in economic discourse, selects a bounded policy action, and receives the next simulated state and an economic reward. We implement a common Python interface for repeated rollouts, persistent shocks, state cloning, and rolling-horizon simulation. This setting creates a long-horizon credit-assignment problem. Policy effects may appear several quarters after an action is taken. PPO has a learned value function that can propagate delayed reward to earlier tokens through generalized advantage estimation. GRPO has no learned value function and instead assigns a group-relative advantage from complete rollout returns. It therefore cannot distinguish which earlier turn caused the outcome; if every rollout receives the same return, the normalized advantage is zero. We use PPO as the primary method and GRPO as a matched critic-free baseline. The experiments also test directional semantic signals, reward horizon, trajectory warm starts, cross-simulator transfer, and historically anchored pandemic and monetary-policy shocks. The objective is to judge policy actions by their simulated economic consequences rather than by plausible language alone.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "finance-regulation"
+    ],
+    "entities": [
+      "artificial-intelligence"
+    ],
+    "authors": [
+      "Aditya Dubey",
+      "Namah Gupta",
+      "Vinti Agarwal"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2610.01128v1",
+      "outlet": "arXiv",
+      "author": "Aditya Dubey, Namah Gupta, Vinti Agarwal",
+      "publishedAt": "2026-10-01",
+      "retrievedAt": "2026-10-27T11:33:19.920Z",
+      "contentHash": "f9c931db8f4d77effe558012cab968186b73efec04e0fc693867cfb3be88bd14",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2609.15744v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+    "excerpt": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges. Financial risk early warning systems often suffer from inefficiency due to information silos and monitoring delays. This paper proposes a credit risk early warning system based on heterogeneous information fusion. The system employs a model architecture integrating deep neural networks and attention mechanisms to extract multidimensional features from diverse data sources such as transaction behaviors and social networks, thereby establishing an early...",
+    "text": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges. Financial risk early warning systems often suffer from inefficiency due to information silos and monitoring delays. This paper proposes a credit risk early warning system based on heterogeneous information fusion. The system employs a model architecture integrating deep neural networks and attention mechanisms to extract multidimensional features from diverse data sources such as transaction behaviors and social networks, thereby establishing an early identification mechanism for corporate and individual credit risks. System testing demonstrates that this approach significantly enhances the accuracy and timeliness of risk warnings, outperforming traditional rule-based engine solutions. The findings offer innovative insights for early intervention in financial risks, holding practical significance for safeguarding financial stability.",
+    "section": "finance",
+    "topics": [
+      "research",
+      "labor",
+      "finance-regulation"
+    ],
+    "entities": [
+      "ai-in-lending"
+    ],
+    "authors": [
+      "LiYang Wang",
+      "Zhen Zhong",
+      "Zhen Tian",
+      "Keyu Chen",
+      "Keyu Chen"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2609.15744v1",
+      "outlet": "arXiv",
+      "author": "LiYang Wang, Zhen Zhong, Zhen Tian et al.",
+      "publishedAt": "2026-09-14",
+      "retrievedAt": "2026-10-27T11:33:19.920Z",
+      "contentHash": "68bd19a2e8fae85337040ad18ba75d32358e8adf7d98e748ed16cdbd5f613e4c",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2608.24582v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "$\\texttt{findr}$: Transparent and Fair Credit Risk Decisions through Semi-Structured Regressions",
+    "excerpt": "Credit risk models increasingly need to combine predictive accuracy with transparent explanations and auditable fairness constraints. Logistic regression remains attractive because its coefficients are easy to interpret, but it can miss nonlinear structure. Flexible models can improve prediction, but their explanations are often post-hoc and may not describe the decision rule itself. We introduce $\\texttt{findr}$, short for flexible, interpretable deep regression, a semi-structured framework for binary credit risk modelling that decomposes the logit into an interpretable structured component...",
+    "text": "Credit risk models increasingly need to combine predictive accuracy with transparent explanations and auditable fairness constraints. Logistic regression remains attractive because its coefficients are easy to interpret, but it can miss nonlinear structure. Flexible models can improve prediction, but their explanations are often post-hoc and may not describe the decision rule itself. We introduce $\\texttt{findr}$, short for flexible, interpretable deep regression, a semi-structured framework for binary credit risk modelling that decomposes the logit into an interpretable structured component and an orthogonal neural residual. The orthogonalisation separates coefficient-based effects from residual nonlinear variation, while an in-processing Wasserstein penalty mitigates group disparities by comparing score distributions during training. The framework also includes diagnostics that measure the structured component's contribution to logit variation, decision agreement, and local directional consistency. We evaluate $\\texttt{findr}$ in a simulation study and on eight public credit datasets using score-level accuracy-fairness frontiers. The results show that $\\texttt{findr}$ behaves close to logistic regression when the signal is approximately linear, while recovering much of the predictive gain of neural models when nonlinear structure is relevant. The diagnostics identify when coefficient-based explanations remain close to the full fitted model and when residual variation must also be examined. These findings support semi-structured modelling as a practical way to make performance, fairness, and interpretability trade-offs explicit in credit risk decisions.",
+    "section": "finance",
+    "topics": [
+      "research",
+      "finance-regulation"
+    ],
+    "entities": [
+      "ai-in-lending"
+    ],
+    "authors": [
+      "Victor Medina-Olivares",
+      "Stefan Lessmann",
+      "Jonathan Crook"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2608.24582v1",
+      "outlet": "arXiv",
+      "author": "Victor Medina-Olivares, Stefan Lessmann, Jonathan Crook",
+      "publishedAt": "2026-08-25",
+      "retrievedAt": "2026-10-27T11:33:19.920Z",
+      "contentHash": "c55cab3ad3b91ebbd63106959e984d3e73603bf52137dae604335111785eda83",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2608.14227v3",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Attributing Preprocessing Invariance in Spectral Foundation Models",
+    "excerpt": "A spectral foundation model should remain useful when laboratories preprocess spectra differently. The standard test trains a classifier under one pipeline and evaluates under another, taking preserved accuracy as evidence of learned invariance. However, these models normalize each input before any learned parameter is applied. When normalization maps differently preprocessed spectra to the same vector, the encoder receives identical inputs and the measured invariance cannot be attributed to learning. We propose a normalization-only attribution control: compare the encoder against its...",
+    "text": "A spectral foundation model should remain useful when laboratories preprocess spectra differently. The standard test trains a classifier under one pipeline and evaluates under another, taking preserved accuracy as evidence of learned invariance. However, these models normalize each input before any learned parameter is applied. When normalization maps differently preprocessed spectra to the same vector, the encoder receives identical inputs and the measured invariance cannot be attributed to learning. We propose a normalization-only attribution control: compare the encoder against its normalization before interpreting transfer as learned invariance. On six Raman datasets the encoder does not measurably improve transfer over its normalization. A controlled experiment confirms invariance develops only when variation reaches the encoder past normalization. Across three systems, no encoder improves relative retention over its normalization. An audit of eighteen configurations across five modalities confirms the issue is widespread: the normalization-only control should be reported before crediting transfer to the encoder.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "labor",
+      "finance-regulation"
+    ],
+    "entities": [],
+    "authors": [
+      "Dongjun Wei",
+      "Hongyi Wu"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2608.14227v3",
+      "outlet": "arXiv",
+      "author": "Dongjun Wei, Hongyi Wu",
+      "publishedAt": "2026-08-14",
+      "retrievedAt": "2026-10-27T11:33:19.920Z",
+      "contentHash": "af2e93a9b68a5110e7517d371990fcc553bfc5cdc115e2cbade5cab422c75da8",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2608.00566v1",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
+    "excerpt": "Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare. This ensures the model's transparency and acceptability. However, a few studies have examined potential attacks in the explainability pipeline. Adversaries can attempt to conceal algorithmic biases or backdoors using adversarial explanation attacks. These attacks have relied on scaffolding out-of-distribution (OOD) detectors that toggle predictions when queried by an explainer. Consequently, defenses...",
+    "text": "Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare. This ensures the model's transparency and acceptability. However, a few studies have examined potential attacks in the explainability pipeline. Adversaries can attempt to conceal algorithmic biases or backdoors using adversarial explanation attacks. These attacks have relied on scaffolding out-of-distribution (OOD) detectors that toggle predictions when queried by an explainer. Consequently, defenses have been developed to successfully neutralize these black-box attacks by identifying their anomalous perturbation footprints. In this paper, we demonstrate a critical vulnerability by introducing a more potent white-box, gradient-regularized evasion attack framework. By employing a continuous-embedding dual-penalty framework, we directly penalize trigger feature gradients during training on in-distribution data. Since our approach embeds the evasion logic natively into the model parameters, without relying on OOD scaffolding wrappers, it generates smooth, in-distribution predictions that leave no anomaly footprint. Empirical evaluations across four benchmark tabular datasets (COMPAS, German Credit, IEEE-CIS, and Communities & Crime) confirm that our method systematically crushes target feature attribution to near-zero (<0.02), maintains >90% Attack Success Rates, and fundamentally bypasses Conditional Anomaly Detection.",
+    "section": "technology",
+    "topics": [
+      "research",
+      "labor",
+      "finance-regulation"
+    ],
+    "entities": [
+      "artificial-intelligence"
+    ],
+    "authors": [
+      "Niraj Kumar",
+      "Harsh Kasyap"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2608.00566v1",
+      "outlet": "arXiv",
+      "author": "Niraj Kumar, Harsh Kasyap",
+      "publishedAt": "2026-08-01",
+      "retrievedAt": "2026-10-27T11:33:19.920Z",
+      "contentHash": "6796295d25d9068fc0adfbdf87523bd81f13bdaa0f100952d60b931a4e47adc4",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  },
+  {
+    "id": "arxiv-2606.19501v2",
+    "kind": "arxiv",
+    "recordType": "paper",
+    "docType": "Preprint",
+    "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+    "excerpt": "Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts...",
+    "text": "Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluation harness, whose decision axis scores tickets against a regulator-aligned absolute-loss ground truth and an explicit false-intervention rate. Experiments on five years of weekly real data fully support our system. Code is at https://github.com/EVIEHub/DeXposure-Claw.",
+    "section": "finance",
+    "topics": [
+      "research",
+      "finance-regulation"
+    ],
+    "entities": [
+      "ai-in-lending"
+    ],
+    "authors": [
+      "Aijie Shu",
+      "Bowei Chen",
+      "Wenbin Wu",
+      "Cathy Yi-Hsuan Chen",
+      "Fengxiang He"
+    ],
+    "peerReviewed": false,
+    "provenance": {
+      "sourceUrl": "https://arxiv.org/abs/2606.19501v2",
+      "outlet": "arXiv",
+      "author": "Aijie Shu, Bowei Chen, Wenbin Wu et al.",
+      "publishedAt": "2026-06-17",
+      "retrievedAt": "2026-10-27T11:33:19.920Z",
+      "contentHash": "fedc218f47e83f3f656acb0e773db96ed3b87d19e8d0a08a486db2481b6d9167",
+      "isSample": false,
+      "license": "CC0 (arXiv metadata)"
+    }
+  }
+]

@@ -1,0 +1,267 @@
+{
+  "id": "fixture-001",
+  "createdAt": "2026-10-27T00:00:00Z",
+  "model": "none (hand-written fixture)",
+  "synthetic": true,
+  "note": "Hand-written fixture that exercises the verification pipeline. It is not a real model run and contains no usage data. Replace or add files here by downloading run records from the briefing page after real live runs.",
+  "watch": {
+    "topics": [
+      "education"
+    ],
+    "organizations": "",
+    "questions": "Does the tutoring pilot measure learning or speed?",
+    "depth": "educator",
+    "county": "santa-clara-ca"
+  },
+  "question": null,
+  "submission": {
+    "items": [
+      {
+        "sourceId": "sc-board-tutor",
+        "whyItMatters": "The agenda defines what the pilot will measure.",
+        "claims": [
+          {
+            "text": "The district will compare completion time and unit test scores with classes not using the tool.",
+            "quote": "measure assignment completion time and unit test scores against classes not using the tool",
+            "sourceId": "sc-board-tutor"
+          },
+          {
+            "text": "The pilot will also measure transfer to new problem types.",
+            "quote": "the district will also measure transfer to unfamiliar problem types",
+            "sourceId": "sc-board-tutor"
+          }
+        ],
+        "nextQuestions": [
+          {
+            "question": "Will transfer be measured?",
+            "sourceId": "sc-board-tutor"
+          }
+        ]
+      },
+      {
+        "sourceId": "sc-study-tutor",
+        "whyItMatters": "It separates speed from transfer.",
+        "claims": [
+          {
+            "text": "Tutor users finished homework faster.",
+            "quote": "students using the AI tutor completed homework sets 22 percent faster",
+            "sourceId": "sc-study-tutor"
+          },
+          {
+            "text": "Tutor users scored lower on unfamiliar problems.",
+            "quote": "students using the tutor scored slightly lower than the comparison group",
+            "sourceId": "sc-study-tutor"
+          }
+        ]
+      },
+      {
+        "sourceId": "sc-art-tutor-teachers",
+        "whyItMatters": "Teacher views.",
+        "claims": [
+          {
+            "text": "Teachers were split.",
+            "quote": "some math teachers said the tool frees time for small-group instruction",
+            "sourceId": "sc-art-tutor-teachers"
+          }
+        ]
+      },
+      {
+        "sourceId": "sc-art-tutor-ledger",
+        "whyItMatters": "",
+        "claims": [
+          {
+            "text": "The board vote was 4-1.",
+            "quote": "board voted 4-1 to approve a one-semester AI tutoring pilot",
+            "sourceId": "sc-art-tutor-ledger"
+          }
+        ]
+      }
+    ],
+    "couldNotFind": [
+      "No source states whether the vendor will delete student data after the pilot."
+    ]
+  },
+  "retrieved": [
+    {
+      "id": "sc-board-tutor",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "School board agenda item",
+      "title": "School board agenda: AI tutoring pilot for grade 8 math (Example Unified School District, sample)",
+      "excerpt": "Item 7.2: Approve a one-semester pilot of an AI tutoring tool in grade 8 math at three middle schools. The staff report estimates a cost of $48,000 funded by a state grant. The district will measure assignment completion time and unit test scores against classes not using the...",
+      "text": "Item 7.2: Approve a one-semester pilot of an AI tutoring tool in grade 8 math at three middle schools. The staff report estimates a cost of $48,000 funded by a state grant. The district will measure assignment completion time and unit test scores against classes not using the tool. Student data will be stored by the vendor under the district's existing data agreement.",
+      "section": "education",
+      "topics": [
+        "education",
+        "local-government"
+      ],
+      "entities": [
+        "ai-tutoring",
+        "student-data-privacy"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-tutor",
+      "keyClaims": [
+        {
+          "text": "The agenda proposes a one-semester AI tutoring pilot in grade 8 math at three middle schools.",
+          "quote": "a one-semester pilot of an AI tutoring tool in grade 8 math at three middle schools"
+        },
+        {
+          "text": "The staff report estimates the cost at $48,000, funded by a state grant.",
+          "quote": "estimates a cost of $48,000 funded by a state grant"
+        }
+      ],
+      "nextQuestions": [
+        "Will the district measure transfer to new problems, or only completion time and unit tests?"
+      ],
+      "provenance": {
+        "sourceUrl": "",
+        "outlet": "Example Unified School District board (sample)",
+        "author": "District staff report (sample)",
+        "publishedAt": "2026-08-20",
+        "retrievedAt": "2026-08-20T00:00:00Z",
+        "contentHash": "28d8037383288fb21c5332920ed19c1f17bca9cfa741edf2e049f0e8c5353077",
+        "isSample": true,
+        "license": "Sample"
+      }
+    },
+    {
+      "id": "sc-art-tutor-ledger",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "School board approves AI tutoring pilot in middle school math",
+      "excerpt": "The Example Unified School District (sample) board voted 4-1 to approve a one-semester AI tutoring pilot in grade 8 math. Supporters said the tool gives students faster feedback. The dissenting trustee asked how the district would know whether students learned more or simply...",
+      "text": "The Example Unified School District (sample) board voted 4-1 to approve a one-semester AI tutoring pilot in grade 8 math. Supporters said the tool gives students faster feedback. The dissenting trustee asked how the district would know whether students learned more or simply finished faster.",
+      "section": "education",
+      "topics": [
+        "education"
+      ],
+      "entities": [
+        "ai-tutoring"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-tutor",
+      "keyClaims": [
+        {
+          "text": "The board voted 4-1 to approve the pilot.",
+          "quote": "board voted 4-1 to approve a one-semester AI tutoring pilot in grade 8 math"
+        },
+        {
+          "text": "A dissenting trustee asked whether students would learn more or just finish faster.",
+          "quote": "asked how the district would know whether students learned more or simply finished faster"
+        }
+      ],
+      "provenance": {
+        "sourceUrl": "",
+        "outlet": "Valley Ledger (sample)",
+        "author": "Marcus Lee (sample)",
+        "publishedAt": "2026-08-22",
+        "retrievedAt": "2026-08-22T00:00:00Z",
+        "contentHash": "80c7ea576fcaf7c2ec89209528658652368071778b1ee6f92f4876021bb23c38",
+        "isSample": true,
+        "license": "Sample"
+      }
+    },
+    {
+      "id": "sc-study-tutor",
+      "kind": "sample",
+      "recordType": "study",
+      "docType": "Study",
+      "title": "Sample study: AI tutoring and grade 8 algebra outcomes",
+      "excerpt": "In a sample evaluation of 212 grade 8 students across six classrooms, students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms. On a unit test, scores were similar between groups. On a transfer task with unfamiliar problem...",
+      "text": "In a sample evaluation of 212 grade 8 students across six classrooms, students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms. On a unit test, scores were similar between groups. On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group. Classrooms were not randomly assigned, and the study ran for eight weeks.",
+      "section": "education",
+      "topics": [
+        "education",
+        "research"
+      ],
+      "entities": [
+        "ai-tutoring"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-tutor",
+      "keyClaims": [
+        {
+          "text": "Students using the tutor completed homework sets 22 percent faster.",
+          "quote": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms"
+        },
+        {
+          "text": "On unfamiliar problem types, tutor users scored slightly lower.",
+          "quote": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+        }
+      ],
+      "peerReviewed": false,
+      "study": {
+        "population": "212 grade 8 students across six classrooms (sample data)",
+        "outcome": "Homework completion time, unit test scores, and a transfer task with unfamiliar problem types",
+        "comparison": "Classrooms not using the tutor. Classrooms were not randomly assigned.",
+        "limitations": "Not randomly assigned; ran for eight weeks; sample study, not peer reviewed.",
+        "fasterCompletion": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms",
+        "transfer": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+      },
+      "provenance": {
+        "sourceUrl": "",
+        "outlet": "Sample research brief (sample)",
+        "author": "Evaluation team (sample)",
+        "publishedAt": "2026-10-01",
+        "retrievedAt": "2026-10-01T00:00:00Z",
+        "contentHash": "4d3515c9b4da86dcc0c432e10b3752281446fd63465cde49e513c7a2135f9731",
+        "isSample": true,
+        "license": "Sample"
+      }
+    },
+    {
+      "id": "sc-board-dataagreement",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "School board agenda item",
+      "title": "School board agenda: renewal of a student data-sharing agreement with an education software vendor (sample)",
+      "excerpt": "Item 9.1: Renew a three-year data-sharing agreement allowing an education software vendor to process student names, grades and usage logs. The renewal adds a clause permitting the vendor to use de-identified data to improve its products. Public comment will be taken before...",
+      "text": "Item 9.1: Renew a three-year data-sharing agreement allowing an education software vendor to process student names, grades and usage logs. The renewal adds a clause permitting the vendor to use de-identified data to improve its products. Public comment will be taken before the vote on October 22, 2026.",
+      "section": "education",
+      "topics": [
+        "education",
+        "local-government"
+      ],
+      "entities": [
+        "student-data-privacy"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-data",
+      "keyClaims": [
+        {
+          "text": "The renewal would let the vendor use de-identified student data to improve its products.",
+          "quote": "permitting the vendor to use de-identified data to improve its products"
+        },
+        {
+          "text": "Public comment will be taken before the vote on October 22, 2026.",
+          "quote": "Public comment will be taken before the vote on October 22, 2026"
+        }
+      ],
+      "nextQuestions": [
+        "What does the agreement say about re-identification and data deletion?"
+      ],
+      "provenance": {
+        "sourceUrl": "",
+        "outlet": "Example Unified School District board (sample)",
+        "author": "District staff report (sample)",
+        "publishedAt": "2026-10-08",
+        "retrievedAt": "2026-10-08T00:00:00Z",
+        "contentHash": "1b6442dd4ef98d7a1ca62eacdbd18b2049ef506e0cf6209a413924238db35b0a",
+        "isSample": true,
+        "license": "Sample"
+      }
+    }
+  ],
+  "trace": [],
+  "usage": {
+    "steps": 0,
+    "toolCalls": 0,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0,
+    "stopReason": "fixture",
+    "elapsedMs": 0
+  }
+}

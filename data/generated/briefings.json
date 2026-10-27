@@ -1,0 +1,3230 @@
+{
+ "generatedAt": "2026-10-27T11:46:46.447Z",
+ "briefings": [
+  {
+   "sampleWatchId": "santa-clara-labor",
+   "name": "Jobs and automation in Santa Clara County",
+   "briefing": {
+    "id": "saved-santa-clara-labor",
+    "createdAt": "2026-10-27T11:46:46.447Z",
+    "mode": "saved",
+    "watch": {
+     "topics": [
+      "labor",
+      "local-government"
+     ],
+     "organizations": "Orchard Semiconductor (sample)",
+     "questions": "",
+     "depth": "professional",
+     "county": "santa-clara-ca"
+    },
+    "items": [
+     {
+      "sourceId": "sc-art-orchard-followup",
+      "claims": [
+       {
+        "text": "The WARN filing lists 214 affected employees.",
+        "quote": "The company's WARN filing lists 214 affected employees",
+        "sourceId": "sc-art-orchard-followup",
+        "similarity": 1,
+        "independentSources": 2,
+        "supportingSourceIds": [
+         "sc-art-orchard-followup",
+         "sc-warn-orchard"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about layoffs and warn notices. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-art-orchard-followup"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-art-orchard-courier",
+      "claims": [
+       {
+        "text": "A company memo reviewed by the Courier puts the layoff at 180 positions.",
+        "quote": "affects 180 positions, according to a company memo reviewed by the South Bay Courier",
+        "sourceId": "sc-art-orchard-courier",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-orchard-courier"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "A spokesperson said some employees would be offered transfers.",
+        "quote": "said some employees would be offered transfers",
+        "sourceId": "sc-art-orchard-courier",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-orchard-courier"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about layoffs and warn notices. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-art-orchard-courier"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-art-orchard-ledger",
+      "claims": [
+       {
+        "text": "Two employees told the Valley Ledger the cuts would total about 240 jobs as testing is automated.",
+        "quote": "will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems",
+        "sourceId": "sc-art-orchard-ledger",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-orchard-ledger"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       },
+       {
+        "text": "The company confirmed layoffs without giving a number.",
+        "quote": "The company confirmed layoffs but did not give a number",
+        "sourceId": "sc-art-orchard-ledger",
+        "similarity": 1,
+        "independentSources": 2,
+        "supportingSourceIds": [
+         "sc-art-orchard-ledger",
+         "sc-art-orchard-courier"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about layoffs and warn notices. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Why do the reported job counts differ from the WARN filing?",
+        "sourceId": "sc-art-orchard-ledger"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-warn-orchard",
+      "claims": [
+       {
+        "text": "The WARN notice reports a layoff affecting 214 employees at the San Jose facility.",
+        "quote": "reporting a layoff affecting 214 employees at its San Jose facility",
+        "sourceId": "sc-warn-orchard",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-warn-orchard"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "The notice lists November 9, 2026 as the separation date.",
+        "quote": "lists an effective separation date of November 9, 2026",
+        "sourceId": "sc-warn-orchard",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-warn-orchard"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a primary document about layoffs and warn notices. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Which job categories account for most of the 214 affected employees?",
+        "sourceId": "sc-warn-orchard"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-art-hiring-signal",
+      "claims": [
+       {
+        "text": "Council members asked how the annual audit would be shared with the public.",
+        "quote": "Council members asked how the annual audit would be shared with the public",
+        "sourceId": "sc-art-hiring-signal",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-hiring-signal"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       },
+       {
+        "text": "A labor representative said applicants should be told when the tool is used.",
+        "quote": "applicants should be told when an automated hiring tool is used",
+        "sourceId": "sc-art-hiring-signal",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-hiring-signal"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about automated hiring tools. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-art-hiring-signal"
+       }
+      ]
+     },
+     {
+      "sourceId": "fr-2026-19835",
+      "claims": [
+       {
+        "text": "The Federal Register record states: \"The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance consultation program to provide the general public and Federal agencies with an opportunity to comment on proposed and/or continuing collections of information in accordance with the Paperwork Reduction Act of 1995.\"",
+        "quote": "The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance consultation program to provide the general public and Federal agencies with an opportunity to comment on proposed and/or continuing collections of information in accordance with the Paperwork Reduction Act of 1995.",
+        "sourceId": "fr-2026-19835",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "fr-2026-19835"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a primary document about this topic. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "Federal Register"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What does the agency ask commenters to address before 2026-11-30?",
+        "sourceId": "fr-2026-19835"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2609.33367v3",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood.\"",
+        "quote": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood.",
+        "sourceId": "arxiv-2609.33367v3",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2609.33367v3"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about this topic. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2609.33367v3"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2609.15744v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges.\"",
+        "quote": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges.",
+        "sourceId": "arxiv-2609.15744v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2609.15744v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai in lending and banking. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2609.15744v1"
+       }
+      ]
+     }
+    ],
+    "stories": [
+     "layoffs",
+     "ai-in-lending",
+     "automated-hiring"
+    ],
+    "gaps": [
+     {
+      "sourceId": "sc-warn-brightpath",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a WARN notice titled \"WARN notice: Brightpath Customer Support (sample), Santa Clara call center\" (Sample data, 2026-10-15) has no matching news coverage in the sources we checked. Topic: Layoffs and WARN notices. Possible reporting question: who in Santa Clara County, California is affected, and how?"
+     },
+     {
+      "sourceId": "sc-board-dataagreement",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a school board agenda item titled \"School board agenda: renewal of a student data-sharing agreement with an education software vendor (sample)\" (Sample data, 2026-10-08) has no matching news coverage in the sources we checked. Topic: Student data privacy. Possible reporting question: who in Santa Clara County, California is affected, and how?"
+     },
+     {
+      "sourceId": "sc-council-datacenter",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a city council agenda item titled \"City council agenda: rezoning request for a data center and substation (Santa Clara County, sample)\" (Sample data, 2026-09-30) has no matching news coverage in the sources we checked. Topic: Data centers and power. Possible reporting question: who in Santa Clara County, California is affected, and how?"
+     }
+    ],
+    "beyond": [
+     {
+      "sourceId": "sc-art-backtest",
+      "score": 7,
+      "components": {
+       "localImpact": 3,
+       "independentSources": 3,
+       "documentType": 1
+      },
+      "reason": "Shown because it concerns the county you chose; 3 independent outlets or agencies have records on this topic. It is outside the topics you follow."
+     },
+     {
+      "sourceId": "sc-art-bank-fraud",
+      "score": 7,
+      "components": {
+       "localImpact": 3,
+       "independentSources": 3,
+       "documentType": 1
+      },
+      "reason": "Shown because it concerns the county you chose; 3 independent outlets or agencies have records on this topic. It is outside the topics you follow."
+     }
+    ],
+    "unverified": [],
+    "disagreements": [
+     {
+      "about": "How many jobs the Orchard layoff affects",
+      "positions": [
+       {
+        "sourceId": "sc-art-orchard-ledger",
+        "outlet": "Valley Ledger (sample)",
+        "quote": "will cut about 240 jobs in San Jose"
+       },
+       {
+        "sourceId": "sc-art-orchard-courier",
+        "outlet": "South Bay Courier (sample)",
+        "quote": "affects 180 positions, according to a company memo"
+       }
+      ]
+     }
+    ],
+    "coverage": {
+     "sourcesChecked": [
+      {
+       "name": "Sample data",
+       "count": 5
+      },
+      {
+       "name": "Federal Register",
+       "count": 1
+      },
+      {
+       "name": "arXiv preprint",
+       "count": 2
+      }
+     ],
+     "independentOutlets": [
+      "Labor Department",
+      "Peninsula Signal (sample)",
+      "South Bay Courier (sample)",
+      "State WARN notice listing (sample)",
+      "Valley Ledger (sample)",
+      "arXiv"
+     ],
+     "thinCoverage": [
+      "Automated hiring tools: one news article in the sources checked"
+     ]
+    },
+    "zoom": {
+     "county": [
+      "sc-art-orchard-followup",
+      "sc-art-orchard-courier",
+      "sc-art-orchard-ledger",
+      "sc-warn-orchard",
+      "sc-art-hiring-signal"
+     ],
+     "region": [],
+     "nation": [
+      "fr-2026-19835",
+      "arxiv-2609.33367v3",
+      "arxiv-2609.15744v1"
+     ]
+    },
+    "sources": {
+     "sc-art-orchard-followup": {
+      "id": "sc-art-orchard-followup",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Orchard workers describe transfer offers and uncertainty",
+      "excerpt": "Several Orchard Semiconductor (sample) employees said they had received transfer offers to a plant in another state, while others said they had not been told whether their roles were affected. The company's WARN filing lists 214 affected employees.",
+      "text": "Several Orchard Semiconductor (sample) employees said they had received transfer offers to a plant in another state, while others said they had not been told whether their roles were affected. The company's WARN filing lists 214 affected employees.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "orchard",
+      "keyClaims": [
+       {
+        "text": "The WARN filing lists 214 affected employees.",
+        "quote": "The company's WARN filing lists 214 affected employees",
+        "corroboration": [
+         {
+          "sourceId": "sc-warn-orchard",
+          "quote": "reporting a layoff affecting 214 employees at its San Jose facility"
+         }
+        ]
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Valley Ledger (sample)",
+       "author": "Dana Ortiz (sample)",
+       "publishedAt": "2026-10-06",
+       "retrievedAt": "2026-10-06T00:00:00Z",
+       "contentHash": "621ab8cafbc280d6719f914620319e9bf48c51c8b614b13ad1613d2e8e7f6911",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-orchard-courier": {
+      "id": "sc-art-orchard-courier",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Orchard layoff affects 180 positions, company memo says",
+      "excerpt": "A layoff at Orchard Semiconductor (sample) affects 180 positions, according to a company memo reviewed by the South Bay Courier. A company spokesperson confirmed the reduction and said some employees would be offered transfers. The memo did not mention automation.",
+      "text": "A layoff at Orchard Semiconductor (sample) affects 180 positions, according to a company memo reviewed by the South Bay Courier. A company spokesperson confirmed the reduction and said some employees would be offered transfers. The memo did not mention automation.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "orchard",
+      "keyClaims": [
+       {
+        "text": "A company memo reviewed by the Courier puts the layoff at 180 positions.",
+        "quote": "affects 180 positions, according to a company memo reviewed by the South Bay Courier"
+       },
+       {
+        "text": "A spokesperson said some employees would be offered transfers.",
+        "quote": "said some employees would be offered transfers"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "South Bay Courier (sample)",
+       "author": "Sam Whitfield (sample)",
+       "publishedAt": "2026-09-11",
+       "retrievedAt": "2026-09-11T00:00:00Z",
+       "contentHash": "58623b437bbecf538767d3c45413348612dfc5fa3d1b13011f574c735a8519b1",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-orchard-ledger": {
+      "id": "sc-art-orchard-ledger",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Orchard Semiconductor to cut about 240 jobs as it automates chip testing",
+      "excerpt": "Orchard Semiconductor (sample) will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems, according to two employees who asked not to be named. The company confirmed layoffs but did not give a number. Workers said test technicians were told...",
+      "text": "Orchard Semiconductor (sample) will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems, according to two employees who asked not to be named. The company confirmed layoffs but did not give a number. Workers said test technicians were told first.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "orchard",
+      "keyClaims": [
+       {
+        "text": "Two employees told the Valley Ledger the cuts would total about 240 jobs as testing is automated.",
+        "quote": "will cut about 240 jobs in San Jose as it shifts chip testing to automated inspection systems"
+       },
+       {
+        "text": "The company confirmed layoffs without giving a number.",
+        "quote": "The company confirmed layoffs but did not give a number",
+        "corroboration": [
+         {
+          "sourceId": "sc-art-orchard-courier",
+          "quote": "A company spokesperson confirmed the reduction"
+         }
+        ]
+       }
+      ],
+      "disagreesWith": {
+       "sourceId": "sc-art-orchard-courier",
+       "about": "How many jobs the Orchard layoff affects",
+       "quote": "affects 180 positions, according to a company memo",
+       "ownQuote": "will cut about 240 jobs in San Jose"
+      },
+      "nextQuestions": [
+       "Why do the reported job counts differ from the WARN filing?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Valley Ledger (sample)",
+       "author": "Dana Ortiz (sample)",
+       "publishedAt": "2026-09-10",
+       "retrievedAt": "2026-09-10T00:00:00Z",
+       "contentHash": "dc623cacea79b1f49c1a38588675becb86edcee3ca54d43c100428f8ce8a3d4c",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-warn-orchard": {
+      "id": "sc-warn-orchard",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Orchard Semiconductor (sample), San Jose facility",
+      "excerpt": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff....",
+      "text": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff. The notice states the layoff is permanent and that the facility will remain open.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "orchard",
+      "keyClaims": [
+       {
+        "text": "The WARN notice reports a layoff affecting 214 employees at the San Jose facility.",
+        "quote": "reporting a layoff affecting 214 employees at its San Jose facility"
+       },
+       {
+        "text": "The notice lists November 9, 2026 as the separation date.",
+        "quote": "lists an effective separation date of November 9, 2026"
+       }
+      ],
+      "nextQuestions": [
+       "Which job categories account for most of the 214 affected employees?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-09-08",
+       "retrievedAt": "2026-09-08T00:00:00Z",
+       "contentHash": "bf7de2ce5e88822feb4f146e14259bbce959a954d09822cdceae602538fc756d",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-hiring-signal": {
+      "id": "sc-art-hiring-signal",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "City weighs software to rank job applicants",
+      "excerpt": "The city council (sample) is considering a contract for software that ranks applicants for city jobs. Council members asked how the annual audit would be shared with the public. A labor representative said applicants should be told when an automated hiring tool is used.",
+      "text": "The city council (sample) is considering a contract for software that ranks applicants for city jobs. Council members asked how the annual audit would be shared with the public. A labor representative said applicants should be told when an automated hiring tool is used.",
+      "section": "industry",
+      "topics": [
+       "local-government",
+       "labor"
+      ],
+      "entities": [
+       "automated-hiring"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "sc-hiring",
+      "keyClaims": [
+       {
+        "text": "Council members asked how the annual audit would be shared with the public.",
+        "quote": "Council members asked how the annual audit would be shared with the public"
+       },
+       {
+        "text": "A labor representative said applicants should be told when the tool is used.",
+        "quote": "applicants should be told when an automated hiring tool is used"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Peninsula Signal (sample)",
+       "author": "Priya Raman (sample)",
+       "publishedAt": "2026-09-18",
+       "retrievedAt": "2026-09-18T00:00:00Z",
+       "contentHash": "0c81465d3f8c0d67a59fa591d1c2e414b62f8e015908fce1b0af555309fd73b2",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "fr-2026-19835": {
+      "id": "fr-2026-19835",
+      "kind": "federal-register",
+      "recordType": "document",
+      "docType": "Notice",
+      "title": "Proposed Revision of Information Collection; National Longitudinal Survey of Youth 1979",
+      "excerpt": "The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance consultation program to provide the general public and Federal agencies with an opportunity to comment on proposed and/or continuing collections of information in accordance with the Paperwork Reduction Act of 1995. This program helps to ensure that requested data can be provided in the desired format, reporting burden (time and financial resources) is minimized, collection instruments are clearly understood, and the impact of collection requirements on respondents can...",
+      "text": "The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance consultation program to provide the general public and Federal agencies with an opportunity to comment on proposed and/or continuing collections of information in accordance with the Paperwork Reduction Act of 1995. This program helps to ensure that requested data can be provided in the desired format, reporting burden (time and financial resources) is minimized, collection instruments are clearly understood, and the impact of collection requirements on respondents can be properly assessed. The Bureau of Labor Statistics (BLS) is soliciting comments concerning the proposed revision of the \"National Longitudinal Survey of Youth 1979.\" A copy of the proposed information collection request can be obtained by contacting the individual listed below in the Addresses section of this notice.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [],
+      "agency": "Labor Department",
+      "commentDeadline": "2026-11-30",
+      "provenance": {
+       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19835/proposed-revision-of-information-collection-national-longitudinal-survey-of-youth-1979",
+       "outlet": "Labor Department",
+       "author": "Labor Department",
+       "publishedAt": "2026-09-29",
+       "retrievedAt": "2026-10-27T11:33:13.682Z",
+       "contentHash": "7692d917a526c285d807afe8ec2453fb2d406416b447ab4523c5a6b1d9bc5d41",
+       "isSample": false,
+       "license": "Public domain (U.S. government work)"
+      }
+     },
+     "arxiv-2609.33367v3": {
+      "id": "arxiv-2609.33367v3",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Is AI Widening the Wage Gap? A Hybrid Agentic Simulation for Labor Equity",
+      "excerpt": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic...",
+      "text": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic data from China, we simulate changes in wage distribution under repeated AI shocks. The results show that both the average-wage ratio between workers in the top and bottom income deciles (T10/B10) and the Gini coefficient increase persistently, suggesting that AI shocks widen the wage gap and exacerbate income inequality. This pattern of a widening wage gap remains robust across alternative large language model decision engines and 30 Monte Carlo simulations. We further conduct counterfactual policy experiments. The results show that education subsidies targeted at low-income workers increase both the number of skill-upgrading attempts and the number of successful upgrades, with particularly pronounced improvements in the upskilling success probability of workers in the bottom income decile. These effects enable the policy to partially mitigate wage inequality. The proposed framework provides an interpretable simulation approach for examining the effects and mechanisms of AI shocks on wage distribution. It also offers policymakers a complementary analytical tool for evaluating policy interventions.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education",
+       "labor"
+      ],
+      "entities": [
+       "artificial-intelligence"
+      ],
+      "authors": [
+       "Zhongbo Hu",
+       "Zonghan Wu",
+       "Georgina Curto",
+       "Aocheng Tang",
+       "Yilei Shao"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2609.33367v3",
+       "outlet": "arXiv",
+       "author": "Zhongbo Hu, Zonghan Wu, Georgina Curto et al.",
+       "publishedAt": "2026-09-27",
+       "retrievedAt": "2026-10-27T11:33:16.922Z",
+       "contentHash": "12e283a61e459cd1e9ae7acdada0e4fc3890a5942d2cd570a2696aad0ba3a9bf",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2609.15744v1": {
+      "id": "arxiv-2609.15744v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+      "excerpt": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges. Financial risk early warning systems often suffer from inefficiency due to information silos and monitoring delays. This paper proposes a credit risk early warning system based on heterogeneous information fusion. The system employs a model architecture integrating deep neural networks and attention mechanisms to extract multidimensional features from diverse data sources such as transaction behaviors and social networks, thereby establishing an early...",
+      "text": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges. Financial risk early warning systems often suffer from inefficiency due to information silos and monitoring delays. This paper proposes a credit risk early warning system based on heterogeneous information fusion. The system employs a model architecture integrating deep neural networks and attention mechanisms to extract multidimensional features from diverse data sources such as transaction behaviors and social networks, thereby establishing an early identification mechanism for corporate and individual credit risks. System testing demonstrates that this approach significantly enhances the accuracy and timeliness of risk warnings, outperforming traditional rule-based engine solutions. The findings offer innovative insights for early intervention in financial risks, holding practical significance for safeguarding financial stability.",
+      "section": "finance",
+      "topics": [
+       "research",
+       "labor",
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "authors": [
+       "LiYang Wang",
+       "Zhen Zhong",
+       "Zhen Tian",
+       "Keyu Chen",
+       "Keyu Chen"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2609.15744v1",
+       "outlet": "arXiv",
+       "author": "LiYang Wang, Zhen Zhong, Zhen Tian et al.",
+       "publishedAt": "2026-09-14",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "68bd19a2e8fae85337040ad18ba75d32358e8adf7d98e748ed16cdbd5f613e4c",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "sc-warn-brightpath": {
+      "id": "sc-warn-brightpath",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Brightpath Customer Support (sample), Santa Clara call center",
+      "excerpt": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+      "text": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "brightpath",
+      "keyClaims": [
+       {
+        "text": "The notice reports the call center closure affects 96 employees.",
+        "quote": "reporting the closure of its Santa Clara call center, affecting 96 employees"
+       },
+       {
+        "text": "The notice cites a shift to automated customer service systems.",
+        "quote": "The notice cites a shift to automated customer service systems"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-10-15",
+       "retrievedAt": "2026-10-15T00:00:00Z",
+       "contentHash": "f8442b42dfd46060ceb41c25d78d7d43e3acc4a699b95cf1d03796bae1c97563",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-board-dataagreement": {
+      "id": "sc-board-dataagreement",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "School board agenda item",
+      "title": "School board agenda: renewal of a student data-sharing agreement with an education software vendor (sample)",
+      "excerpt": "Item 9.1: Renew a three-year data-sharing agreement allowing an education software vendor to process student names, grades and usage logs. The renewal adds a clause permitting the vendor to use de-identified data to improve its products. Public comment will be taken before...",
+      "text": "Item 9.1: Renew a three-year data-sharing agreement allowing an education software vendor to process student names, grades and usage logs. The renewal adds a clause permitting the vendor to use de-identified data to improve its products. Public comment will be taken before the vote on October 22, 2026.",
+      "section": "education",
+      "topics": [
+       "education",
+       "local-government"
+      ],
+      "entities": [
+       "student-data-privacy"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-data",
+      "keyClaims": [
+       {
+        "text": "The renewal would let the vendor use de-identified student data to improve its products.",
+        "quote": "permitting the vendor to use de-identified data to improve its products"
+       },
+       {
+        "text": "Public comment will be taken before the vote on October 22, 2026.",
+        "quote": "Public comment will be taken before the vote on October 22, 2026"
+       }
+      ],
+      "nextQuestions": [
+       "What does the agreement say about re-identification and data deletion?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Example Unified School District board (sample)",
+       "author": "District staff report (sample)",
+       "publishedAt": "2026-10-08",
+       "retrievedAt": "2026-10-08T00:00:00Z",
+       "contentHash": "1b6442dd4ef98d7a1ca62eacdbd18b2049ef506e0cf6209a413924238db35b0a",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-council-datacenter": {
+      "id": "sc-council-datacenter",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "City council agenda item",
+      "title": "City council agenda: rezoning request for a data center and substation (Santa Clara County, sample)",
+      "excerpt": "Item 5: Consider a rezoning request to allow a 60-megawatt data center and an electrical substation on an industrial parcel. The staff report notes the project would require upgrades to the local power grid and estimates 35 permanent jobs. The planning commission recommended...",
+      "text": "Item 5: Consider a rezoning request to allow a 60-megawatt data center and an electrical substation on an industrial parcel. The staff report notes the project would require upgrades to the local power grid and estimates 35 permanent jobs. The planning commission recommended approval with conditions on noise and water use.",
+      "section": "industry",
+      "topics": [
+       "local-government"
+      ],
+      "entities": [
+       "data-centers"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "sc-datacenter",
+      "keyClaims": [
+       {
+        "text": "The request would allow a 60-megawatt data center and a substation.",
+        "quote": "allow a 60-megawatt data center and an electrical substation on an industrial parcel"
+       },
+       {
+        "text": "The staff report says the project would require local power grid upgrades.",
+        "quote": "the project would require upgrades to the local power grid"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "City council (sample)",
+       "author": "City planning staff (sample)",
+       "publishedAt": "2026-09-30",
+       "retrievedAt": "2026-09-30T00:00:00Z",
+       "contentHash": "d3aefd07ec9d58592573b983d92ac68d23e23040a58804a248e3807675ab5a6c",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-backtest": {
+      "id": "sc-art-backtest",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Startup says its credit model beat traditional scoring in a historical test",
+      "excerpt": "Larkspur Analytics (sample), a startup, said its credit model would have approved 12 percent more applicants with no rise in defaults when tested on historical data from 2019 to 2023. The company has not deployed the model with any lender. Independent researchers have not...",
+      "text": "Larkspur Analytics (sample), a startup, said its credit model would have approved 12 percent more applicants with no rise in defaults when tested on historical data from 2019 to 2023. The company has not deployed the model with any lender. Independent researchers have not reviewed the results.",
+      "section": "finance",
+      "topics": [
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "larkspur",
+      "keyClaims": [
+       {
+        "text": "The company says, in a test on historical data, its model would have approved 12 percent more applicants.",
+        "quote": "would have approved 12 percent more applicants with no rise in defaults when tested on historical data"
+       },
+       {
+        "text": "The model has not been deployed with any lender.",
+        "quote": "The company has not deployed the model with any lender"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "South Bay Courier (sample)",
+       "author": "Sam Whitfield (sample)",
+       "publishedAt": "2026-09-29",
+       "retrievedAt": "2026-09-29T00:00:00Z",
+       "contentHash": "99ae454f83a09d38ebc46a4a6e1cfcb5d7838287765c01e5841c1726325666fb",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-bank-fraud": {
+      "id": "sc-art-bank-fraud",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Regional bank now uses automated fraud screening on all debit card transactions",
+      "excerpt": "Example Regional Bank (sample) now uses an automated fraud screening model on all debit card transactions, the bank said in a statement. Customers flagged by the model receive a text message asking them to confirm the purchase. The bank did not say how often the model flags...",
+      "text": "Example Regional Bank (sample) now uses an automated fraud screening model on all debit card transactions, the bank said in a statement. Customers flagged by the model receive a text message asking them to confirm the purchase. The bank did not say how often the model flags legitimate purchases.",
+      "section": "finance",
+      "topics": [
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "sc-bank",
+      "keyClaims": [
+       {
+        "text": "The bank says it now uses an automated fraud screening model on all debit card transactions.",
+        "quote": "now uses an automated fraud screening model on all debit card transactions"
+       },
+       {
+        "text": "The bank did not say how often the model flags legitimate purchases.",
+        "quote": "The bank did not say how often the model flags legitimate purchases"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Peninsula Signal (sample)",
+       "author": "Jordan Fields (sample)",
+       "publishedAt": "2026-10-12",
+       "retrievedAt": "2026-10-12T00:00:00Z",
+       "contentHash": "5bf466441fa5a1152bfc092ea80e819cc37a5393f735465b8c0acb7a2dec6962",
+       "isSample": true,
+       "license": "Sample"
+      }
+     }
+    }
+   }
+  },
+  {
+   "sampleWatchId": "santa-clara-schools",
+   "name": "AI in Santa Clara County schools",
+   "briefing": {
+    "id": "saved-santa-clara-schools",
+    "createdAt": "2026-10-27T11:46:46.447Z",
+    "mode": "saved",
+    "watch": {
+     "topics": [
+      "education"
+     ],
+     "organizations": "",
+     "questions": "",
+     "depth": "educator",
+     "county": "santa-clara-ca"
+    },
+    "items": [
+     {
+      "sourceId": "sc-art-chatbot-guidance",
+      "claims": [
+       {
+        "text": "A draft says students must note when they used a chatbot.",
+        "quote": "A draft shared with teachers says students must note when they used a chatbot",
+        "sourceId": "sc-art-chatbot-guidance",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-chatbot-guidance"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about this topic. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-art-chatbot-guidance"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-board-dataagreement",
+      "claims": [
+       {
+        "text": "The renewal would let the vendor use de-identified student data to improve its products.",
+        "quote": "permitting the vendor to use de-identified data to improve its products",
+        "sourceId": "sc-board-dataagreement",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-board-dataagreement"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       },
+       {
+        "text": "Public comment will be taken before the vote on October 22, 2026.",
+        "quote": "Public comment will be taken before the vote on October 22, 2026",
+        "sourceId": "sc-board-dataagreement",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-board-dataagreement"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a primary document about student data privacy. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What does the agreement say about re-identification and data deletion?",
+        "sourceId": "sc-board-dataagreement"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-study-tutor",
+      "claims": [
+       {
+        "text": "Students using the tutor completed homework sets 22 percent faster.",
+        "quote": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms",
+        "sourceId": "sc-study-tutor",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-study-tutor"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       },
+       {
+        "text": "On unfamiliar problem types, tutor users scored slightly lower.",
+        "quote": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group",
+        "sourceId": "sc-study-tutor",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-study-tutor"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about ai tutoring in schools. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-study-tutor"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-art-retraining",
+      "claims": [
+       {
+        "text": "The college is adding evening courses in equipment maintenance and data analysis.",
+        "quote": "adding evening courses in equipment maintenance and data analysis",
+        "sourceId": "sc-art-retraining",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-retraining"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "Instructors said the courses could help technicians move into maintenance roles.",
+        "quote": "Instructors said the courses could help technicians move into maintenance roles",
+        "sourceId": "sc-art-retraining",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-retraining"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about workforce training. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-art-retraining"
+       }
+      ]
+     },
+     {
+      "sourceId": "sc-art-tutor-teachers",
+      "claims": [
+       {
+        "text": "The district said it would report pilot results to the board in January.",
+        "quote": "The district said it would report results to the board in January",
+        "sourceId": "sc-art-tutor-teachers",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-tutor-teachers"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       },
+       {
+        "text": "Some teachers said students accepted hints without working through problems.",
+        "quote": "Others said students were accepting hints without working through problems",
+        "sourceId": "sc-art-tutor-teachers",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "sc-art-tutor-teachers"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about ai tutoring in schools. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "sc-art-tutor-teachers"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2610.35609v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think.\"",
+        "quote": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think.",
+        "sourceId": "arxiv-2610.35609v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2610.35609v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai tutoring in schools. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2610.35609v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2610.34659v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver.\"",
+        "quote": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver.",
+        "sourceId": "arxiv-2610.34659v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2610.34659v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai tutoring in schools. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2610.34659v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2610.33694v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components.\"",
+        "quote": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components.",
+        "sourceId": "arxiv-2610.33694v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2610.33694v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai tutoring in schools. It can anchor a class discussion on how a primary source differs from coverage of it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2610.33694v1"
+       }
+      ]
+     }
+    ],
+    "stories": [
+     "ai-tutoring",
+     "layoffs",
+     "workforce-training",
+     "student-data-privacy"
+    ],
+    "gaps": [
+     {
+      "sourceId": "sc-board-dataagreement",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a school board agenda item titled \"School board agenda: renewal of a student data-sharing agreement with an education software vendor (sample)\" (Sample data, 2026-10-08) has no matching news coverage in the sources we checked. Topic: Student data privacy. Possible reporting question: who in Santa Clara County, California is affected, and how?"
+     },
+     {
+      "sourceId": "sc-warn-brightpath",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a WARN notice titled \"WARN notice: Brightpath Customer Support (sample), Santa Clara call center\" (Sample data, 2026-10-15) has no matching news coverage in the sources we checked. Topic: Layoffs and WARN notices. Possible reporting question: who in Santa Clara County, California is affected, and how?"
+     },
+     {
+      "sourceId": "sc-council-datacenter",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a city council agenda item titled \"City council agenda: rezoning request for a data center and substation (Santa Clara County, sample)\" (Sample data, 2026-09-30) has no matching news coverage in the sources we checked. Topic: Data centers and power. Possible reporting question: who in Santa Clara County, California is affected, and how?"
+     }
+    ],
+    "beyond": [
+     {
+      "sourceId": "sc-warn-orchard",
+      "score": 9,
+      "components": {
+       "localImpact": 3,
+       "independentSources": 3,
+       "documentType": 3
+      },
+      "reason": "Shown because it concerns the county you chose; 3 independent outlets or agencies have records on this topic; it is a WARN notice, a primary document with direct effects. It is outside the topics you follow."
+     },
+     {
+      "sourceId": "sc-council-hiring",
+      "score": 8,
+      "components": {
+       "localImpact": 3,
+       "independentSources": 3,
+       "documentType": 2
+      },
+      "reason": "Shown because it concerns the county you chose; 3 independent outlets or agencies have records on this topic; it is a city council agenda item, a primary document with direct effects. It is outside the topics you follow."
+     }
+    ],
+    "unverified": [],
+    "disagreements": [],
+    "coverage": {
+     "sourcesChecked": [
+      {
+       "name": "Sample data",
+       "count": 5
+      },
+      {
+       "name": "arXiv preprint",
+       "count": 3
+      }
+     ],
+     "independentOutlets": [
+      "Example Unified School District board (sample)",
+      "Peninsula Signal (sample)",
+      "Sample research brief (sample)",
+      "South Bay Courier (sample)",
+      "Valley Ledger (sample)",
+      "arXiv"
+     ],
+     "thinCoverage": [
+      "Student data privacy: no news articles in the sources checked",
+      "Workforce training: one news article in the sources checked"
+     ]
+    },
+    "zoom": {
+     "county": [
+      "sc-art-chatbot-guidance",
+      "sc-board-dataagreement",
+      "sc-study-tutor",
+      "sc-art-retraining",
+      "sc-art-tutor-teachers"
+     ],
+     "region": [],
+     "nation": [
+      "arxiv-2610.35609v1",
+      "arxiv-2610.34659v1",
+      "arxiv-2610.33694v1"
+     ]
+    },
+    "sources": {
+     "sc-art-chatbot-guidance": {
+      "id": "sc-art-chatbot-guidance",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "District drafts guidance on student use of AI chatbots",
+      "excerpt": "Example Unified School District (sample) is drafting guidance on when students may use AI chatbots for homework. A draft shared with teachers says students must note when they used a chatbot. The board has not yet scheduled a vote.",
+      "text": "Example Unified School District (sample) is drafting guidance on when students may use AI chatbots for homework. A draft shared with teachers says students must note when they used a chatbot. The board has not yet scheduled a vote.",
+      "section": "education",
+      "topics": [
+       "education",
+       "ai-policy"
+      ],
+      "entities": [
+       "artificial-intelligence"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-chatbot",
+      "keyClaims": [
+       {
+        "text": "A draft says students must note when they used a chatbot.",
+        "quote": "A draft shared with teachers says students must note when they used a chatbot"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Valley Ledger (sample)",
+       "author": "Marcus Lee (sample)",
+       "publishedAt": "2026-10-09",
+       "retrievedAt": "2026-10-09T00:00:00Z",
+       "contentHash": "a94088c5ac6c13d2750690c2eab8de8f045300a46e073394840d1d1f26935c6d",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-board-dataagreement": {
+      "id": "sc-board-dataagreement",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "School board agenda item",
+      "title": "School board agenda: renewal of a student data-sharing agreement with an education software vendor (sample)",
+      "excerpt": "Item 9.1: Renew a three-year data-sharing agreement allowing an education software vendor to process student names, grades and usage logs. The renewal adds a clause permitting the vendor to use de-identified data to improve its products. Public comment will be taken before...",
+      "text": "Item 9.1: Renew a three-year data-sharing agreement allowing an education software vendor to process student names, grades and usage logs. The renewal adds a clause permitting the vendor to use de-identified data to improve its products. Public comment will be taken before the vote on October 22, 2026.",
+      "section": "education",
+      "topics": [
+       "education",
+       "local-government"
+      ],
+      "entities": [
+       "student-data-privacy"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-data",
+      "keyClaims": [
+       {
+        "text": "The renewal would let the vendor use de-identified student data to improve its products.",
+        "quote": "permitting the vendor to use de-identified data to improve its products"
+       },
+       {
+        "text": "Public comment will be taken before the vote on October 22, 2026.",
+        "quote": "Public comment will be taken before the vote on October 22, 2026"
+       }
+      ],
+      "nextQuestions": [
+       "What does the agreement say about re-identification and data deletion?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Example Unified School District board (sample)",
+       "author": "District staff report (sample)",
+       "publishedAt": "2026-10-08",
+       "retrievedAt": "2026-10-08T00:00:00Z",
+       "contentHash": "1b6442dd4ef98d7a1ca62eacdbd18b2049ef506e0cf6209a413924238db35b0a",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-study-tutor": {
+      "id": "sc-study-tutor",
+      "kind": "sample",
+      "recordType": "study",
+      "docType": "Study",
+      "title": "Sample study: AI tutoring and grade 8 algebra outcomes",
+      "excerpt": "In a sample evaluation of 212 grade 8 students across six classrooms, students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms. On a unit test, scores were similar between groups. On a transfer task with unfamiliar problem...",
+      "text": "In a sample evaluation of 212 grade 8 students across six classrooms, students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms. On a unit test, scores were similar between groups. On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group. Classrooms were not randomly assigned, and the study ran for eight weeks.",
+      "section": "education",
+      "topics": [
+       "education",
+       "research"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-tutor",
+      "keyClaims": [
+       {
+        "text": "Students using the tutor completed homework sets 22 percent faster.",
+        "quote": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms"
+       },
+       {
+        "text": "On unfamiliar problem types, tutor users scored slightly lower.",
+        "quote": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+       }
+      ],
+      "peerReviewed": false,
+      "study": {
+       "population": "212 grade 8 students across six classrooms (sample data)",
+       "outcome": "Homework completion time, unit test scores, and a transfer task with unfamiliar problem types",
+       "comparison": "Classrooms not using the tutor. Classrooms were not randomly assigned.",
+       "limitations": "Not randomly assigned; ran for eight weeks; sample study, not peer reviewed.",
+       "fasterCompletion": "students using the AI tutor completed homework sets 22 percent faster than students in comparison classrooms",
+       "transfer": "On a transfer task with unfamiliar problem types, students using the tutor scored slightly lower than the comparison group"
+      },
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Sample research brief (sample)",
+       "author": "Evaluation team (sample)",
+       "publishedAt": "2026-10-01",
+       "retrievedAt": "2026-10-01T00:00:00Z",
+       "contentHash": "4d3515c9b4da86dcc0c432e10b3752281446fd63465cde49e513c7a2135f9731",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-retraining": {
+      "id": "sc-art-retraining",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Community college expands evening retraining courses for laid-off technicians",
+      "excerpt": "A community college in Santa Clara County (sample) is adding evening courses in equipment maintenance and data analysis for workers affected by recent layoffs. The college said enrollment would open in October. Instructors said the courses could help technicians move into...",
+      "text": "A community college in Santa Clara County (sample) is adding evening courses in equipment maintenance and data analysis for workers affected by recent layoffs. The college said enrollment would open in October. Instructors said the courses could help technicians move into maintenance roles, though placement rates are not yet known.",
+      "section": "industry",
+      "topics": [
+       "labor",
+       "education"
+      ],
+      "entities": [
+       "workforce-training",
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "sc-college",
+      "keyClaims": [
+       {
+        "text": "The college is adding evening courses in equipment maintenance and data analysis.",
+        "quote": "adding evening courses in equipment maintenance and data analysis"
+       },
+       {
+        "text": "Instructors said the courses could help technicians move into maintenance roles.",
+        "quote": "Instructors said the courses could help technicians move into maintenance roles"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Peninsula Signal (sample)",
+       "author": "Priya Raman (sample)",
+       "publishedAt": "2026-09-24",
+       "retrievedAt": "2026-09-24T00:00:00Z",
+       "contentHash": "2a090e830c396515923568863a65b5fa60661ec6704f663b0430ca232ddcaf00",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-art-tutor-teachers": {
+      "id": "sc-art-tutor-teachers",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Math teachers split on AI tutor as pilot begins",
+      "excerpt": "As the AI tutoring pilot began in three middle schools, some math teachers said the tool frees time for small-group instruction. Others said students were accepting hints without working through problems. The district said it would report results to the board in January.",
+      "text": "As the AI tutoring pilot began in three middle schools, some math teachers said the tool frees time for small-group instruction. Others said students were accepting hints without working through problems. The district said it would report results to the board in January.",
+      "section": "education",
+      "topics": [
+       "education"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "eusd-tutor",
+      "keyClaims": [
+       {
+        "text": "The district said it would report pilot results to the board in January.",
+        "quote": "The district said it would report results to the board in January"
+       },
+       {
+        "text": "Some teachers said students accepted hints without working through problems.",
+        "quote": "Others said students were accepting hints without working through problems"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "South Bay Courier (sample)",
+       "author": "Lena Park (sample)",
+       "publishedAt": "2026-09-15",
+       "retrievedAt": "2026-09-15T00:00:00Z",
+       "contentHash": "17ddc4ba54589b0e7404b84b57061b5f51885c3a47c620c0baa5d929527d93be",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "arxiv-2610.35609v1": {
+      "id": "arxiv-2610.35609v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Making Reasoning Visible: Configuration-Aware Diagnostic Modeling for Adaptive Scaffolding in Structured Reasoning Tasks",
+      "excerpt": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and...",
+      "text": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and behavioral patterns, and classifies reasoning into four distinct states. Analyzing 36,234 interactions from 234 students working on 42 morphosyntactic exercises, we found that reasoning strategies vary primarily by context rather than stable traits (intraclass correlation = 0.14), and students show high persistence in unproductive states; specifically, 74.6% of failures driven by high coordination demand (rather than simple knowledge gaps) are followed by another failure without intervention. Our early warning model predicts validation success with strong accuracy (AUC = 0.826 using strategy patterns alone; 0.902 with additional sequential context) while avoiding circular reliance on current error counts. These findings demonstrate that making latent reasoning processes visible enables earlier, more targeted scaffolding that responds to how students are thinking rather than simply whether they succeed. While demonstrated in language learning, the framework provides a generalizable, interpretable architecture for diagnosing complex, structured reasoning in any domain.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "authors": [
+       "Trystan Geoffre",
+       "Zheng Yuan",
+       "Thierry Geoffre"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2610.35609v1",
+       "outlet": "arXiv",
+       "author": "Trystan Geoffre, Zheng Yuan, Thierry Geoffre",
+       "publishedAt": "2026-10-26",
+       "retrievedAt": "2026-10-27T11:33:13.967Z",
+       "contentHash": "8e63293e267b91efffc77976e43f8e99df162129b78d753c344149af5aa91ee5",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2610.34659v1": {
+      "id": "arxiv-2610.34659v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "AdaTutor: Adaptive Tutoring through Pedagogical Strategy Selection",
+      "excerpt": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and...",
+      "text": "Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and its strategy selection can also inform a separate API-based tutor.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "authors": [
+       "Rajeev Bhatt Ambati",
+       "Shashank Srivastava",
+       "Snigdha Chaturvedi"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2610.34659v1",
+       "outlet": "arXiv",
+       "author": "Rajeev Bhatt Ambati, Shashank Srivastava, Snigdha Chaturvedi",
+       "publishedAt": "2026-10-26",
+       "retrievedAt": "2026-10-27T11:33:13.967Z",
+       "contentHash": "2935913e5bf0893ec0f1d66cd9fc587907a6bda1c9bd73db8232fd854cb4d2a3",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2610.33694v1": {
+      "id": "arxiv-2610.33694v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Embedding-Based Educational Taxonomies",
+      "excerpt": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components. These taxonomies define learning objectives in educational applications such as intelligent tutoring systems. Developed through human expertise and iterative refinement, they also provide fundamental structure for curricula, assessment, and models of student learning. Recent advances in semantic text embeddings make it possible to construct alternative educational taxonomies computationally from the content itself. In this paper, we investigate...",
+      "text": "Educational taxonomies organize educational content, such as exercise problems, into concepts, which are also called skills or knowledge components. These taxonomies define learning objectives in educational applications such as intelligent tutoring systems. Developed through human expertise and iterative refinement, they also provide fundamental structure for curricula, assessment, and models of student learning. Recent advances in semantic text embeddings make it possible to construct alternative educational taxonomies computationally from the content itself. In this paper, we investigate this possibility by clustering embeddings of math questions to construct embedding-based educational taxonomies. We compare these taxonomies with the existing Common Core State Standards (CCSS)-based knowledge-component taxonomies in two ASSISTments datasets and evaluate their utility in Deep Knowledge Tracing, a downstream task that relies on taxonomic mappings of questions to knowledge components. The embedding-based taxonomies exhibit substantial but incomplete correspondence with the existing taxonomies, revealing both preserved and alternative organizations of educational content. When used for knowledge tracing, they improve predictive performance by approximately 3-5 AUC percentage points. These results demonstrate the potential of semantic embeddings for automatically constructing educational taxonomies that both recover structure present in human-developed taxonomies and provide useful alternative representations for downstream educational modeling.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "authors": [
+       "Kia Karbasi",
+       "Kaveh Karbasi",
+       "Gregory Pottie"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2610.33694v1",
+       "outlet": "arXiv",
+       "author": "Kia Karbasi, Kaveh Karbasi, Gregory Pottie",
+       "publishedAt": "2026-10-24",
+       "retrievedAt": "2026-10-27T11:33:13.967Z",
+       "contentHash": "f725a8cdc4a30226a8b00009e7ae3c5e3e63f5ae2a1f6c332f1fb4cfba8af554",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "sc-warn-brightpath": {
+      "id": "sc-warn-brightpath",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Brightpath Customer Support (sample), Santa Clara call center",
+      "excerpt": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+      "text": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "brightpath",
+      "keyClaims": [
+       {
+        "text": "The notice reports the call center closure affects 96 employees.",
+        "quote": "reporting the closure of its Santa Clara call center, affecting 96 employees"
+       },
+       {
+        "text": "The notice cites a shift to automated customer service systems.",
+        "quote": "The notice cites a shift to automated customer service systems"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-10-15",
+       "retrievedAt": "2026-10-15T00:00:00Z",
+       "contentHash": "f8442b42dfd46060ceb41c25d78d7d43e3acc4a699b95cf1d03796bae1c97563",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-council-datacenter": {
+      "id": "sc-council-datacenter",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "City council agenda item",
+      "title": "City council agenda: rezoning request for a data center and substation (Santa Clara County, sample)",
+      "excerpt": "Item 5: Consider a rezoning request to allow a 60-megawatt data center and an electrical substation on an industrial parcel. The staff report notes the project would require upgrades to the local power grid and estimates 35 permanent jobs. The planning commission recommended...",
+      "text": "Item 5: Consider a rezoning request to allow a 60-megawatt data center and an electrical substation on an industrial parcel. The staff report notes the project would require upgrades to the local power grid and estimates 35 permanent jobs. The planning commission recommended approval with conditions on noise and water use.",
+      "section": "industry",
+      "topics": [
+       "local-government"
+      ],
+      "entities": [
+       "data-centers"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "sc-datacenter",
+      "keyClaims": [
+       {
+        "text": "The request would allow a 60-megawatt data center and a substation.",
+        "quote": "allow a 60-megawatt data center and an electrical substation on an industrial parcel"
+       },
+       {
+        "text": "The staff report says the project would require local power grid upgrades.",
+        "quote": "the project would require upgrades to the local power grid"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "City council (sample)",
+       "author": "City planning staff (sample)",
+       "publishedAt": "2026-09-30",
+       "retrievedAt": "2026-09-30T00:00:00Z",
+       "contentHash": "d3aefd07ec9d58592573b983d92ac68d23e23040a58804a248e3807675ab5a6c",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-warn-orchard": {
+      "id": "sc-warn-orchard",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Orchard Semiconductor (sample), San Jose facility",
+      "excerpt": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff....",
+      "text": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff. The notice states the layoff is permanent and that the facility will remain open.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "orchard",
+      "keyClaims": [
+       {
+        "text": "The WARN notice reports a layoff affecting 214 employees at the San Jose facility.",
+        "quote": "reporting a layoff affecting 214 employees at its San Jose facility"
+       },
+       {
+        "text": "The notice lists November 9, 2026 as the separation date.",
+        "quote": "lists an effective separation date of November 9, 2026"
+       }
+      ],
+      "nextQuestions": [
+       "Which job categories account for most of the 214 affected employees?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-09-08",
+       "retrievedAt": "2026-09-08T00:00:00Z",
+       "contentHash": "bf7de2ce5e88822feb4f146e14259bbce959a954d09822cdceae602538fc756d",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-council-hiring": {
+      "id": "sc-council-hiring",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "City council agenda item",
+      "title": "City council agenda: contract for an automated applicant screening tool (sample)",
+      "excerpt": "Item 8: Approve a two-year contract for an automated hiring tool that ranks applicants for city jobs. The staff report says the tool will be audited annually for disparate impact. Human reviewers will make final hiring decisions.",
+      "text": "Item 8: Approve a two-year contract for an automated hiring tool that ranks applicants for city jobs. The staff report says the tool will be audited annually for disparate impact. Human reviewers will make final hiring decisions.",
+      "section": "industry",
+      "topics": [
+       "local-government",
+       "labor",
+       "ai-policy"
+      ],
+      "entities": [
+       "automated-hiring"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "sc-hiring",
+      "keyClaims": [
+       {
+        "text": "The contract covers an automated tool that ranks applicants for city jobs.",
+        "quote": "an automated hiring tool that ranks applicants for city jobs"
+       },
+       {
+        "text": "The staff report says the tool will be audited annually for disparate impact.",
+        "quote": "the tool will be audited annually for disparate impact"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "City council (sample)",
+       "author": "City human resources staff (sample)",
+       "publishedAt": "2026-09-16",
+       "retrievedAt": "2026-09-16T00:00:00Z",
+       "contentHash": "08d6a3ffbf77b556d180855b0e2b359395f1501a8e6b447ab8d5f6c4040fe409",
+       "isSample": true,
+       "license": "Sample"
+      }
+     }
+    }
+   }
+  },
+  {
+   "sampleWatchId": "stanislaus-work",
+   "name": "Warehouse automation in Stanislaus County",
+   "briefing": {
+    "id": "saved-stanislaus-work",
+    "createdAt": "2026-10-27T11:46:46.447Z",
+    "mode": "saved",
+    "watch": {
+     "topics": [
+      "labor",
+      "education"
+     ],
+     "organizations": "",
+     "questions": "",
+     "depth": "student",
+     "county": "stanislaus-ca"
+    },
+    "items": [
+     {
+      "sourceId": "st-art-college",
+      "claims": [
+       {
+        "text": "The college is adding a robot maintenance certificate starting in January.",
+        "quote": "adding a robot maintenance certificate starting in January",
+        "sourceId": "st-art-college",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-art-college"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "Tuition assistance is available for workers who received layoff notices.",
+        "quote": "Tuition assistance is available for workers who received layoff notices",
+        "sourceId": "st-art-college",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-art-college"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about workforce training. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "st-art-college"
+       }
+      ]
+     },
+     {
+      "sourceId": "st-art-halcyon-gazette",
+      "claims": [
+       {
+        "text": "The company did not say how many workers the training program would include.",
+        "quote": "a training program would be offered to some affected workers, but did not say how many",
+        "sourceId": "st-art-halcyon-gazette",
+        "similarity": 1,
+        "independentSources": 2,
+        "supportingSourceIds": [
+         "st-art-halcyon-gazette",
+         "st-art-halcyon-dispatch"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       },
+       {
+        "text": "A workforce board official said robot maintenance roles typically require several months of training.",
+        "quote": "robot maintenance roles typically require several months of training",
+        "sourceId": "st-art-halcyon-gazette",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-art-halcyon-gazette"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about warehouse automation. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "st-art-halcyon-gazette"
+       }
+      ]
+     },
+     {
+      "sourceId": "st-board-tutor",
+      "claims": [
+       {
+        "text": "The agenda proposes buying AI tutoring licenses for grades 6 through 8 at a cost of $31,500.",
+        "quote": "AI tutoring software licenses for grades 6 through 8 at a cost of $31,500",
+        "sourceId": "st-board-tutor",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-board-tutor"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "The staff report does not describe how learning outcomes will be evaluated.",
+        "quote": "The staff report does not describe how the district will evaluate learning outcomes",
+        "sourceId": "st-board-tutor",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-board-tutor"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a primary document about ai tutoring in schools. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "How will the district tell faster completion apart from learning that transfers?",
+        "sourceId": "st-board-tutor"
+       }
+      ]
+     },
+     {
+      "sourceId": "st-art-halcyon-dispatch",
+      "claims": [
+       {
+        "text": "The layoff affects 130 workers, citing a state WARN filing.",
+        "quote": "will lay off 130 workers at its fulfillment center in Stanislaus County",
+        "sourceId": "st-art-halcyon-dispatch",
+        "similarity": 1,
+        "independentSources": 2,
+        "supportingSourceIds": [
+         "st-art-halcyon-dispatch",
+         "st-warn-halcyon"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "The company said it would offer some workers training to maintain the robots.",
+        "quote": "The company said it would offer some workers training to maintain the robots",
+        "sourceId": "st-art-halcyon-dispatch",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-art-halcyon-dispatch"
+        ],
+        "labels": [
+         "Speculative"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a news report about warehouse automation. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "What primary document would confirm this report?",
+        "sourceId": "st-art-halcyon-dispatch"
+       }
+      ]
+     },
+     {
+      "sourceId": "st-warn-halcyon",
+      "claims": [
+       {
+        "text": "The notice reports a layoff of 130 employees at the fulfillment center.",
+        "quote": "reporting a layoff of 130 employees at its fulfillment center in Stanislaus County",
+        "sourceId": "st-warn-halcyon",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-warn-halcyon"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       },
+       {
+        "text": "The notice cites robotic picking systems.",
+        "quote": "The notice cites the installation of robotic picking systems",
+        "sourceId": "st-warn-halcyon",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "st-warn-halcyon"
+        ],
+        "labels": [
+         "Supported"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a primary document about warehouse automation. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "Sample data"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Which local institutions are directly affected, and when?",
+        "sourceId": "st-warn-halcyon"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2609.33367v3",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood.\"",
+        "quote": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood.",
+        "sourceId": "arxiv-2609.33367v3",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2609.33367v3"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about this topic. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2609.33367v3"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2608.11512v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"The question of whether artificial intelligence will \"destroy jobs\" is too coarse to guide economic analysis or institutional design.\"",
+        "quote": "The question of whether artificial intelligence will \"destroy jobs\" is too coarse to guide economic analysis or institutional design.",
+        "sourceId": "arxiv-2608.11512v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2608.11512v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about workforce training. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2608.11512v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2610.35609v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think.\"",
+        "quote": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think.",
+        "sourceId": "arxiv-2610.35609v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2610.35609v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai tutoring in schools. Read the original to see who wrote it and what evidence it gives.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2610.35609v1"
+       }
+      ]
+     }
+    ],
+    "stories": [
+     "ai-tutoring",
+     "layoffs",
+     "workforce-training",
+     "warehouse-automation"
+    ],
+    "gaps": [
+     {
+      "sourceId": "st-board-tutor",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a school board agenda item titled \"School board agenda: AI tutoring software purchase (Riverbend Unified School District, sample)\" (Sample data, 2026-10-20) has no matching news coverage in the sources we checked. Topic: AI tutoring in schools. Possible reporting question: who in Stanislaus County, California is affected, and how?"
+     },
+     {
+      "sourceId": "st-council-datacenter",
+      "label": "Not yet reported by a journalist",
+      "tip": "Tip for a partner newsroom: a city council agenda item titled \"City council agenda: data center application using recycled water (Stanislaus County, sample)\" (Sample data, 2026-10-13) has no matching news coverage in the sources we checked. Topic: Data centers and power. Possible reporting question: who in Stanislaus County, California is affected, and how?"
+     }
+    ],
+    "beyond": [
+     {
+      "sourceId": "st-art-farm-lending",
+      "score": 7,
+      "components": {
+       "localImpact": 3,
+       "independentSources": 3,
+       "documentType": 1
+      },
+      "reason": "Shown because it concerns the county you chose; 3 independent outlets or agencies have records on this topic. It is outside the topics you follow."
+     },
+     {
+      "sourceId": "fr-2026-07804",
+      "score": 4,
+      "components": {
+       "localImpact": 1,
+       "independentSources": 0,
+       "documentType": 3
+      },
+      "reason": "Shown because it is a federal document that applies nationally; it is a rule, a primary document with direct effects. It is outside the topics you follow."
+     }
+    ],
+    "unverified": [],
+    "disagreements": [],
+    "coverage": {
+     "sourcesChecked": [
+      {
+       "name": "Sample data",
+       "count": 5
+      },
+      {
+       "name": "arXiv preprint",
+       "count": 3
+      }
+     ],
+     "independentOutlets": [
+      "Central Valley Gazette (sample)",
+      "Riverbend Dispatch (sample)",
+      "Riverbend Unified School District board (sample)",
+      "State WARN notice listing (sample)",
+      "arXiv"
+     ],
+     "thinCoverage": [
+      "AI tutoring in schools: no news articles in the sources checked",
+      "Layoffs and WARN notices: one news article in the sources checked"
+     ]
+    },
+    "zoom": {
+     "county": [
+      "st-art-college",
+      "st-art-halcyon-gazette",
+      "st-board-tutor",
+      "st-art-halcyon-dispatch",
+      "st-warn-halcyon"
+     ],
+     "region": [],
+     "nation": [
+      "arxiv-2609.33367v3",
+      "arxiv-2608.11512v1",
+      "arxiv-2610.35609v1"
+     ]
+    },
+    "sources": {
+     "st-art-college": {
+      "id": "st-art-college",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Community college adds a robot maintenance certificate",
+      "excerpt": "A community college in Stanislaus County (sample) is adding a robot maintenance certificate starting in January. The college said the program was designed with input from local warehouse employers. Tuition assistance is available for workers who received layoff notices.",
+      "text": "A community college in Stanislaus County (sample) is adding a robot maintenance certificate starting in January. The college said the program was designed with input from local warehouse employers. Tuition assistance is available for workers who received layoff notices.",
+      "section": "education",
+      "topics": [
+       "education",
+       "labor"
+      ],
+      "entities": [
+       "workforce-training"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "st-college",
+      "keyClaims": [
+       {
+        "text": "The college is adding a robot maintenance certificate starting in January.",
+        "quote": "adding a robot maintenance certificate starting in January"
+       },
+       {
+        "text": "Tuition assistance is available for workers who received layoff notices.",
+        "quote": "Tuition assistance is available for workers who received layoff notices"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Riverbend Dispatch (sample)",
+       "author": "Alma Reyes (sample)",
+       "publishedAt": "2026-10-16",
+       "retrievedAt": "2026-10-16T00:00:00Z",
+       "contentHash": "ffcf178f5a9ce74db1f9be4906c4f3a7aac46e496382450197b3e424efa82dbe",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "st-art-halcyon-gazette": {
+      "id": "st-art-halcyon-gazette",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Warehouse automation layoffs spark a training debate",
+      "excerpt": "Halcyon Logistics (sample) said a training program would be offered to some affected workers, but did not say how many. A workforce board official said robot maintenance roles typically require several months of training. Some workers said they would look for warehouse jobs...",
+      "text": "Halcyon Logistics (sample) said a training program would be offered to some affected workers, but did not say how many. A workforce board official said robot maintenance roles typically require several months of training. Some workers said they would look for warehouse jobs elsewhere.",
+      "section": "industry",
+      "topics": [
+       "labor",
+       "education"
+      ],
+      "entities": [
+       "warehouse-automation",
+       "workforce-training"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "halcyon",
+      "keyClaims": [
+       {
+        "text": "The company did not say how many workers the training program would include.",
+        "quote": "a training program would be offered to some affected workers, but did not say how many",
+        "corroboration": [
+         {
+          "sourceId": "st-art-halcyon-dispatch",
+          "quote": "would offer some workers training to maintain the robots"
+         }
+        ]
+       },
+       {
+        "text": "A workforce board official said robot maintenance roles typically require several months of training.",
+        "quote": "robot maintenance roles typically require several months of training"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Central Valley Gazette (sample)",
+       "author": "Tom Becker (sample)",
+       "publishedAt": "2026-10-04",
+       "retrievedAt": "2026-10-04T00:00:00Z",
+       "contentHash": "a2bbbf3453431f79d33d3421c6d7d35ee73542a995ee9c97c6b72d0872549369",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "st-board-tutor": {
+      "id": "st-board-tutor",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "School board agenda item",
+      "title": "School board agenda: AI tutoring software purchase (Riverbend Unified School District, sample)",
+      "excerpt": "Item 6.4: Approve purchase of AI tutoring software licenses for grades 6 through 8 at a cost of $31,500. The staff report does not describe how the district will evaluate learning outcomes. Vote scheduled for November 5, 2026.",
+      "text": "Item 6.4: Approve purchase of AI tutoring software licenses for grades 6 through 8 at a cost of $31,500. The staff report does not describe how the district will evaluate learning outcomes. Vote scheduled for November 5, 2026.",
+      "section": "education",
+      "topics": [
+       "education",
+       "local-government"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "riverbend-tutor",
+      "keyClaims": [
+       {
+        "text": "The agenda proposes buying AI tutoring licenses for grades 6 through 8 at a cost of $31,500.",
+        "quote": "AI tutoring software licenses for grades 6 through 8 at a cost of $31,500"
+       },
+       {
+        "text": "The staff report does not describe how learning outcomes will be evaluated.",
+        "quote": "The staff report does not describe how the district will evaluate learning outcomes"
+       }
+      ],
+      "nextQuestions": [
+       "How will the district tell faster completion apart from learning that transfers?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Riverbend Unified School District board (sample)",
+       "author": "District staff report (sample)",
+       "publishedAt": "2026-10-20",
+       "retrievedAt": "2026-10-20T00:00:00Z",
+       "contentHash": "62c87dc01ce149c69e2da54541b717110dfe1e952d63799c252a1654e911ac22",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "st-art-halcyon-dispatch": {
+      "id": "st-art-halcyon-dispatch",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Fulfillment center to lay off 130 as robots arrive",
+      "excerpt": "Halcyon Logistics (sample) will lay off 130 workers at its fulfillment center in Stanislaus County as it installs robotic picking systems, according to a state WARN filing. Workers said they learned of the cuts at a shift meeting. The company said it would offer some workers...",
+      "text": "Halcyon Logistics (sample) will lay off 130 workers at its fulfillment center in Stanislaus County as it installs robotic picking systems, according to a state WARN filing. Workers said they learned of the cuts at a shift meeting. The company said it would offer some workers training to maintain the robots.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "warehouse-automation",
+       "layoffs"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "halcyon",
+      "keyClaims": [
+       {
+        "text": "The layoff affects 130 workers, citing a state WARN filing.",
+        "quote": "will lay off 130 workers at its fulfillment center in Stanislaus County",
+        "corroboration": [
+         {
+          "sourceId": "st-warn-halcyon",
+          "quote": "reporting a layoff of 130 employees at its fulfillment center in Stanislaus County"
+         }
+        ]
+       },
+       {
+        "text": "The company said it would offer some workers training to maintain the robots.",
+        "quote": "The company said it would offer some workers training to maintain the robots"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Riverbend Dispatch (sample)",
+       "author": "Alma Reyes (sample)",
+       "publishedAt": "2026-10-02",
+       "retrievedAt": "2026-10-02T00:00:00Z",
+       "contentHash": "4277c0b7a1976fd89a60fc88def76bc6009aabf0bc0126ff2dbe3faabcddb448",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "st-warn-halcyon": {
+      "id": "st-warn-halcyon",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Halcyon Logistics (sample), fulfillment center",
+      "excerpt": "Halcyon Logistics (sample) filed a WARN notice reporting a layoff of 130 employees at its fulfillment center in Stanislaus County. The notice cites the installation of robotic picking systems. Separations are scheduled for December 1, 2026.",
+      "text": "Halcyon Logistics (sample) filed a WARN notice reporting a layoff of 130 employees at its fulfillment center in Stanislaus County. The notice cites the installation of robotic picking systems. Separations are scheduled for December 1, 2026.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "warehouse-automation",
+       "layoffs"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "halcyon",
+      "keyClaims": [
+       {
+        "text": "The notice reports a layoff of 130 employees at the fulfillment center.",
+        "quote": "reporting a layoff of 130 employees at its fulfillment center in Stanislaus County"
+       },
+       {
+        "text": "The notice cites robotic picking systems.",
+        "quote": "The notice cites the installation of robotic picking systems"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-09-29",
+       "retrievedAt": "2026-09-29T00:00:00Z",
+       "contentHash": "819be9ae597dc5ff4f94b9300e82dbaa1ad20ab85c69724c51e47f5b64d792e0",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "arxiv-2609.33367v3": {
+      "id": "arxiv-2609.33367v3",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Is AI Widening the Wage Gap? A Hybrid Agentic Simulation for Labor Equity",
+      "excerpt": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic...",
+      "text": "Artificial intelligence (AI) is reshaping labor markets, yet its effects on wage distribution and the underlying mechanisms remain insufficiently understood. Conventional analytical approaches are limited in their ability to directly examine the dynamic evolution of worker behavior and income distribution under sustained AI shocks and counterfactual policy scenarios. To address this limitation, we present a hybrid agentic framework that aims to challenges of scalability of rule-based models and the limited explainability in LLM-agentic frameworks. Using this framework and sociodemographic data from China, we simulate changes in wage distribution under repeated AI shocks. The results show that both the average-wage ratio between workers in the top and bottom income deciles (T10/B10) and the Gini coefficient increase persistently, suggesting that AI shocks widen the wage gap and exacerbate income inequality. This pattern of a widening wage gap remains robust across alternative large language model decision engines and 30 Monte Carlo simulations. We further conduct counterfactual policy experiments. The results show that education subsidies targeted at low-income workers increase both the number of skill-upgrading attempts and the number of successful upgrades, with particularly pronounced improvements in the upskilling success probability of workers in the bottom income decile. These effects enable the policy to partially mitigate wage inequality. The proposed framework provides an interpretable simulation approach for examining the effects and mechanisms of AI shocks on wage distribution. It also offers policymakers a complementary analytical tool for evaluating policy interventions.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education",
+       "labor"
+      ],
+      "entities": [
+       "artificial-intelligence"
+      ],
+      "authors": [
+       "Zhongbo Hu",
+       "Zonghan Wu",
+       "Georgina Curto",
+       "Aocheng Tang",
+       "Yilei Shao"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2609.33367v3",
+       "outlet": "arXiv",
+       "author": "Zhongbo Hu, Zonghan Wu, Georgina Curto et al.",
+       "publishedAt": "2026-09-27",
+       "retrievedAt": "2026-10-27T11:33:16.922Z",
+       "contentHash": "12e283a61e459cd1e9ae7acdada0e4fc3890a5942d2cd570a2696aad0ba3a9bf",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2608.11512v1": {
+      "id": "arxiv-2608.11512v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Cheap, Fallible Cognition and the Political Economy of Expertise",
+      "excerpt": "The question of whether artificial intelligence will \"destroy jobs\" is too coarse to guide economic analysis or institutional design. A job is not an indivisible object, and machine cognition is not a uniform substitute for human labor. This paper develops a task-based and institutionally grounded framework for analyzing generative AI as cheap, scalable, and fallible cognition. The relevant margins are exposure, adoption, verification, question selection, workflow redesign, demand elasticity, apprenticeship, and rent allocation. We distinguish the technical reach of large language models from...",
+      "text": "The question of whether artificial intelligence will \"destroy jobs\" is too coarse to guide economic analysis or institutional design. A job is not an indivisible object, and machine cognition is not a uniform substitute for human labor. This paper develops a task-based and institutionally grounded framework for analyzing generative AI as cheap, scalable, and fallible cognition. The relevant margins are exposure, adoption, verification, question selection, workflow redesign, demand elasticity, apprenticeship, and rent allocation. We distinguish the technical reach of large language models from equilibrium labor-market displacement by introducing a task vulnerability index and an adoption condition that makes verification, liability, trust, and governance explicit. We then model occupations as governance bundles rather than task lists, firms as architectures of distributed intelligence, and labor-market effects as a balance among task compression, scale expansion, new human work, and institutional bargaining. A further implication is that when answer generation becomes abundant, the scarce human capital shifts upstream and downstream: toward asking economically meaningful questions, framing problems, generating hypotheses, interpreting results, and bearing responsibility for consequential use. The central dynamic concern is expertise formation: Junior tasks jointly produce current output, question sense, and future judgment, so their automation can raise short-run productivity while weakening the pipeline into accountable expertise unless AI is designed to teach rather than merely bypass. The paper concludes that AI's labor-market destiny is neither mechanical unemployment nor automatic abundance. It is an institutional equilibrium shaped by workflow design, apprenticeship systems, liability rules, competition policy, worker voice, and the distribution of rents from cheap cognition.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education",
+       "labor"
+      ],
+      "entities": [
+       "artificial-intelligence",
+       "workforce-training"
+      ],
+      "authors": [
+       "Christophe Kolb",
+       "Jim Caron"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2608.11512v1",
+       "outlet": "arXiv",
+       "author": "Christophe Kolb, Jim Caron",
+       "publishedAt": "2026-08-11",
+       "retrievedAt": "2026-10-27T11:33:16.922Z",
+       "contentHash": "0b3443ec59d61c1175329ee03cd01ba44d66edf8c1e854a9971201bb5ff0783d",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2610.35609v1": {
+      "id": "arxiv-2610.35609v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Making Reasoning Visible: Configuration-Aware Diagnostic Modeling for Adaptive Scaffolding in Structured Reasoning Tasks",
+      "excerpt": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and...",
+      "text": "Modeling the latent, multi-step reasoning processes of learners is a core challenge for adaptive tutoring systems, which often rely on simple right/wrong answers rather than understanding how students think. Instantiated here for grammatical reasoning, this study introduces a diagnostic framework that makes students' step-by-step problem-solving visible by analyzing their action sequences in an interactive learning game. The framework computes five interpretable strategy dimensions (e.g., systematic error correction, random guessing), estimates coordination demand from task structure and behavioral patterns, and classifies reasoning into four distinct states. Analyzing 36,234 interactions from 234 students working on 42 morphosyntactic exercises, we found that reasoning strategies vary primarily by context rather than stable traits (intraclass correlation = 0.14), and students show high persistence in unproductive states; specifically, 74.6% of failures driven by high coordination demand (rather than simple knowledge gaps) are followed by another failure without intervention. Our early warning model predicts validation success with strong accuracy (AUC = 0.826 using strategy patterns alone; 0.902 with additional sequential context) while avoiding circular reliance on current error counts. These findings demonstrate that making latent reasoning processes visible enables earlier, more targeted scaffolding that responds to how students are thinking rather than simply whether they succeed. While demonstrated in language learning, the framework provides a generalizable, interpretable architecture for diagnosing complex, structured reasoning in any domain.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education"
+      ],
+      "entities": [
+       "ai-tutoring"
+      ],
+      "authors": [
+       "Trystan Geoffre",
+       "Zheng Yuan",
+       "Thierry Geoffre"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2610.35609v1",
+       "outlet": "arXiv",
+       "author": "Trystan Geoffre, Zheng Yuan, Thierry Geoffre",
+       "publishedAt": "2026-10-26",
+       "retrievedAt": "2026-10-27T11:33:13.967Z",
+       "contentHash": "8e63293e267b91efffc77976e43f8e99df162129b78d753c344149af5aa91ee5",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "st-council-datacenter": {
+      "id": "st-council-datacenter",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "City council agenda item",
+      "title": "City council agenda: data center application using recycled water (Stanislaus County, sample)",
+      "excerpt": "Item 4: Hear an application for a data center that would use recycled water for cooling. The applicant estimates 20 permanent jobs. The council will decide whether to send the item to the planning commission.",
+      "text": "Item 4: Hear an application for a data center that would use recycled water for cooling. The applicant estimates 20 permanent jobs. The council will decide whether to send the item to the planning commission.",
+      "section": "industry",
+      "topics": [
+       "local-government"
+      ],
+      "entities": [
+       "data-centers"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "st-datacenter",
+      "keyClaims": [
+       {
+        "text": "The application is for a data center that would use recycled water for cooling.",
+        "quote": "a data center that would use recycled water for cooling"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "City council (sample)",
+       "author": "City planning staff (sample)",
+       "publishedAt": "2026-10-13",
+       "retrievedAt": "2026-10-13T00:00:00Z",
+       "contentHash": "d72a90e711bcc4a2c28f85c0ad6a3c8a98755b77fa55b7433a3e92f583833c05",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "st-art-farm-lending": {
+      "id": "st-art-farm-lending",
+      "kind": "sample",
+      "recordType": "article",
+      "docType": "Article",
+      "title": "Farm lender announces AI tool for crop loan reviews",
+      "excerpt": "Example Farm Credit Cooperative (sample) announced it plans to use an AI credit model to help review crop loan applications starting next spring. The cooperative said staff will review every recommendation. It did not say what data the model uses.",
+      "text": "Example Farm Credit Cooperative (sample) announced it plans to use an AI credit model to help review crop loan applications starting next spring. The cooperative said staff will review every recommendation. It did not say what data the model uses.",
+      "section": "finance",
+      "topics": [
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "county": "stanislaus-ca",
+      "subject": "st-farmcredit",
+      "keyClaims": [
+       {
+        "text": "The cooperative announced it plans to use an AI credit model for crop loan reviews starting next spring.",
+        "quote": "announced it plans to use an AI credit model to help review crop loan applications starting next spring"
+       },
+       {
+        "text": "It did not say what data the model uses.",
+        "quote": "It did not say what data the model uses"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "Central Valley Gazette (sample)",
+       "author": "Tom Becker (sample)",
+       "publishedAt": "2026-10-07",
+       "retrievedAt": "2026-10-07T00:00:00Z",
+       "contentHash": "f1152f8181968086e6969dceb9c5d6d44aaa45bdbc365e98b84fddd76080121c",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "fr-2026-07804": {
+      "id": "fr-2026-07804",
+      "kind": "federal-register",
+      "recordType": "document",
+      "docType": "Rule",
+      "title": "Equal Credit Opportunity Act (Regulation B)",
+      "excerpt": "The Consumer Financial Protection Bureau (Bureau or CFPB) is issuing a final rule that amends provisions related to disparate impact, discouragement of applicants or prospective applicants, and special purpose credit programs under Regulation B, the regulation implementing the Equal Credit Opportunity Act (ECOA or Act). The amendments facilitate compliance with ECOA by clarifying the obligations imposed by the statute.",
+      "text": "The Consumer Financial Protection Bureau (Bureau or CFPB) is issuing a final rule that amends provisions related to disparate impact, discouragement of applicants or prospective applicants, and special purpose credit programs under Regulation B, the regulation implementing the Equal Credit Opportunity Act (ECOA or Act). The amendments facilitate compliance with ECOA by clarifying the obligations imposed by the statute.",
+      "section": "finance",
+      "topics": [
+       "finance-regulation"
+      ],
+      "entities": [],
+      "agency": "Consumer Financial Protection Bureau",
+      "effectiveDate": "2026-07-21",
+      "provenance": {
+       "sourceUrl": "https://www.federalregister.gov/documents/2026/04/22/2026-07804/equal-credit-opportunity-act-regulation-b",
+       "outlet": "Consumer Financial Protection Bureau",
+       "author": "Consumer Financial Protection Bureau",
+       "publishedAt": "2026-04-22",
+       "retrievedAt": "2026-10-27T11:33:13.856Z",
+       "contentHash": "e76c264962eb697d789ad8dee685db132dbf89342d6acb3e18977ee2b8257228",
+       "isSample": false,
+       "license": "Public domain (U.S. government work)"
+      }
+     }
+    }
+   }
+  },
+  {
+   "sampleWatchId": "national-finance",
+   "name": "AI and financial regulation (national)",
+   "briefing": {
+    "id": "saved-national-finance",
+    "createdAt": "2026-10-27T11:46:46.447Z",
+    "mode": "saved",
+    "watch": {
+     "topics": [
+      "finance-regulation",
+      "research"
+     ],
+     "organizations": "",
+     "questions": "",
+     "depth": "professional"
+    },
+    "items": [
+     {
+      "sourceId": "arxiv-2610.28716v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable.\"",
+        "quote": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable.",
+        "sourceId": "arxiv-2610.28716v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2610.28716v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about workforce training. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2610.28716v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2610.01128v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Large language models can produce economic policy responses that sound reasonable, but this does not show that their actions are consistent with economic dynamics.\"",
+        "quote": "Large language models can produce economic policy responses that sound reasonable, but this does not show that their actions are consistent with economic dynamics.",
+        "sourceId": "arxiv-2610.01128v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2610.01128v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about this topic. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2610.01128v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2609.15744v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges.\"",
+        "quote": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges.",
+        "sourceId": "arxiv-2609.15744v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2609.15744v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai in lending and banking. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2609.15744v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2609.22169v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Employers are increasingly using large language models (LLMs) to automate their hiring process.\"",
+        "quote": "Employers are increasingly using large language models (LLMs) to automate their hiring process.",
+        "sourceId": "arxiv-2609.22169v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2609.22169v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about this topic. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2609.22169v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2608.24582v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Credit risk models increasingly need to combine predictive accuracy with transparent explanations and auditable fairness constraints.\"",
+        "quote": "Credit risk models increasingly need to combine predictive accuracy with transparent explanations and auditable fairness constraints.",
+        "sourceId": "arxiv-2608.24582v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2608.24582v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai in lending and banking. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2608.24582v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2608.14227v3",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"A spectral foundation model should remain useful when laboratories preprocess spectra differently.\"",
+        "quote": "A spectral foundation model should remain useful when laboratories preprocess spectra differently.",
+        "sourceId": "arxiv-2608.14227v3",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2608.14227v3"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about this topic. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2608.14227v3"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2608.00566v1",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare.\"",
+        "quote": "Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare.",
+        "sourceId": "arxiv-2608.00566v1",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2608.00566v1"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed",
+         "Live deployment"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about this topic. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2608.00566v1"
+       }
+      ]
+     },
+     {
+      "sourceId": "arxiv-2606.19501v2",
+      "claims": [
+       {
+        "text": "The arXiv preprint record states: \"Decentralized finance exposes supervisors to fast-moving, networked credit risks.\"",
+        "quote": "Decentralized finance exposes supervisors to fast-moving, networked credit risks.",
+        "sourceId": "arxiv-2606.19501v2",
+        "similarity": 1,
+        "independentSources": 1,
+        "supportingSourceIds": [
+         "arxiv-2606.19501v2"
+        ],
+        "labels": [
+         "Supported",
+         "Preprint, not peer reviewed"
+        ]
+       }
+      ],
+      "whyItMatters": "This is a research preprint about ai in lending and banking. Check the original for scope, dates and who is directly affected before acting on it.",
+      "labels": [
+       "arXiv preprint"
+      ],
+      "nextQuestions": [
+       {
+        "question": "Has this preprint been peer reviewed or independently replicated?",
+        "sourceId": "arxiv-2606.19501v2"
+       }
+      ]
+     }
+    ],
+    "stories": [
+     "ai-tutoring",
+     "ai-in-lending",
+     "workforce-training"
+    ],
+    "gaps": [],
+    "beyond": [
+     {
+      "sourceId": "sc-warn-brightpath",
+      "score": 6,
+      "components": {
+       "localImpact": 0,
+       "independentSources": 3,
+       "documentType": 3
+      },
+      "reason": "Shown because 3 independent outlets or agencies have records on this topic; it is a WARN notice, a primary document with direct effects. It is outside the topics you follow."
+     },
+     {
+      "sourceId": "sc-warn-orchard",
+      "score": 6,
+      "components": {
+       "localImpact": 0,
+       "independentSources": 3,
+       "documentType": 3
+      },
+      "reason": "Shown because 3 independent outlets or agencies have records on this topic; it is a WARN notice, a primary document with direct effects. It is outside the topics you follow."
+     }
+    ],
+    "unverified": [],
+    "disagreements": [],
+    "coverage": {
+     "sourcesChecked": [
+      {
+       "name": "arXiv preprint",
+       "count": 8
+      }
+     ],
+     "independentOutlets": [
+      "arXiv"
+     ],
+     "thinCoverage": []
+    },
+    "zoom": {
+     "county": [],
+     "region": [],
+     "nation": [
+      "arxiv-2610.28716v1",
+      "arxiv-2610.01128v1",
+      "arxiv-2609.15744v1",
+      "arxiv-2609.22169v1",
+      "arxiv-2608.24582v1",
+      "arxiv-2608.14227v3",
+      "arxiv-2608.00566v1",
+      "arxiv-2606.19501v2"
+     ]
+    },
+    "sources": {
+     "arxiv-2610.28716v1": {
+      "id": "arxiv-2610.28716v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Offline Apprenticeship Learning for Human-Centric Environments",
+      "excerpt": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment interaction. This dissertation develops a progression of offline AL frameworks organized around two challenges: reward modeling and demonstration quality. For reward modeling, EM-EDM clusters demonstrations by...",
+      "text": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment interaction. This dissertation develops a progression of offline AL frameworks organized around two challenges: reward modeling and demonstration quality. For reward modeling, EM-EDM clusters demonstrations by latent reward functions and induces cluster-specific policies, and THEMES partitions trajectories into temporally coherent sub-trajectories guided by a hierarchically learned reward regulator; across one educational and three clinical datasets, THEMES outperforms flat and hierarchical AL baselines. For demonstration quality, HALIDE integrates continuous quality signals into hierarchical policy induction, enabling principled reuse of mixed-quality data under distribution shift. CCHAL further attributes quality to individual decisions via Bayesian credit assignment, dual-arm criticality scoring that contrasts expert and non-expert behavior, and a Bradley-Terry contrastive IRL objective over failure trajectories, outperforming baselines including HALIDE on three clinical EHR datasets and an ITS dataset. Finally, a real-world classroom evaluation of StuEDM, an EDM-induced policy that preserves student agency and intervenes only on disagreement, shows significant learning gains over an Expert baseline and a higher pretest-adjusted posttest score than a CQL policy trained on a far larger corpus, while overriding students less than half as often. Together, this work establishes offline AL as a practical, data-efficient, and ethically viable paradigm for human-centric environments.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "education",
+       "finance-regulation"
+      ],
+      "entities": [
+       "workforce-training",
+       "ai-tutoring"
+      ],
+      "authors": [
+       "Md Mirajul Islam"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2610.28716v1",
+       "outlet": "arXiv",
+       "author": "Md Mirajul Islam",
+       "publishedAt": "2026-10-20",
+       "retrievedAt": "2026-10-27T11:33:13.967Z",
+       "contentHash": "3c83c0ea1d4a0e370032464d8bcf02189adac3d08c327cafcc036c4384148810",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2610.01128v1": {
+      "id": "arxiv-2610.01128v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Grounding Large Language Models in DSGE Simulators for Policy Generation and Forecasting",
+      "excerpt": "Large language models can produce economic policy responses that sound reasonable, but this does not show that their actions are consistent with economic dynamics. We test this by placing an instruction-tuned language model inside six Snowdrop-backed dynamic stochastic general equilibrium (DSGE) simulators. At each turn, the model observes the economy and a change in economic discourse, selects a bounded policy action, and receives the next simulated state and an economic reward. We implement a common Python interface for repeated rollouts, persistent shocks, state cloning, and...",
+      "text": "Large language models can produce economic policy responses that sound reasonable, but this does not show that their actions are consistent with economic dynamics. We test this by placing an instruction-tuned language model inside six Snowdrop-backed dynamic stochastic general equilibrium (DSGE) simulators. At each turn, the model observes the economy and a change in economic discourse, selects a bounded policy action, and receives the next simulated state and an economic reward. We implement a common Python interface for repeated rollouts, persistent shocks, state cloning, and rolling-horizon simulation. This setting creates a long-horizon credit-assignment problem. Policy effects may appear several quarters after an action is taken. PPO has a learned value function that can propagate delayed reward to earlier tokens through generalized advantage estimation. GRPO has no learned value function and instead assigns a group-relative advantage from complete rollout returns. It therefore cannot distinguish which earlier turn caused the outcome; if every rollout receives the same return, the normalized advantage is zero. We use PPO as the primary method and GRPO as a matched critic-free baseline. The experiments also test directional semantic signals, reward horizon, trajectory warm starts, cross-simulator transfer, and historically anchored pandemic and monetary-policy shocks. The objective is to judge policy actions by their simulated economic consequences rather than by plausible language alone.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "finance-regulation"
+      ],
+      "entities": [
+       "artificial-intelligence"
+      ],
+      "authors": [
+       "Aditya Dubey",
+       "Namah Gupta",
+       "Vinti Agarwal"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2610.01128v1",
+       "outlet": "arXiv",
+       "author": "Aditya Dubey, Namah Gupta, Vinti Agarwal",
+       "publishedAt": "2026-10-01",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "f9c931db8f4d77effe558012cab968186b73efec04e0fc693867cfb3be88bd14",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2609.15744v1": {
+      "id": "arxiv-2609.15744v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+      "excerpt": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges. Financial risk early warning systems often suffer from inefficiency due to information silos and monitoring delays. This paper proposes a credit risk early warning system based on heterogeneous information fusion. The system employs a model architecture integrating deep neural networks and attention mechanisms to extract multidimensional features from diverse data sources such as transaction behaviors and social networks, thereby establishing an early...",
+      "text": "Advancements in data fusion and real-time analytics technologies have opened new avenues for addressing complex domain challenges. Financial risk early warning systems often suffer from inefficiency due to information silos and monitoring delays. This paper proposes a credit risk early warning system based on heterogeneous information fusion. The system employs a model architecture integrating deep neural networks and attention mechanisms to extract multidimensional features from diverse data sources such as transaction behaviors and social networks, thereby establishing an early identification mechanism for corporate and individual credit risks. System testing demonstrates that this approach significantly enhances the accuracy and timeliness of risk warnings, outperforming traditional rule-based engine solutions. The findings offer innovative insights for early intervention in financial risks, holding practical significance for safeguarding financial stability.",
+      "section": "finance",
+      "topics": [
+       "research",
+       "labor",
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "authors": [
+       "LiYang Wang",
+       "Zhen Zhong",
+       "Zhen Tian",
+       "Keyu Chen",
+       "Keyu Chen"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2609.15744v1",
+       "outlet": "arXiv",
+       "author": "LiYang Wang, Zhen Zhong, Zhen Tian et al.",
+       "publishedAt": "2026-09-14",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "68bd19a2e8fae85337040ad18ba75d32358e8adf7d98e748ed16cdbd5f613e4c",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2609.22169v1": {
+      "id": "arxiv-2609.22169v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Monocultural Biases: Correlated biases in large language models lead to unequal systemic exclusion rates in hiring",
+      "excerpt": "Employers are increasingly using large language models (LLMs) to automate their hiring process. This paper investigates the risk of monocultural biases, in which the widespread deployment of large language models homogenizes biases across the labor market, leading to greater systemic exclusion for certain demographic groups. For ten LLMs, we measure hiring biases across their base and post-trained versions to identify which stage, pre-training or post-training, lead to monocultural biases. We find that, compared to their base models, post-trained models are 3.6% less likely to callback older...",
+      "text": "Employers are increasingly using large language models (LLMs) to automate their hiring process. This paper investigates the risk of monocultural biases, in which the widespread deployment of large language models homogenizes biases across the labor market, leading to greater systemic exclusion for certain demographic groups. For ten LLMs, we measure hiring biases across their base and post-trained versions to identify which stage, pre-training or post-training, lead to monocultural biases. We find that, compared to their base models, post-trained models are 3.6% less likely to callback older applicants. This negative shift occurs in eight of the ten models that we evaluate. Post-trained models have much more correlated decisions than base models which is likely driven by human capital traits like skills or college major. However, greater consensus among models increases global systemic exclusion rates from 5.6% to 17.3% and exacerbates demographic inequalities, with intersectional systemic exclusion rates ranging from 12.2% to 21.7% for post-trained models. We find that this inequality is primarily driven by age-based discrimination that is exacerbated in post-training. These results indicate that while post-training techniques may improve models' abilities to select the best applicants, they may raise systemic inequality risks for those at the margin by uniformly introducing new biases.",
+      "section": "finance",
+      "topics": [
+       "research",
+       "labor",
+       "finance-regulation"
+      ],
+      "entities": [
+       "artificial-intelligence"
+      ],
+      "authors": [
+       "Matthew Bone",
+       "Fabian Stephany",
+       "Maria del Rio-Chanona"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2609.22169v1",
+       "outlet": "arXiv",
+       "author": "Matthew Bone, Fabian Stephany, Maria del Rio-Chanona",
+       "publishedAt": "2026-08-26",
+       "retrievedAt": "2026-10-27T11:33:16.922Z",
+       "contentHash": "23190df2890d0ee0e4ce20df8177f8fea155f2818581f9a0001aca3cd73ad18f",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2608.24582v1": {
+      "id": "arxiv-2608.24582v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "$\\texttt{findr}$: Transparent and Fair Credit Risk Decisions through Semi-Structured Regressions",
+      "excerpt": "Credit risk models increasingly need to combine predictive accuracy with transparent explanations and auditable fairness constraints. Logistic regression remains attractive because its coefficients are easy to interpret, but it can miss nonlinear structure. Flexible models can improve prediction, but their explanations are often post-hoc and may not describe the decision rule itself. We introduce $\\texttt{findr}$, short for flexible, interpretable deep regression, a semi-structured framework for binary credit risk modelling that decomposes the logit into an interpretable structured component...",
+      "text": "Credit risk models increasingly need to combine predictive accuracy with transparent explanations and auditable fairness constraints. Logistic regression remains attractive because its coefficients are easy to interpret, but it can miss nonlinear structure. Flexible models can improve prediction, but their explanations are often post-hoc and may not describe the decision rule itself. We introduce $\\texttt{findr}$, short for flexible, interpretable deep regression, a semi-structured framework for binary credit risk modelling that decomposes the logit into an interpretable structured component and an orthogonal neural residual. The orthogonalisation separates coefficient-based effects from residual nonlinear variation, while an in-processing Wasserstein penalty mitigates group disparities by comparing score distributions during training. The framework also includes diagnostics that measure the structured component's contribution to logit variation, decision agreement, and local directional consistency. We evaluate $\\texttt{findr}$ in a simulation study and on eight public credit datasets using score-level accuracy-fairness frontiers. The results show that $\\texttt{findr}$ behaves close to logistic regression when the signal is approximately linear, while recovering much of the predictive gain of neural models when nonlinear structure is relevant. The diagnostics identify when coefficient-based explanations remain close to the full fitted model and when residual variation must also be examined. These findings support semi-structured modelling as a practical way to make performance, fairness, and interpretability trade-offs explicit in credit risk decisions.",
+      "section": "finance",
+      "topics": [
+       "research",
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "authors": [
+       "Victor Medina-Olivares",
+       "Stefan Lessmann",
+       "Jonathan Crook"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2608.24582v1",
+       "outlet": "arXiv",
+       "author": "Victor Medina-Olivares, Stefan Lessmann, Jonathan Crook",
+       "publishedAt": "2026-08-25",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "c55cab3ad3b91ebbd63106959e984d3e73603bf52137dae604335111785eda83",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2608.14227v3": {
+      "id": "arxiv-2608.14227v3",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Attributing Preprocessing Invariance in Spectral Foundation Models",
+      "excerpt": "A spectral foundation model should remain useful when laboratories preprocess spectra differently. The standard test trains a classifier under one pipeline and evaluates under another, taking preserved accuracy as evidence of learned invariance. However, these models normalize each input before any learned parameter is applied. When normalization maps differently preprocessed spectra to the same vector, the encoder receives identical inputs and the measured invariance cannot be attributed to learning. We propose a normalization-only attribution control: compare the encoder against its...",
+      "text": "A spectral foundation model should remain useful when laboratories preprocess spectra differently. The standard test trains a classifier under one pipeline and evaluates under another, taking preserved accuracy as evidence of learned invariance. However, these models normalize each input before any learned parameter is applied. When normalization maps differently preprocessed spectra to the same vector, the encoder receives identical inputs and the measured invariance cannot be attributed to learning. We propose a normalization-only attribution control: compare the encoder against its normalization before interpreting transfer as learned invariance. On six Raman datasets the encoder does not measurably improve transfer over its normalization. A controlled experiment confirms invariance develops only when variation reaches the encoder past normalization. Across three systems, no encoder improves relative retention over its normalization. An audit of eighteen configurations across five modalities confirms the issue is widespread: the normalization-only control should be reported before crediting transfer to the encoder.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "labor",
+       "finance-regulation"
+      ],
+      "entities": [],
+      "authors": [
+       "Dongjun Wei",
+       "Hongyi Wu"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2608.14227v3",
+       "outlet": "arXiv",
+       "author": "Dongjun Wei, Hongyi Wu",
+       "publishedAt": "2026-08-14",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "af2e93a9b68a5110e7517d371990fcc553bfc5cdc115e2cbade5cab422c75da8",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2608.00566v1": {
+      "id": "arxiv-2608.00566v1",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
+      "excerpt": "Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare. This ensures the model's transparency and acceptability. However, a few studies have examined potential attacks in the explainability pipeline. Adversaries can attempt to conceal algorithmic biases or backdoors using adversarial explanation attacks. These attacks have relied on scaffolding out-of-distribution (OOD) detectors that toggle predictions when queried by an explainer. Consequently, defenses...",
+      "text": "Post-hoc model explainers such as LIME, SHAP, and Integrated Gradients are widely deployed to audit models in high-stakes sensitive domains, including finance, healthcare, and social welfare. This ensures the model's transparency and acceptability. However, a few studies have examined potential attacks in the explainability pipeline. Adversaries can attempt to conceal algorithmic biases or backdoors using adversarial explanation attacks. These attacks have relied on scaffolding out-of-distribution (OOD) detectors that toggle predictions when queried by an explainer. Consequently, defenses have been developed to successfully neutralize these black-box attacks by identifying their anomalous perturbation footprints. In this paper, we demonstrate a critical vulnerability by introducing a more potent white-box, gradient-regularized evasion attack framework. By employing a continuous-embedding dual-penalty framework, we directly penalize trigger feature gradients during training on in-distribution data. Since our approach embeds the evasion logic natively into the model parameters, without relying on OOD scaffolding wrappers, it generates smooth, in-distribution predictions that leave no anomaly footprint. Empirical evaluations across four benchmark tabular datasets (COMPAS, German Credit, IEEE-CIS, and Communities & Crime) confirm that our method systematically crushes target feature attribution to near-zero (<0.02), maintains >90% Attack Success Rates, and fundamentally bypasses Conditional Anomaly Detection.",
+      "section": "technology",
+      "topics": [
+       "research",
+       "labor",
+       "finance-regulation"
+      ],
+      "entities": [
+       "artificial-intelligence"
+      ],
+      "authors": [
+       "Niraj Kumar",
+       "Harsh Kasyap"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2608.00566v1",
+       "outlet": "arXiv",
+       "author": "Niraj Kumar, Harsh Kasyap",
+       "publishedAt": "2026-08-01",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "6796295d25d9068fc0adfbdf87523bd81f13bdaa0f100952d60b931a4e47adc4",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "arxiv-2606.19501v2": {
+      "id": "arxiv-2606.19501v2",
+      "kind": "arxiv",
+      "recordType": "paper",
+      "docType": "Preprint",
+      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "excerpt": "Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts...",
+      "text": "Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluation harness, whose decision axis scores tickets against a regulator-aligned absolute-loss ground truth and an explicit false-intervention rate. Experiments on five years of weekly real data fully support our system. Code is at https://github.com/EVIEHub/DeXposure-Claw.",
+      "section": "finance",
+      "topics": [
+       "research",
+       "finance-regulation"
+      ],
+      "entities": [
+       "ai-in-lending"
+      ],
+      "authors": [
+       "Aijie Shu",
+       "Bowei Chen",
+       "Wenbin Wu",
+       "Cathy Yi-Hsuan Chen",
+       "Fengxiang He"
+      ],
+      "peerReviewed": false,
+      "provenance": {
+       "sourceUrl": "https://arxiv.org/abs/2606.19501v2",
+       "outlet": "arXiv",
+       "author": "Aijie Shu, Bowei Chen, Wenbin Wu et al.",
+       "publishedAt": "2026-06-17",
+       "retrievedAt": "2026-10-27T11:33:19.920Z",
+       "contentHash": "fedc218f47e83f3f656acb0e773db96ed3b87d19e8d0a08a486db2481b6d9167",
+       "isSample": false,
+       "license": "CC0 (arXiv metadata)"
+      }
+     },
+     "sc-warn-brightpath": {
+      "id": "sc-warn-brightpath",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Brightpath Customer Support (sample), Santa Clara call center",
+      "excerpt": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+      "text": "Brightpath Customer Support (sample) filed a WARN notice reporting the closure of its Santa Clara call center, affecting 96 employees. The notice cites a shift to automated customer service systems. Separations begin December 14, 2026.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "brightpath",
+      "keyClaims": [
+       {
+        "text": "The notice reports the call center closure affects 96 employees.",
+        "quote": "reporting the closure of its Santa Clara call center, affecting 96 employees"
+       },
+       {
+        "text": "The notice cites a shift to automated customer service systems.",
+        "quote": "The notice cites a shift to automated customer service systems"
+       }
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-10-15",
+       "retrievedAt": "2026-10-15T00:00:00Z",
+       "contentHash": "f8442b42dfd46060ceb41c25d78d7d43e3acc4a699b95cf1d03796bae1c97563",
+       "isSample": true,
+       "license": "Sample"
+      }
+     },
+     "sc-warn-orchard": {
+      "id": "sc-warn-orchard",
+      "kind": "sample",
+      "recordType": "document",
+      "docType": "WARN notice",
+      "title": "WARN notice: Orchard Semiconductor (sample), San Jose facility",
+      "excerpt": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff....",
+      "text": "Orchard Semiconductor (sample) filed a WARN notice reporting a layoff affecting 214 employees at its San Jose facility. The notice lists an effective separation date of November 9, 2026. Affected positions include test technicians, process engineers and administrative staff. The notice states the layoff is permanent and that the facility will remain open.",
+      "section": "industry",
+      "topics": [
+       "labor"
+      ],
+      "entities": [
+       "layoffs"
+      ],
+      "county": "santa-clara-ca",
+      "subject": "orchard",
+      "keyClaims": [
+       {
+        "text": "The WARN notice reports a layoff affecting 214 employees at the San Jose facility.",
+        "quote": "reporting a layoff affecting 214 employees at its San Jose facility"
+       },
+       {
+        "text": "The notice lists November 9, 2026 as the separation date.",
+        "quote": "lists an effective separation date of November 9, 2026"
+       }
+      ],
+      "nextQuestions": [
+       "Which job categories account for most of the 214 affected employees?"
+      ],
+      "provenance": {
+       "sourceUrl": "",
+       "outlet": "State WARN notice listing (sample)",
+       "author": "State labor agency (sample record)",
+       "publishedAt": "2026-09-08",
+       "retrievedAt": "2026-09-08T00:00:00Z",
+       "contentHash": "bf7de2ce5e88822feb4f146e14259bbce959a954d09822cdceae602538fc756d",
+       "isSample": true,
+       "license": "Sample"
+      }
+     }
+    }
+   }
+  }
+ ]
+}
