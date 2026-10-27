@@ -49,18 +49,17 @@ flowchart LR
 
 Over a limit, the site shows the most recent saved briefing. A monthly spend limit in the Anthropic Console is the final safeguard. The model is `claude-haiku-5-5`.
 
-## Course plan alignment
+## Features
 
-| Plan section | Where |
-| --- | --- |
-| 1. Agentic workflow | `lib/agent/orchestrator.ts`, `/about` |
-| 2.1–2.6. My Newsren, grounding, story tools, impact, learning, alerts | `/watch`, `/briefing`, `/story/[id]`, `lib/agent/` |
-| 3. Four sections | `/technology`, `/education`, `/industry`, `/finance` |
-| 4. Finance guardrails | No-advice notice and filter (`labels.ts`, `verify.ts`) |
-| 5. Navigation and "Explain for" | Header nav, "Follow a question", depth setting |
-| 6. Components and human approval | `lib/agent/`, `/review` |
-| 7, 9. Success measures and metrics | `scripts/eval.ts`, `docs/eval-results.md` |
-| 8, 10. Positioning and summary | `docs/proposal.md` |
+- **Watch setup:** pick topics, organizations, questions, a depth (Student, Educator or Professional) and an optional county. Your watch is saved only in your browser.
+- **Briefing:** each item opens with the source report (outlet or agency, author, title, excerpt and link), followed by quote-checked context. The briefing also includes Beyond your watch, Not yet reported, What we could not verify, a county/region/nation zoom, and a coverage summary.
+- **Story pages:** four tabs. Connected stories shows a timeline. Learn this topic has explainers, a glossary, a quiz and discussion prompts. Inspect evidence shows claims, quotes and disagreements between outlets, and lets you ask one question. Follow developments saves alert criteria.
+- **Sections:**
+  - Technology: decodes arXiv abstracts.
+  - Education: summarizes Federal Register rules and checks a sample study, separating faster completion from transfer to new problems.
+  - Industry: separates supported claims from speculation.
+  - Finance: tracks regulation and labels AI claims as announcement, pilot, backtest, live deployment or regulatory finding. It gives no investment advice.
+- **Review queue:** editors approve or reject briefings and can see the agent trace for each.
 
 ## Run locally
 
