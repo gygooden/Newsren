@@ -2,7 +2,7 @@
 
 ## Problem and research questions
 
-The course plan, "The Newsren: Agentic News Intelligence Plan", asks for an agentic news platform. I chose to build its highest-priority feature, My Newsren, a personal research agent. The risk I wanted to design against is an assistant that writes plausible news-like text with no clear source. My working position is that an AI system in news should send readers to human reporting and primary documents, not replace them.
+I built My Newsren, a personal news research agent. The risk I wanted to design against is an assistant that writes plausible news-like text with no clear source. My working position is that an AI system in news should send readers to human reporting and primary documents, not replace them.
 
 My research questions:
 
@@ -13,13 +13,13 @@ My research questions:
 
 ## Design decisions and alternatives
 
-**Agent, not a summary call.** The plan says that calling a model to write a summary is not agentic. I gave the agent a goal, five tools, a loop it controls, and limits it cannot override. The alternative, a single prompt with pasted articles, would be cheaper but cannot decide what to look for.
+**Agent, not a summary call.** Calling a model to write a summary is not agentic. I gave the agent a goal, five tools, a loop it controls, and limits it cannot override. The alternative, a single prompt with pasted articles, would be cheaper but cannot decide what to look for.
 
 **Verification in code, not in the prompt.** The prompt asks for exact quotes, but `verify.ts` decides what is shown. I considered asking a second model to check the first; I rejected that because it adds cost and still leaves a model as the judge. Deterministic matching is simpler to audit.
 
 **The bottleneck.** The live agent costs money on every run and runs on a public site. I added origin checks, per-visitor and global daily limits, and per-run caps on steps, tool calls, tokens and time. The alternative, an open endpoint, would expose the owner to unbounded cost. A saved briefing built without a model is always available, so a limit never leaves the reader with an empty page.
 
-**Human first.** Live briefings are private to the reader and labeled as not editor-reviewed. Publishing to the front page requires approval. I considered automatic publishing of high-confidence briefings and rejected it; the plan requires human approval for publishing.
+**Human first.** Live briefings are private to the reader and labeled as not editor-reviewed. Publishing to the front page requires approval. I considered automatic publishing of high-confidence briefings and rejected it; a person should decide what is published.
 
 **Sample local data.** I could not find a free, key-free source of local reporting. Rather than scrape outlets, I wrote fictional sample records with clearly marked fictional outlets and connected them to real federal and research documents only through shared topic tags.
 
@@ -36,8 +36,6 @@ My research questions:
 - Collaboration: I plan to ask a local newsroom and classmates to review the coverage-gap tips and the briefing format. The list of sources, with licenses and rate limits, is in `config/sources.json` so others can reuse or extend it.
 
 ## Positioning across the four sections
-
-Following the plan's Section 10:
 
 - Technology: the Research Paper Decoder shows what an arXiv abstract does and does not state, and labels every preprint as not peer reviewed.
 - Education: the Policy Impact Explorer turns Federal Register documents into who is affected and key dates, and the Evidence Checker separates faster completion from transfer to new problems.
