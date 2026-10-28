@@ -11,6 +11,8 @@ export const KEYS = {
   decisions: "newsren.reviewDecisions",
   alerts: "newsren.alerts",
   lastLive: "newsren.lastLiveBriefing",
+  reacted: "newsren.communityReacted",
+  role: "newsren.communityRole",
 } as const;
 
 export function readJson<T>(key: string, fallback: T): T {

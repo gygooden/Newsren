@@ -13,8 +13,8 @@ export default function PrivacyPage() {
       <h2>What is stored, and where</h2>
       <p>
         Your watch (topics, organizations, questions, depth and optional county), your review queue, your review decisions,
-        your alert criteria and your last live briefing are stored in your browser&apos;s local storage on this device. They
-        are not sent anywhere unless you run live research.
+        your alert criteria, your last live briefing, your community role and which reactions you have added are stored in your browser&apos;s local storage on this device. They
+        are not sent anywhere unless you run live research or take part in the community section of a story.
       </p>
 
       <h2>What is sent to the model provider, and why</h2>
@@ -30,6 +30,20 @@ export default function PrivacyPage() {
         To limit each visitor to {LIMITS.dailyPerVisitor} live runs per day, the Worker computes a SHA-256 hash of your IP
         address combined with the date and a secret salt. Only that hash and a counter are stored, and they expire after 24
         hours. The raw IP address is not stored, and the Worker does not log request bodies.
+      </p>
+
+      <h2>Community reactions and notes</h2>
+      <p>
+        If you react to a story, the Worker stores a count for that reaction together with the role and county you chose.
+        If you post a note, it stores the note text, your role, your county if you set one, an optional display name and the
+        time. No account, email, IP address or IP hash is stored with a reaction or note. A salted daily hash, deleted after
+        24 hours, limits each visitor to one of each reaction per story and three notes per day.
+      </p>
+      <p>
+        Every note is reviewed by a moderator before it is shown. Notes are anonymous unless you add a name. A name is shown
+        only to readers who set the same county in their watch; counties are self-reported, so anyone who picks that county
+        could see it. Links, emails and phone numbers are refused. To have a note removed,{" "}
+        <a href="https://github.com/gygooden/Newsren/issues">open an issue</a> with the story and the note text.
       </p>
 
       <h2>Real data and sample data</h2>

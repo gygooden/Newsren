@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { CommunityPanel } from "@/components/CommunityPanel";
 import { StoryTools } from "@/components/StoryTools";
 import { COUNTIES, type CountyId } from "@/lib/agent/types";
 import { STORIES, STORY_SOURCES, storyById } from "@/lib/site/data";
@@ -29,6 +30,7 @@ export default async function StoryPage({ params }: { params: Promise<{ id: stri
         Local records are sample data.
       </p>
       <StoryTools story={story} sources={STORY_SOURCES} />
+      <CommunityPanel story={story.id} />
     </div>
   );
 }

@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-28T01:06:34.212Z",
+ "generatedAt": "2026-10-28T01:31:36.092Z",
  "briefings": [
   {
    "sampleWatchId": "santa-clara-labor",
    "name": "Jobs and automation in Santa Clara County",
    "briefing": {
     "id": "saved-santa-clara-labor",
-    "createdAt": "2026-10-28T01:06:34.212Z",
+    "createdAt": "2026-10-28T01:31:36.092Z",
     "mode": "saved",
     "watch": {
      "topics": [
@@ -916,7 +916,7 @@
    "name": "AI in Santa Clara County schools",
    "briefing": {
     "id": "saved-santa-clara-schools",
-    "createdAt": "2026-10-28T01:06:34.212Z",
+    "createdAt": "2026-10-28T01:31:36.092Z",
     "mode": "saved",
     "watch": {
      "topics": [
@@ -1764,7 +1764,7 @@
    "name": "Warehouse automation in Stanislaus County",
    "briefing": {
     "id": "saved-stanislaus-work",
-    "createdAt": "2026-10-28T01:06:34.212Z",
+    "createdAt": "2026-10-28T01:31:36.092Z",
     "mode": "saved",
     "watch": {
      "topics": [
@@ -2573,7 +2573,7 @@
    "name": "AI and financial regulation (national)",
    "briefing": {
     "id": "saved-national-finance",
-    "createdAt": "2026-10-28T01:06:34.212Z",
+    "createdAt": "2026-10-28T01:31:36.092Z",
     "mode": "saved",
     "watch": {
      "topics": [

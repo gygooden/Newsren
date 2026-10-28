@@ -6,9 +6,11 @@ import { runAgent, type ModelClient } from "../../lib/agent/orchestrator";
 import type { FetchLike } from "../../lib/agent/sources";
 import { COUNTY_IDS, DEPTHS, TOPICS, type CountyId, type Depth, type RunRecord, type SourceRecord, type Topic, type Watch } from "../../lib/agent/types";
 import { sha256Hex } from "../../lib/agent/util";
+import { COMMUNITY_PATHS, handleCommunity } from "./community";
 
 // The live research Worker. It never logs request bodies and stores only a
-// salted daily hash of the visitor IP, which expires after 24 hours.
+// salted daily hash of the visitor IP, which expires after 24 hours. It also
+// serves the community pulse and moderated notes (see community.ts).
 
 export interface Env {
   ANTHROPIC_API_KEY: string;
@@ -17,6 +19,7 @@ export interface Env {
   DAILY_GLOBAL_LIMIT?: string;
   DAILY_PER_VISITOR_LIMIT?: string;
   RATE_LIMIT_SALT?: string;
+  MODERATOR_TOKEN?: string;
   LIMITS: KVNamespace;
 }
 
@@ -114,8 +117,24 @@ export function createHandler(deps: Deps) {
     if (request.method !== "POST") return json({ error: "method", message: "Use POST." }, 405, { ...cors, Allow: "POST, OPTIONS" });
 
     const path = new URL(request.url).pathname.replace(/\/$/, "");
-    if (!["/run", "/ask", "/quota"].includes(path)) return json({ error: "not_found", message: "Unknown endpoint." }, 404, cors);
+    const community = COMMUNITY_PATHS.includes(path);
+    if (!community && !["/run", "/ask", "/quota"].includes(path)) return json({ error: "not_found", message: "Unknown endpoint." }, 404, cors);
     if (Number(request.headers.get("Content-Length") ?? 0) > MAX_BODY_BYTES) return json({ error: "input", message: "Request too large." }, 413, cors);
+
+    if (community) {
+      let body: Record<string, unknown>;
+      try {
+        const text = await request.text();
+        if (text.length > MAX_BODY_BYTES) throw new InputError("Request too large.");
+        const parsed: unknown = JSON.parse(text || "{}");
+        if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) throw new InputError("Invalid request.");
+        body = parsed as Record<string, unknown>;
+      } catch {
+        return json({ error: "input", message: "Invalid request." }, 400, cors);
+      }
+      const reply = await handleCommunity(path, body, env, request, deps.now());
+      return json(reply.body, reply.status, { ...cors, "Cache-Control": "no-store" });
+    }
 
     let watch: Watch;
     let question: string | undefined;

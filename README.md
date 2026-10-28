@@ -43,6 +43,7 @@ flowchart LR
 | --- | --- |
 | Live runs per visitor per day | 3 (salted IP hash, 24-hour expiry, raw IP never stored) |
 | Live runs per day, all visitors | 50 |
+| Community | One of each reaction per story and 3 notes per visitor per day; notes up to 280 characters, held for moderation |
 | Per run | 6 steps, 8 tool calls, 1,200 tokens per call, 25,000 tokens total, 45 seconds |
 | Input | 300-character questions, fixed topic and county lists |
 | Origin | `https://gygooden.github.io` and `http://localhost:3000`, POST only |
@@ -59,6 +60,7 @@ Over a limit, the site shows the most recent saved briefing. A monthly spend lim
   - Schools: summarizes Federal Register rules and checks a sample study, separating faster completion from transfer to new problems.
   - Money: tracks regulation and labels AI claims as announcement, pilot, backtest, live deployment or regulatory finding. It gives no investment advice.
   - Research: decodes arXiv abstracts into what a paper tested, found and left out.
+- **Community:** each story ends with "What readers near you are saying". Readers tap reactions ("This affects my job", "I'm seeing this where I live") that are counted by role and county, so you can see, for example, that three workers in your county are affected. They can also leave a 280-character note. Notes are anonymous unless the reader adds a name, which only readers who set the same county can see. Every note waits for a moderator, and links, emails and phone numbers are refused.
 - **Review queue:** editors approve or reject briefings and can see the agent trace for each.
 
 ## Run locally
@@ -76,7 +78,7 @@ Checks: `npm run lint`, `npm run typecheck`, `npm test`, `npm run test:e2e`, `np
 
 ## Deploy
 
-**Worker:** `cd worker`, then `npx wrangler secret put ANTHROPIC_API_KEY`, `npx wrangler secret put RATE_LIMIT_SALT`, `npx wrangler deploy`.
+**Worker:** `cd worker`, then `npx wrangler secret put ANTHROPIC_API_KEY`, `npx wrangler secret put RATE_LIMIT_SALT`, `npx wrangler secret put MODERATOR_TOKEN`, `npx wrangler deploy`. The moderator key unlocks the community notes section of `/review`.
 
 **Site:** pushes to `main` deploy through GitHub Actions, which also runs daily to refresh the data. The repository variable `NEXT_PUBLIC_AGENT_URL` holds the Worker URL, and Pages uses "GitHub Actions" as its source.
 
@@ -87,7 +89,7 @@ Checks: `npm run lint`, `npm run typecheck`, `npm test`, `npm run test:e2e`, `np
 - **Local news:** fictional sample data. Outlets, reporters and companies are marked "(sample)".
 - **Images:** none from third parties. Icons are original SVG.
 
-The site uses no accounts, cookies, analytics or tracking. Watches stay in your browser. Details are in [/privacy](https://gygooden.github.io/Newsren/privacy/) and [docs/accessibility.md](docs/accessibility.md) (WCAG 2.2 AA target).
+The site uses no accounts, cookies, analytics or tracking. Watches stay in your browser. Community reactions and approved notes are stored in Worker KV without any IP address or IP hash. Details are in [/privacy](https://gygooden.github.io/Newsren/privacy/) and [docs/accessibility.md](docs/accessibility.md) (WCAG 2.2 AA target).
 
 ## Future work
 

@@ -44,6 +44,10 @@ export default function Home() {
             <strong>You get receipts</strong>
             Quoted sources, plus a list of what it could not verify.
           </li>
+          <li>
+            <strong>Compare notes</strong>
+            See how people in your county are affected, and add your own.
+          </li>
         </ol>
       </section>
 

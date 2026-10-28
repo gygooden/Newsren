@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CommunityModeration } from "@/components/CommunityModeration";
 import { ReviewQueue } from "@/components/ReviewQueue";
 
 export const metadata: Metadata = { title: "Review queue" };
@@ -17,6 +18,7 @@ export default function ReviewPage() {
         in <code>config/approved.json</code>.
       </p>
       <ReviewQueue />
+      <CommunityModeration />
     </div>
   );
 }
