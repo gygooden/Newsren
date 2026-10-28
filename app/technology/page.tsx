@@ -3,7 +3,7 @@ import { SourceReport } from "@/components/SourceReport";
 import { NOT_STATED_ABSTRACT, type PaperField } from "@/lib/agent/products";
 import { PRODUCTS, PRODUCT_SOURCES } from "@/lib/site/data";
 
-export const metadata: Metadata = { title: "Technology" };
+export const metadata: Metadata = { title: "Research" };
 
 const FIELDS: [PaperField, string][] = [
   ["hypothesis", "Hypothesis"],
@@ -16,12 +16,14 @@ const FIELDS: [PaperField, string][] = [
 export default function TechnologyPage() {
   return (
     <div className="wrap">
-      <h1>Technology</h1>
-      <h2>Research Paper Decoder</h2>
-      <p>
-        Recent arXiv preprints, decoded from their abstracts. Each field quotes a sentence from the abstract. Fields the
-        abstract does not cover say &ldquo;{NOT_STATED_ABSTRACT}&rdquo;. Preprints have not been peer reviewed.
-      </p>
+      <div className="page-intro">
+        <p className="eyebrow">Research · Paper Decoder</p>
+        <h1>New AI research, decoded</h1>
+        <p className="lede">
+          What each new paper tested, found and left out, quoted straight from its abstract. If the abstract does not say,
+          we say &ldquo;{NOT_STATED_ABSTRACT}&rdquo;. These are preprints and have not been peer reviewed.
+        </p>
+      </div>
       {PRODUCTS.decoder.length === 0 && <p>No preprints in the current snapshot.</p>}
       {PRODUCTS.decoder.map((d) => {
         const r = PRODUCT_SOURCES[d.sourceId];

@@ -4,12 +4,19 @@ import { LIMITS } from "@/lib/agent/limits";
 import { GOAL } from "@/lib/agent/orchestrator";
 import { MIN_SIMILARITY } from "@/lib/agent/verify";
 
-export const metadata: Metadata = { title: "Methodology" };
+export const metadata: Metadata = { title: "How it works" };
 
 export default function AboutPage() {
   return (
     <div className="wrap">
-      <h1>Methodology</h1>
+      <div className="page-intro">
+        <p className="eyebrow">Methodology</p>
+        <h1>How it works</h1>
+        <p className="lede">
+          An AI agent does the digging. Plain code checks its work. A person decides what gets published. Here are the
+          rules it runs under.
+        </p>
+      </div>
 
       <h2>Goal</h2>
       <p>The agent has one goal: &ldquo;{GOAL}&rdquo; It finds, links, verifies and explains reporting and documents. It never writes news stories.</p>

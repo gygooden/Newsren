@@ -1,30 +1,40 @@
 .tablist {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem;
-  border-bottom: 2px solid var(--color-border);
+  gap: 0.4rem;
+  padding: 0.35rem;
   margin-top: 1.5rem;
+  border-radius: 999px;
+  background: var(--color-surface);
 }
 
 .tab {
-  background: var(--color-bg);
-  color: var(--color-accent);
-  border: 2px solid var(--color-border);
-  border-bottom: none;
-  border-radius: 2px 2px 0 0;
-  margin-bottom: -2px;
+  background: transparent;
+  color: var(--color-text);
+  border: 2px solid transparent;
+  border-radius: 999px;
   min-height: 44px;
+  padding: 0.45rem 1rem;
+}
+
+.tab:hover:not([aria-selected="true"]) {
+  background: var(--color-card);
+  color: var(--color-text);
+  border-color: var(--color-border);
 }
 
 .tab[aria-selected="true"] {
-  color: var(--color-text);
-  border-color: var(--color-accent);
-  border-bottom: 2px solid var(--color-bg);
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 0.3em;
+  background: var(--color-text);
+  border-color: var(--color-text);
+  color: var(--color-card);
 }
 
 .panel {
   padding-top: 0.5rem;
+}
+
+@media (max-width: 30rem) {
+  .tablist {
+    border-radius: var(--radius);
+  }
 }

@@ -63,30 +63,32 @@ export function WatchForm() {
       </div>
 
       <fieldset aria-describedby={errors.topics ? "topics-error" : undefined}>
-        <legend>Topics to follow (required)</legend>
+        <legend>What do you want to follow? (required)</legend>
         {errors.topics && (
           <p id="topics-error" className="error-text">
             {errors.topics}
           </p>
         )}
-        {TOPICS.map((t, i) => (
-          <div className="choice" key={t}>
-            <input
-              ref={i === 0 ? topicsRef : undefined}
-              type="checkbox"
-              id={`topic-${t}`}
-              name="topics"
-              value={t}
-              checked={topics.includes(t)}
-              onChange={() => toggleTopic(t)}
-            />
-            <label htmlFor={`topic-${t}`}>{TOPIC_LABELS[t]}</label>
-          </div>
-        ))}
+        <div className="chips">
+          {TOPICS.map((t, i) => (
+            <label className="chip" htmlFor={`topic-${t}`} key={t}>
+              <input
+                ref={i === 0 ? topicsRef : undefined}
+                type="checkbox"
+                id={`topic-${t}`}
+                name="topics"
+                value={t}
+                checked={topics.includes(t)}
+                onChange={() => toggleTopic(t)}
+              />
+              {TOPIC_LABELS[t]}
+            </label>
+          ))}
+        </div>
       </fieldset>
 
       <div className="field">
-        <label htmlFor="organizations">Organizations (optional)</label>
+        <label htmlFor="organizations">Any organizations to track? (optional)</label>
         <p id="organizations-hint" className="hint">
           Separate names with commas. For example: a school district, a company or an agency.
         </p>
@@ -107,7 +109,7 @@ export function WatchForm() {
       </div>
 
       <div className="field">
-        <label htmlFor="questions">Questions you want answered (optional)</label>
+        <label htmlFor="questions">What do you want to know? (optional)</label>
         <p id="questions-hint" className="hint">
           One per line, up to {LIMITS.maxQuestionChars} characters in total. Live research will look for sources that answer them.
         </p>
@@ -128,24 +130,27 @@ export function WatchForm() {
       </div>
 
       <fieldset>
-        <legend>Explain for</legend>
-        {DEPTHS.map((d) => (
-          <div className="choice" key={d}>
-            <input type="radio" id={`depth-${d}`} name="depth" value={d} checked={depth === d} onChange={() => setDepth(d)} aria-describedby={`depth-${d}-hint`} />
-            <label htmlFor={`depth-${d}`}>
-              {d[0].toUpperCase() + d.slice(1)} <span id={`depth-${d}-hint`} className="muted small">{DEPTH_HINT[d]}</span>
+        <legend>How should we explain things?</legend>
+        <div className="option-cards">
+          {DEPTHS.map((d) => (
+            <label className="option-card" htmlFor={`depth-${d}`} key={d}>
+              <input type="radio" id={`depth-${d}`} name="depth" value={d} checked={depth === d} onChange={() => setDepth(d)} />
+              <span>
+                {d[0].toUpperCase() + d.slice(1)}
+                <span className="muted small">{DEPTH_HINT[d]}</span>
+              </span>
             </label>
-          </div>
-        ))}
+          ))}
+        </div>
       </fieldset>
 
       <div className="field">
-        <label htmlFor="county">County for the Ground Level lens (optional)</label>
+        <label htmlFor="county">Your county (optional)</label>
         <p id="county-hint" className="hint">
-          Ground Level traces national stories to local effects in this county. Local items are sample data.
+          The Ground Level lens traces national stories down to what they mean here. Local items are sample data for now.
         </p>
         <select id="county" name="county" value={county} onChange={(e) => setCounty(e.target.value as CountyId | "")} aria-describedby="county-hint">
-          <option value="">No county</option>
+          <option value="">No county, keep it national</option>
           {COUNTY_IDS.map((c) => (
             <option key={c} value={c}>
               {COUNTIES[c].name}
@@ -155,7 +160,7 @@ export function WatchForm() {
       </div>
 
       <p className="hint">Your watch is saved only in this browser. Nothing is sent anywhere until you choose to run live research.</p>
-      <button type="submit">Save watch and see my briefing</button>
+      <button type="submit">Save and see my briefing</button>
     </form>
   );
 }

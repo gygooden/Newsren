@@ -11,16 +11,18 @@ export function FrontStories() {
   const approved = APPROVED_STORY_IDS.map((a) => ({ a, s: STORIES.find((s) => s.id === a.id) })).filter((x) => x.s);
   return (
     <>
-      <ul className="grid-2" style={{ listStyle: "none", padding: 0 }}>
+      <ul className="grid-2 plain-list">
         {approved.map(({ a, s }) => (
           <li key={s!.id} className="card">
+            <p className="small" style={{ margin: "0 0 0.5rem" }}>
+              <span className="label label-reported">Editor-reviewed</span>
+              <span className="muted">approved {a.approvedAt}</span>
+            </p>
             <h3 style={{ marginTop: 0 }}>
               <Link href={`/story/${s!.id}/`}>{s!.title}</Link>
             </h3>
-            <p className="ui small">
-              <span className="label">Editor-reviewed</span> approved {a.approvedAt}
-            </p>
             <p>{s!.learn.whatIsNew}</p>
+            <p className="small muted">{s!.timeline.length} sources</p>
           </li>
         ))}
       </ul>

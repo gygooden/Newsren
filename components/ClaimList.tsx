@@ -2,20 +2,21 @@ import type { SourceRecord, VerifiedClaim } from "@/lib/agent/types";
 import { outletOf } from "@/lib/agent/util";
 import { StatusLabel } from "./SourceReport";
 
+/** Each claim is followed by its receipt: the exact quote it was checked against. */
 export function ClaimList({ claims, sources }: { claims: VerifiedClaim[]; sources: Record<string, SourceRecord> }) {
   if (!claims.length) return <p className="muted">No claims passed verification for this item.</p>;
   return (
-    <ul>
+    <ul className="claim-list">
       {claims.map((c, i) => {
         const src = sources[c.sourceId];
         return (
-          <li key={`${c.sourceId}-${i}`} style={{ marginBottom: "0.75rem" }}>
-            <span>{c.text}</span>
-            <blockquote style={{ marginBottom: "0.25rem" }}>
+          <li key={`${c.sourceId}-${i}`}>
+            <span className="claim-text">{c.text}</span>
+            <blockquote className="receipt">
+              <span className="receipt-head">Receipt · {src ? outletOf(src) : c.sourceId}</span>
               &ldquo;{c.quote}&rdquo;
-              <span className="ui small muted"> (quoted from {src ? outletOf(src) : c.sourceId})</span>
             </blockquote>
-            <span className="ui small">
+            <span className="small">
               {c.labels.map((l) => (
                 <StatusLabel key={l} text={l} />
               ))}

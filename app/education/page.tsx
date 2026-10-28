@@ -3,18 +3,22 @@ import { PolicyCard } from "@/components/PolicyCard";
 import { SourceReport } from "@/components/SourceReport";
 import { PRODUCTS, PRODUCT_SOURCES } from "@/lib/site/data";
 
-export const metadata: Metadata = { title: "Education" };
+export const metadata: Metadata = { title: "Schools" };
 
 export default function EducationPage() {
   const ev = PRODUCTS.evidence;
   const study = ev ? PRODUCT_SOURCES[ev.sourceId] : undefined;
   return (
     <div className="wrap">
-      <h1>Education</h1>
+      <div className="page-intro">
+        <p className="eyebrow">Schools</p>
+        <h1>AI and schools</h1>
+        <p className="lede">New federal education rules in plain terms, and a reality check on whether AI tutoring helps students learn.</p>
+      </div>
       <h2>Policy Impact Explorer</h2>
       <p>
-        Recent Department of Education documents from the Federal Register. Quoted fields come from the document summary;
-        read the full document for scope and obligations.
+        Recent Department of Education documents from the Federal Register: who is affected, what changes and when. Quoted
+        fields come from the document summary; read the full document for scope and obligations.
       </p>
       {PRODUCTS.policy.map((p) => (PRODUCT_SOURCES[p.sourceId] ? <PolicyCard key={p.sourceId} p={p} record={PRODUCT_SOURCES[p.sourceId]} /> : null))}
 

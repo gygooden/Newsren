@@ -60,28 +60,31 @@ export function BriefingPage() {
 
   return (
     <div className="wrap">
-      <h1>My briefing</h1>
+      <div className="page-intro">
+        <p className="eyebrow">Your receipts</p>
+        <h1>My briefing</h1>
+      </div>
       {loaded && !watch && (
         <p className="notice">
-          You have not set up a watch yet. The briefing below is a saved example.{" "}
-          <Link href="/watch/">Set up a watch to follow your own topics and questions</Link>.
+          You are looking at a sample briefing. <Link href="/watch/">Start a watch</Link> to get one built around your own
+          topics and county.
         </p>
       )}
       {watch && (
-        <p className="ui small">
-          Your watch: {watch.topics.map((t) => TOPIC_LABELS[t]).join(", ")} · depth: {watch.depth}
+        <p className="notice small">
+          <strong>Your watch:</strong> {watch.topics.map((t) => TOPIC_LABELS[t]).join(", ")} · depth: {watch.depth}
           {watch.county ? ` · county: ${watch.county}` : ""}. <Link href="/watch/">Edit your watch</Link>
         </p>
       )}
 
-      <section aria-labelledby="live-heading" className="notice">
+      <section aria-labelledby="live-heading" className="panel-card">
         <h2 id="live-heading" style={{ marginTop: 0 }}>
-          Live research
+          Get a fresh briefing
         </h2>
         <p>
-          A live run searches the Federal Register, arXiv and sample local news for your watch, then checks every quote
-          against the retrieved text. Each visitor can run {LIMITS.dailyPerVisitor} live briefings per day. A run stops
-          after {LIMITS.maxSteps} steps, {LIMITS.maxToolCalls} tool calls or {LIMITS.timeoutMs / 1000} seconds.
+          The research agent searches federal documents, AI research and local news for your watch, then checks every
+          quote against what it found. You get {LIMITS.dailyPerVisitor} live runs a day; each takes under{" "}
+          {LIMITS.timeoutMs / 1000} seconds.
         </p>
         <div className="button-row">
           <button type="button" id="run-live" onClick={run} disabled={!watch || running} aria-describedby={!watch ? "need-watch" : undefined}>

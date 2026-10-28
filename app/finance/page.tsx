@@ -5,12 +5,16 @@ import { PolicyCard } from "@/components/PolicyCard";
 import { FINANCE_STATUSES } from "@/lib/agent/labels";
 import { PRODUCTS, PRODUCT_SOURCES } from "@/lib/site/data";
 
-export const metadata: Metadata = { title: "Finance" };
+export const metadata: Metadata = { title: "Money" };
 
 export default function FinancePage() {
   return (
     <div className="wrap">
-      <h1>Finance</h1>
+      <div className="page-intro">
+        <p className="eyebrow">Money · Regulation Watch</p>
+        <h1>AI and money</h1>
+        <p className="lede">New banking and lending rules, and AI claims sorted by how real they are, from announcement to live use.</p>
+      </div>
       <FinanceNotice />
       <h2>Regulation Watch</h2>
       <p>

@@ -1,54 +1,81 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { FrontStories } from "@/components/FrontStories";
+import { JobsIcon, MoneyIcon, ResearchIcon, SchoolIcon } from "@/components/Icons";
 import { STORIES } from "@/lib/site/data";
 
-const SECTIONS = [
-  { href: "/technology/", name: "Technology", product: "Research Paper Decoder for arXiv preprints" },
-  { href: "/education/", name: "Education", product: "Policy Impact Explorer and Education Evidence Checker" },
-  { href: "/industry/", name: "Industry", product: "Industry Impact view: supported findings and labeled hypotheses" },
-  { href: "/finance/", name: "Finance", product: "Regulation Watch and an AI-in-finance reality check" },
+const SECTIONS: { href: string; name: string; blurb: string; icon: ReactNode }[] = [
+  { href: "/industry/", name: "Jobs", blurb: "Layoffs, automation and hiring: what is confirmed and what is only a guess.", icon: <JobsIcon /> },
+  { href: "/education/", name: "Schools", blurb: "New federal rules in plain terms, and whether AI tutoring studies show real learning.", icon: <SchoolIcon /> },
+  { href: "/finance/", name: "Money", blurb: "Banking and lending rules, and AI claims sorted from announcement to live use.", icon: <MoneyIcon /> },
+  { href: "/technology/", name: "Research", blurb: "New AI papers decoded: what they tested, found and left out.", icon: <ResearchIcon /> },
 ];
 
 export default function Home() {
   return (
     <div className="wide">
-      <h1>My Newsren</h1>
-      <p style={{ maxWidth: "var(--measure)" }}>
-        A personal research desk for the news. It finds reporting and primary documents on what you follow, quotes them,
-        and shows what it could not verify. It does not write news stories.
-      </p>
-      <p>
-        <Link href="/watch/" className="button">
-          Follow a question
-        </Link>
-      </p>
-
-      <section aria-labelledby="approved-heading">
-        <h2 id="approved-heading">Recent stories approved in review</h2>
-        <FrontStories />
+      <section className="hero" aria-labelledby="hero-heading">
+        <p className="eyebrow">AI news with receipts</p>
+        <h1 id="hero-heading">
+          What is AI changing <mark>where you live?</mark>
+        </h1>
+        <p className="lede">
+          Follow how AI is reshaping jobs, schools and money, from Washington down to your county. Every line in your
+          briefing comes with a receipt: the exact quote and a link to the reporter or agency who wrote it.
+        </p>
+        <div className="button-row">
+          <Link href="/watch/" className="button">
+            Start a watch
+          </Link>
+          <Link href="/briefing/" className="button secondary">
+            See a sample briefing
+          </Link>
+        </div>
+        <ol className="steps">
+          <li>
+            <strong>Pick what you care about</strong>
+            Topics, a county, a question. Saved only in your browser.
+          </li>
+          <li>
+            <strong>The agent digs</strong>
+            It searches federal documents, research and local news.
+          </li>
+          <li>
+            <strong>You get receipts</strong>
+            Quoted sources, plus a list of what it could not verify.
+          </li>
+        </ol>
       </section>
 
       <section aria-labelledby="sections-heading">
-        <h2 id="sections-heading">Sections</h2>
-        <ul className="grid-2" style={{ listStyle: "none", padding: 0 }}>
+        <h2 id="sections-heading">Pick a beat</h2>
+        <ul className="grid-4 plain-list">
           {SECTIONS.map((s) => (
             <li key={s.href} className="card">
-              <h3 style={{ marginTop: 0 }}>
-                <Link href={s.href}>{s.name}</Link>
-              </h3>
-              <p>{s.product}</p>
+              <Link href={s.href} className="topic-card">
+                <span className="topic-icon">{s.icon}</span>
+                <div>
+                  <h3>{s.name}</h3>
+                  <p>{s.blurb}</p>
+                </div>
+              </Link>
             </li>
           ))}
         </ul>
       </section>
 
+      <section aria-labelledby="approved-heading">
+        <h2 id="approved-heading">Checked by an editor</h2>
+        <FrontStories />
+      </section>
+
       <section aria-labelledby="all-stories">
-        <h2 id="all-stories">All stories in the current snapshot</h2>
-        <p className="muted">Not editor-reviewed. Each story groups records that share a topic tag.</p>
-        <ul>
+        <h2 id="all-stories">More stories</h2>
+        <p className="muted">Grouped automatically by topic. Not yet checked by an editor.</p>
+        <ul className="story-links">
           {STORIES.map((s) => (
             <li key={s.id}>
-              <Link href={`/story/${s.id}/`}>{s.title}</Link> <span className="muted small">({s.timeline.length} records)</span>
+              <Link href={`/story/${s.id}/`}>{s.title}</Link>
             </li>
           ))}
         </ul>

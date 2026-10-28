@@ -1,6 +1,6 @@
 # My Newsren
 
-A personal news research agent. Readers follow topics, organizations and questions; the agent returns a briefing built from human reporting and primary documents, each quoted and linked, plus a list of what it could not verify. The optional Ground Level lens traces national stories to one county.
+AI news with receipts: a personal research agent that follows how AI is changing jobs, schools and money, from federal rules to your county. Readers follow topics, organizations and questions; the agent returns a briefing built from human reporting and primary documents, each quoted and linked, plus a list of what it could not verify. The optional Ground Level lens traces national stories to one county.
 
 - Site: https://gygooden.github.io/Newsren/
 - Research Worker: https://newsren-agent.newsren-demo.workers.dev
@@ -54,11 +54,11 @@ Over a limit, the site shows the most recent saved briefing. A monthly spend lim
 - **Watch setup:** pick topics, organizations, questions, a depth (Student, Educator or Professional) and an optional county. Your watch is saved only in your browser.
 - **Briefing:** each item opens with the source report (outlet or agency, author, title, excerpt and link), followed by quote-checked context. The briefing also includes Beyond your watch, Not yet reported, What we could not verify, a county/region/nation zoom, and a coverage summary.
 - **Story pages:** four tabs. Connected stories shows a timeline. Learn this topic has explainers, a glossary, a quiz and discussion prompts. Inspect evidence shows claims, quotes and disagreements between outlets, and lets you ask one question. Follow developments saves alert criteria.
-- **Sections:**
-  - Technology: decodes arXiv abstracts.
-  - Education: summarizes Federal Register rules and checks a sample study, separating faster completion from transfer to new problems.
-  - Industry: separates supported claims from speculation.
-  - Finance: tracks regulation and labels AI claims as announcement, pilot, backtest, live deployment or regulatory finding. It gives no investment advice.
+- **Beats:**
+  - Jobs: separates supported claims about automation and layoffs from speculation.
+  - Schools: summarizes Federal Register rules and checks a sample study, separating faster completion from transfer to new problems.
+  - Money: tracks regulation and labels AI claims as announcement, pilot, backtest, live deployment or regulatory finding. It gives no investment advice.
+  - Research: decodes arXiv abstracts into what a paper tested, found and left out.
 - **Review queue:** editors approve or reject briefings and can see the agent trace for each.
 
 ## Run locally

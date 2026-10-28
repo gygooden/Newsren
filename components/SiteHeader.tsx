@@ -5,15 +5,12 @@ import { usePathname } from "next/navigation";
 import { MarkIcon } from "./Icons";
 
 const NAV = [
-  { href: "/", label: "Front page" },
-  { href: "/technology/", label: "Technology" },
-  { href: "/education/", label: "Education" },
-  { href: "/industry/", label: "Industry" },
-  { href: "/finance/", label: "Finance" },
-  { href: "/watch/", label: "Follow a question" },
   { href: "/briefing/", label: "My briefing" },
-  { href: "/review/", label: "Review queue" },
-  { href: "/about/", label: "Methodology" },
+  { href: "/technology/", label: "Research" },
+  { href: "/education/", label: "Schools" },
+  { href: "/industry/", label: "Jobs" },
+  { href: "/finance/", label: "Money" },
+  { href: "/about/", label: "How it works" },
 ];
 
 export function SiteHeader() {
@@ -23,11 +20,14 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="wide">
         <div className="masthead">
-          <Link href="/" className="brand">
+          <Link href="/" className="brand" aria-current={pathname === "/" ? "page" : undefined}>
             <MarkIcon />
             <span>My Newsren</span>
+            <span className="brand-tag">AI news with receipts</span>
           </Link>
-          <span className="muted small">Course proof of concept. Local news shown here is sample data.</span>
+          <Link href="/watch/" className="button">
+            Start a watch
+          </Link>
         </div>
         <nav aria-label="Main">
           <ul className="nav-list">

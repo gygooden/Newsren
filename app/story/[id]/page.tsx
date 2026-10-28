@@ -19,8 +19,10 @@ export default async function StoryPage({ params }: { params: Promise<{ id: stri
   if (!story) notFound();
   return (
     <div className="wrap">
-      <p className="ui small muted">Story</p>
-      <h1>{story.title}</h1>
+      <div className="page-intro">
+        <p className="eyebrow">Story</p>
+        <h1>{story.title}</h1>
+      </div>
       <p>
         {story.timeline.length} records across{" "}
         {story.counties.length ? story.counties.map((c) => COUNTIES[c as CountyId].name).join(" and ") : "national sources"}.

@@ -34,6 +34,35 @@ export function BriefingView({ briefing, status }: { briefing: Briefing; status:
         </p>
       )}
 
+      <nav aria-label="Briefing at a glance">
+        <ul className="glance">
+          <li>
+            <a href="#items-heading">
+              <strong>{briefing.items.length}</strong>
+              <span>sourced {briefing.items.length === 1 ? "story" : "stories"}</span>
+            </a>
+          </li>
+          <li>
+            <a href="#beyond-heading">
+              <strong>{briefing.beyond.length}</strong>
+              <span>beyond your watch</span>
+            </a>
+          </li>
+          <li>
+            <a href="#gaps-heading">
+              <strong>{briefing.gaps.length}</strong>
+              <span>not yet reported</span>
+            </a>
+          </li>
+          <li>
+            <a href="#unverified-heading">
+              <strong>{briefing.unverified.length}</strong>
+              <span>could not verify</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
       <section aria-labelledby="items-heading">
         <h2 id="items-heading">Reports and documents</h2>
         {briefing.items.length === 0 && <p>No items passed verification in this briefing.</p>}
@@ -45,7 +74,7 @@ export function BriefingView({ briefing, status }: { briefing: Briefing; status:
               <div id={`t-${item.sourceId}`}>
                 <SourceReport record={record} heading="h3" />
               </div>
-              <h4>Newsren context</h4>
+              <h4>What the sources say</h4>
               <p className="ui small">
                 <span className="label">{CONTEXT_LABEL[status]}</span>
               </p>
